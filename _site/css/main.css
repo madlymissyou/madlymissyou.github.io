@@ -245,6 +245,9 @@ li {
   min-height: 100%;
   height: 100%; }
 
+.article-header {
+  border-left: 4px solid #e8e8e8; }
+
 .post-link {
   color: #222;
   font-size: 22px;

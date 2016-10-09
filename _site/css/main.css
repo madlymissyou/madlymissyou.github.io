@@ -109,7 +109,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  background-color: #F0F0F0;
+  background-color: #FFF;
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
@@ -238,7 +238,7 @@ li {
 .page-content {
   min-height: 100%;
   height: 100%;
-  background-color: #FFF; }
+  background-color: #F0F0F0; }
 
 .article-header {
   background-color: #FFF; }
@@ -264,7 +264,8 @@ li {
   font-size: 16px; }
 
 .post-list-wrapper {
-  padding-top: 40px; }
+  padding-top: 40px;
+  background-color: #F0F0F0; }
 
 .post-list {
   list-style: none; }

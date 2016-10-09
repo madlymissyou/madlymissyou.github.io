@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Oct 2016 21:18:56 +0900</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 21:18:56 +0900</lastBuildDate>
+    <pubDate>Sun, 09 Oct 2016 21:24:12 +0900</pubDate>
+    <lastBuildDate>Sun, 09 Oct 2016 21:24:12 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -84,13 +84,11 @@
   &lt;/li&gt;
   &lt;li&gt;Topic
     &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.09&lt;/code&gt; &lt;a href=&quot;http://visla.kr/?p=45671&quot;&gt;인공지능이 작곡한 세계 최초의 음악이 공개되다&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.09&lt;/code&gt; &lt;a href=&quot;http://visla.kr/?p=45671&quot;&gt;인공지능이 작곡한 세계 최초의 음악이 공개되다&lt;/a&gt;
+        &lt;h2 id=&quot;tensorflow&quot;&gt;TensorFlow&lt;/h2&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tensorflow&quot;&gt;TensorFlow&lt;/h2&gt;
-&lt;ul&gt;
   &lt;li&gt;Tutorials
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://tensorflow.org&quot;&gt;TensorFlow 공식 홈페이지&lt;/a&gt;&lt;/li&gt;
@@ -111,28 +109,22 @@
   &lt;li&gt;Open-source TensorFlow Implementation
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/tensorflow/models&quot;&gt;Syntax Net, Magenta, Image2Txt&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/TensorFlowKR/awesome_tensorflow_implementations&quot;&gt;https://github.com/TensorFlowKR/awesome_tensorflow_implementations&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/TensorFlowKR/awesome_tensorflow_implementations&quot;&gt;https://github.com/TensorFlowKR/awesome_tensorflow_implementations&lt;/a&gt;
+        &lt;h2 id=&quot;deep-learning-for-neuroinformatics&quot;&gt;Deep learning for Neuroinformatics&lt;/h2&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep Neural Networks: a new fraomework for modeling biological vision and brain information processing &lt;a href=&quot;http://www.annualreviews.org/doi/pdf/10.1146/annurev-vision-082114-035447&quot;&gt;[pdf]&lt;/a&gt;
+        &lt;h2 id=&quot;deep-learning-for-neuron-segmentation&quot;&gt;Deep learning for Neuron Segmentation&lt;/h2&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;deep-learning-for-neuroinformatics&quot;&gt;Deep learning for Neuroinformatics&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep Neural Networks: a new fraomework for modeling biological vision and brain information processing &lt;a href=&quot;http://www.annualreviews.org/doi/pdf/10.1146/annurev-vision-082114-035447&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;deep-learning-for-neuron-segmentation&quot;&gt;Deep learning for Neuron Segmentation&lt;/h2&gt;
-&lt;ul&gt;
   &lt;li&gt;Electron Microscopy
     &lt;ul&gt;
       &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2013&lt;/code&gt; Large-scale automatic reconstruction of neuroanl processes from electron microscopy images &lt;a href=&quot;https://arxiv.org/pdf/1303.7186.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Deep learning trends for focal brain pathology segmentation in MRI &lt;a href=&quot;https://arxiv.org/pdf/1607.05258.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Deep learning trends for focal brain pathology segmentation in MRI &lt;a href=&quot;https://arxiv.org/pdf/1607.05258.pdf&quot;&gt;[pdf]&lt;/a&gt;
+        &lt;h2 id=&quot;deep-learning-for-brain-tumor-segmentation&quot;&gt;Deep learning for Brain Tumor Segmentation&lt;/h2&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;deep-learning-for-brain-tumor-segmentation&quot;&gt;Deep learning for Brain Tumor Segmentation&lt;/h2&gt;
-&lt;ul&gt;
   &lt;li&gt;CODE
     &lt;ul&gt;
       &lt;li&gt;ISBI 2012 brain EM image segmentation &lt;a href=&quot;https://github.com/ahmed-fakhry/dive&quot;&gt;[github]&lt;/a&gt;&lt;/li&gt;
@@ -196,12 +188,12 @@
   &lt;li&gt;Prostate/chest pathology images
     &lt;ul&gt;
       &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016 Nature Sci.Rep.&lt;/code&gt; Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis &lt;a href=&quot;http://www.nature.com/articles/srep26286&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep learning with non-medical training used for chest pathology identification &lt;a href=&quot;https://www.cs.tau.ac.il/~wolf/papers/SPIE15chest.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep learning with non-medical training used for chest pathology identification &lt;a href=&quot;https://www.cs.tau.ac.il/~wolf/papers/SPIE15chest.pdf&quot;&gt;[pdf]&lt;/a&gt;
+        &lt;h6 id=&quot;emoji-cheat-sheethttpwwwwebpagefxcomtoolsemoji-cheat-sheet-sparkles-star-star2-twohearts-giftheart--boom&quot;&gt;&lt;a href=&quot;http://www.webpagefx.com/tools/emoji-cheat-sheet/&quot;&gt;Emoji Cheat Sheet&lt;/a&gt; :sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom:&lt;/h6&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h6 id=&quot;emoji-cheat-sheethttpwwwwebpagefxcomtoolsemoji-cheat-sheet-sparkles-star-star2-twohearts-giftheart--boom&quot;&gt;&lt;a href=&quot;http://www.webpagefx.com/tools/emoji-cheat-sheet/&quot;&gt;Emoji Cheat Sheet&lt;/a&gt; :sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom:&lt;/h6&gt;
 </description>
         <pubDate>Sun, 09 Oct 2016 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/2016/10/09/deep-learning-for-neuroimage.html</link>

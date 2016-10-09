@@ -45,18 +45,14 @@ layout: post
   * `2016.09` The role of AI in Healthcare [[html]](https://www.linkedin.com/pulse/role-ai-healthcare-in-depth-guide-thomas-riisgaard-hansen)
   * `2016.09` DeepMind wants its healthcare AI to charge by results - but first it needs your data [[html]](https://techcrunch.com/2016/09/20/deepmind-wants-its-healthcare-ai-to-charge-by-results-but-first-it-needs-your-data/)
   * `2016.09` Microsoft announces new AI-powered health care initiatives targeting cancer [[html]]( http://www.theverge.com/2016/9/20/12986314/microsoft-ai-healthcare-project-hanover-cancer)
-  * `2016.09` [Why deep learning is suddenly changing your life](http://fortune.com/ai-artificial-intelligence-deep-machine-learning/)
-  
+  * `2016.09` [Why deep learning is suddenly changing your life](http://fortune.com/ai-artificial-intelligence-deep-machine-learning/)  
 * Link 
   * [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)
   * [Links to Deep Learning Subtopics](http://memkite.com/deep-learning-bibliography/)
   * [Book: Fundamental of Deep Learning](https://tensorflowkorea.wordpress.com/2016/04/18/fundamental-of-deep-learning-preview/)    
   * [머신러닝 튜토리얼](http://laonple.blog.me/220463627091)
-
 * Topic
-  * `2016.09` [인공지능이 작곡한 세계 최초의 음악이 공개되다](http://visla.kr/?p=45671)
-  
-  
+  * `2016.09` [인공지능이 작곡한 세계 최초의 음악이 공개되다](http://visla.kr/?p=45671) 
 ## TensorFlow
 * Tutorials
   * [TensorFlow 공식 홈페이지](http://tensorflow.org)
@@ -71,21 +67,16 @@ layout: post
   * [Lecture: TensorFlow 로 시작하는 기계 학습과 딥 러닝 (CodeOnWeb)](https://codeonweb.com/course/7e8c4944-308e-410e-85aa-644624613741)
   * [TensorFlow Tutorial (SNU BILAB)](https://github.com/bi-lab/deeplearning_tutorial/blob/master/Deep_RL_tensorflow/TensorFlow_Tutorial.ipynb) 
   * [Deep learning/TensorFlow (문동선)](http://dsmoon.tistory.com/category/Deep%20Learning/TensorFlow)
-  * [TFlearn](http://tflearn.org/)  
-  
+  * [TFlearn](http://tflearn.org/)    
 * Open-source TensorFlow Implementation
   * [Syntax Net, Magenta, Image2Txt](https://github.com/tensorflow/models)
-  * [https://github.com/TensorFlowKR/awesome_tensorflow_implementations](https://github.com/TensorFlowKR/awesome_tensorflow_implementations)
-  
-  
+  * [https://github.com/TensorFlowKR/awesome_tensorflow_implementations](https://github.com/TensorFlowKR/awesome_tensorflow_implementations)  
 ## Deep learning for Neuroinformatics
   * `2015` Deep Neural Networks: a new fraomework for modeling biological vision and brain information processing [[pdf]](http://www.annualreviews.org/doi/pdf/10.1146/annurev-vision-082114-035447)
-
 ## Deep learning for Neuron Segmentation
 * Electron Microscopy  
   * `2013` Large-scale automatic reconstruction of neuroanl processes from electron microscopy images [[pdf]](https://arxiv.org/pdf/1303.7186.pdf)
   * `2016` Deep learning trends for focal brain pathology segmentation in MRI [[pdf]](https://arxiv.org/pdf/1607.05258.pdf)
-
 ## Deep learning for Brain Tumor Segmentation
 * CODE
   * ISBI 2012 brain EM image segmentation [[github]](https://github.com/ahmed-fakhry/dive)
@@ -127,7 +118,4 @@ layout: post
 * Prostate/chest pathology images
   * `2016 Nature Sci.Rep.` Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis [[pdf]](http://www.nature.com/articles/srep26286)
   * `2015` Deep learning with non-medical training used for chest pathology identification [[pdf]](https://www.cs.tau.ac.il/~wolf/papers/SPIE15chest.pdf)
-
-
-
 ###### [Emoji Cheat Sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/) :sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom: 

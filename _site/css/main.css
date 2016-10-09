@@ -246,7 +246,7 @@ li {
   height: 100%; }
 
 .article-header {
-  background-color: #555; }
+  background-color: #CCC; }
 
 .post-link {
   color: #222;
@@ -267,9 +267,6 @@ li {
   margin-top: 20px;
   color: #666;
   font-size: 16px; }
-
-.article-header {
-  background-color: #FFF; }
 
 .post-list {
   list-style: none; }

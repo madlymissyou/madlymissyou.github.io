@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div class="post-list-wrapper">
 <div class="well">
 {%for post in site.posts %}
     {% unless post.next %}
@@ -19,4 +19,5 @@ layout: default
     <li><span>{{ post.date | date: "%m/%d" }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+</div>
 </div>

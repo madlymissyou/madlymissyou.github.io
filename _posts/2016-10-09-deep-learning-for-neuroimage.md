@@ -1,4 +1,7 @@
-# Deep Learning for Neuroimage
+---
+title: Deep Learning for Neuroimage
+layout: post
+---
 
 ## Deep Learning in general
 * Textbook

@@ -284,11 +284,11 @@ li {
   list-style: none; }
 
 .well ul a {
-  text-decoration: none;
-  color: #000; }
+  text-decoration: underline;
+  color: #959BA6; }
 
 .well ul a:hover {
-  color: #959BA6; }
+  color: #222; }
 
 /**
  * Category

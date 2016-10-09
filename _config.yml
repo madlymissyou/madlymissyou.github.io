@@ -1,9 +1,9 @@
 # Site settings
-title: 내 인생의 조각모음
-motto: 간결하고 풍요롭게
+title: 이정원의 블로그
+motto: Fork, Commit, Push
 email: madlymissyou@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  2016.10.9 개설한 깃헙+Jekyll 블로그
+  2016년 10월 9일에 개설한 깃헙+Jekyll 블로그
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://madlymissyou.github.io" # the base hostname & protocol for your site
 twitter_username: madlymissyou

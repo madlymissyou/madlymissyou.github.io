@@ -18,7 +18,7 @@ html,body {
 .nav {
 	color: #707070;
 	text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 600;
     font-family: "Montserrat",sans-serif;
     display:inline;
@@ -79,14 +79,14 @@ li {
 
 .description {
     padding-top: 10px;
-    font-size: 12px;
+    font-size: 24px;
     line-height: 1.5em;
     color: #EEE;
 }
 
 .social-links {
     padding-top: 10px;
-	margin-left: 0px;
+		margin-left: 0px;
 }
 
 .social-links li {
@@ -114,15 +114,19 @@ li {
 
 .post-meta {
 	color: #666;
-	font-size: 12px;
+	font-size: 16px;
 	margin-left: 0px;
+	
 }
 .content {
 	margin-top: 20px;
 	color: #666;
-	font-size: 14px;
+	font-size: 16px;
 }
 
+.article-header {
+	background-color: #FFF;
+}
 .post-list {
 	list-style:none;
 }
@@ -137,8 +141,9 @@ li {
 }
 
 #line {
-	opacity: 0.1;
+	opacity: 0.2;
 	color: #000;
+	
 }
 
 /**
@@ -147,11 +152,12 @@ li {
 .well {
 	color: #000;
 	font-family: Monaco,"Courier New",monospace;
+	font-size: 16px;
 }
 
 .well ul {
 	color: #AAA;
-	font-size: 14px;
+	font-size: 16px;
 	list-style:none;
 }
 
@@ -160,7 +166,7 @@ li {
 }
 
 .well ul a:hover {
-	color: #000;
+	color: #959BA6;
 }
 
 /**
@@ -183,18 +189,19 @@ li {
  * Footer
  */
 .footer {
-    font-size: 11px;
+    font-size: 12px;
     text-align: center;
-	color: #666;
+		color: #666;
 }
 
 #gotop {
     position: fixed;
     right: 20px;
     bottom: 20px;    
-    padding: 10px 15px;    
-    font-size: 20px;
-    background: #515865;
+    padding: 5px 7px;    
+    font-size: 16px;
+//    background: #515865;
+		background: #666;
     color: white;
     cursor: pointer;
 }

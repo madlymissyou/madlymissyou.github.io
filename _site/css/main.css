@@ -278,6 +278,10 @@ li {
 .post-list li a {
   color: #000; }
 
+.readmore {
+  text-align: right;
+  color: #2a7ae2; }
+
 #line {
   opacity: 0.2;
   color: #000;

@@ -285,10 +285,10 @@ li {
 
 .well ul a {
   text-decoration: underline;
-  color: #959BA6; }
+  color: #000; }
 
 .well ul a:hover {
-  color: #222; }
+  color: #959BA6; }
 
 /**
  * Category

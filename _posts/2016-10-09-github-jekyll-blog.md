@@ -1,7 +1,6 @@
 ---
-title: "깃헙 Jekyll 블로그 만들기"
+title: 깃헙 Jekyll 블로그 만들기
 layout: post
-category: fork
 ___
 
 ## Jekyll 블로그 만들기

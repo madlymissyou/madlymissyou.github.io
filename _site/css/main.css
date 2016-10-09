@@ -109,7 +109,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  background-color: #FFF;
+  background-color: #F0F0F0;
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;

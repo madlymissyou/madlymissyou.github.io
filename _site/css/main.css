@@ -246,7 +246,8 @@ li {
   height: 100%; }
 
 .article-header {
-  border-left: 4px solid #e8e8e8; }
+  opacity: 0.2;
+  background: #000; }
 
 .post-link {
   color: #222;

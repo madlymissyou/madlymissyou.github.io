@@ -210,6 +210,7 @@ li {
   color: #FFF; }
 
 .site-title {
+  font-family: "Montserrat",sans-serif;
   padding-top: 10px;
   font-size: 30px;
   font-weight: bold;
@@ -217,6 +218,7 @@ li {
   color: #EEE; }
 
 .description {
+  font-family: "Montserrat",sans-serif;
   padding-top: 10px;
   font-size: 30px;
   font-weight: 900;

@@ -12,7 +12,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Nanum Gothic";
+  font-family: "Nanum Gothic", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 200;
@@ -60,9 +60,6 @@ li > ol {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
-
 /**
  * Links
  */
@@ -113,6 +110,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+  background-color: #F0F0F0;
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
@@ -145,15 +143,13 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
-html, body {
-  -moz-osx-font-smoothing: grayscale; }
-
 /**
  * Header
  */
 .header {
   padding: 50px 20px 40px;
-  background-color: #515865; }
+  background-color: #515865;
+  font-family: "Montserrat",sans-serif; }
 
 .header-container {
   max-width: 700px;
@@ -164,7 +160,6 @@ html, body {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 600;
-  font-family: "Montserrat",sans-serif;
   display: inline; }
 
 .nav li {
@@ -210,7 +205,6 @@ li {
   color: #FFF; }
 
 .site-title {
-  font-family: "Montserrat",sans-serif;
   padding-top: 10px;
   font-size: 30px;
   font-weight: bold;
@@ -218,7 +212,6 @@ li {
   color: #EEE; }
 
 .description {
-  font-family: "Montserrat",sans-serif;
   padding-top: 10px;
   font-size: 30px;
   font-weight: 900;
@@ -246,7 +239,7 @@ li {
 .page-content {
   min-height: 100%;
   height: 100%;
-  background-color: #F2F2F2; }
+  background-color: #FFF; }
 
 .article-header {
   background-color: #FFF; }

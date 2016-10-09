@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div class="home">
+ 	<div class="post-list-wrapper">
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
        	<div class="article-header">
-
         <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
@@ -23,4 +23,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+	</div>
 </div>

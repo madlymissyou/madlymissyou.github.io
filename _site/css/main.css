@@ -275,15 +275,17 @@ li {
  */
 .well {
   color: #000;
+  font-family: Monaco,"Courier New",monospace;
   font-size: 16px; }
 
 .well ul {
   color: #AAA;
-  font-size: 16px;
+  font-size: 20px;
   list-style: none; }
 
 .well ul a {
-  text-decoration: underline; }
+  text-decoration: none;
+  color: #000; }
 
 .well ul a:hover {
   color: #959BA6; }

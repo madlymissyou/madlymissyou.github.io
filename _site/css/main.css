@@ -283,7 +283,8 @@ li {
 
 #line {
   opacity: 0.2;
-  color: #000; }
+  color: #000;
+  margin-bottom: 15px; }
 
 .post-content p {
   font-size: 18px; }

@@ -207,9 +207,16 @@ li {
   opacity: 1;
   color: #FFF; }
 
-.description {
+.site-title {
   padding-top: 10px;
   font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #EEE; }
+
+.description {
+  padding-top: 10px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.5em;
   color: #EEE; }

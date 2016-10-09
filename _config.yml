@@ -10,5 +10,5 @@ twitter_username: madlymissyou
 github_username:  madlymissyou
 
 # Build settings
-markdown: kramdown
-
+#markdown: kramdown
+markdown: redcarpet

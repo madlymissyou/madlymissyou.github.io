@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Oct 2016 20:35:21 +0900</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 20:35:21 +0900</lastBuildDate>
+    <pubDate>Sun, 09 Oct 2016 20:37:20 +0900</pubDate>
+    <lastBuildDate>Sun, 09 Oct 2016 20:37:20 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -30,49 +30,10 @@
 &lt;p&gt;이정원&lt;/p&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sun, 09 Oct 2016 20:35:21 +0900</pubDate>
+        <pubDate>Sun, 09 Oct 2016 20:37:20 +0900</pubDate>
         <link>http://localhost:4000/2016/10/09/2008-10-04-ec-8a-a4-ed-8e-98-ec-9d-b8-2-eb-b0-94-eb-a5-b4-ec-85-80-eb-a1-9c-eb-82-98-ed-94-bc-ec-b9-b4-ec-86-8c-eb-af-b8-ec-88-a0-ea-b4-80.html</link>
         <guid isPermaLink="true">http://localhost:4000/2016/10/09/2008-10-04-ec-8a-a4-ed-8e-98-ec-9d-b8-2-eb-b0-94-eb-a5-b4-ec-85-80-eb-a1-9c-eb-82-98-ed-94-bc-ec-b9-b4-ec-86-8c-eb-af-b8-ec-88-a0-ea-b4-80.html</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>깃 헙 블 로 그 투</title>
-        <description>&lt;h2 id=&quot;jekyll--&quot;&gt;Jekyll 블로그 만들기&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://halryang.net/tag-and-archive/&quot;&gt;태그 시스템/아카이브 페이지/전체글 목록&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jekyllrb-ko.github.io/docs/posts/&quot;&gt;포스트 목록&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://ohyecloudy.com/pnotes/archives/moving-to-jekyll/&quot;&gt;워드프레스를 Jekyll로 이사하기&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Github page dependency
-    &lt;ul&gt;
-      &lt;li&gt;https://pages.github.com/versions/&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;vi gitpush&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;git add .
-git commit -m “post”
-git push&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;chmod +x gitpush
-./gitpush&lt;/p&gt;
-
-&lt;p&gt;sudo gem install jekyll-import
-sudo gem install sequel hpricot
-jekyll import wordpressdotcom –source wordpress.xml&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/2016/10/09/blog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/news/2016/10/09/blog.html</guid>
-        
-        
-        <category>news</category>
         
       </item>
     
@@ -349,6 +310,24 @@ jekyll import wordpressdotcom –source wordpress.xml&lt;/p&gt;
         <pubDate>Tue, 02 Sep 2014 22:54:00 +0900</pubDate>
         <link>http://localhost:4000/3%7C%20%EC%84%B8%EA%B3%84%EB%8A%94%20%EA%B0%90%EA%B0%81=%EC%9D%8C%EC%95%85+%EB%AF%B8%EC%88%A0+%EC%97%AC%ED%96%89/2014/09/02/833.html</link>
         <guid isPermaLink="true">http://localhost:4000/3%7C%20%EC%84%B8%EA%B3%84%EB%8A%94%20%EA%B0%90%EA%B0%81=%EC%9D%8C%EC%95%85+%EB%AF%B8%EC%88%A0+%EC%97%AC%ED%96%89/2014/09/02/833.html</guid>
+        
+        
+        <category>3| 세계는 감각=음악+미술+여행</category>
+        
+      </item>
+    
+      <item>
+        <title>리스본행 야간열차</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://madlymissyou.files.wordpress.com/2014/08/19b4a151d7bef4001b96a5a85992bf90.jpg&quot;&gt;&lt;img class=&quot;aligncenter wp-image-767 size-medium&quot; src=&quot;/assets/19b4a151d7bef4001b96a5a85992bf90.jpg?w=213&quot; alt=&quot;19b4a151d7bef4001b96a5a85992bf90&quot; width=&quot;213&quot; height=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;인생은 딜레마의 연속이다. 이러지도 저러지도 못할 상황에서 선택을 강요받는 순간들 말이다. 이를테면, 반복되는 일상과 알 수 없는 유혹에 이끌리는 일탈, 의사 윤리와 혁명의 완수, 나의 사랑과 친구의 사랑, 철천지 원수의 도움이 아니면 벗어날 길이 없는 위기와 같은 것들.&lt;/p&gt;
+&lt;p&gt;그리고 어떤 것들은 대비에 의해서 비로소 그 고유한 가치가 드러난다. 젊은 날의 사랑과 중년 이후의 사랑, 세상을 바꿔보겠다며 혁명가로서 보낸 청춘과 체스로 소일하며 살아가는 노년의 삶, 근원은 같으나 반대 방향으로 치닫는 두 가지 감정. 이처럼 말로 표현하기 어려운 것들은 대비에 의해서 명확해지고 또한 그만큼 멀어진다.&lt;/p&gt;
+&lt;p&gt;스토리텔링을 잘 하는 작가는 전체 이야기를 주루룩 늘어놓지 않는다. 어떤 것은 보여주고, 어떤 것은 감춘다. 감춰진 것들 대부분은 적당한 시점에 드러나지만, 일부는 침묵 속으로 사라진다. 리스본행 야간열차는 스토리텔링이 잘 된 영화였다. 원작 소설 덕분이다.&lt;/p&gt;
+&lt;p&gt;이화여대 아트하우스 모모에서 리스본행 야간열차를 보고 대전으로 내려오는 KTX에서 유희열, 윤상, 이적의 페루 여행 이야기 '꽃보다 청춘'을 봤다. 마추픽추에 올라가는 장면을 보면서 40대 '청춘'들의 눈물에 공감했다. 여행에 관해서라면 나에게도 꿈이 있다. 언제였던가, 가보고 싶은 곳 세 군데를 누가 내게 물었을 때 우유니사막, 페트라, 마추픽추라고 대답했다. 그 이후로는 항상 같은 대답을 한다. 나와 같은 꿈이 꾸었던 유희열이 마추픽추를 마주하는 순간 눈물과 함께 내뱉은 말은 &quot;시간이 아깝다&quot;는 것이었다.&lt;/p&gt;
+&lt;p&gt;영화 속에서 아마데우는 이렇게 자문한다. &quot;우리가 우리 안에 있는 것들 가운데 아주 작은 부분만을 경험할 수 있다면, 나머지는 어떻게 되는 걸까?&quot;. 우리는 존재하지 않는 것과 경험하지 않은 것을 구분할 도리가 없다. 어차피 그거나 저거나 나의 인생은 아니다. 리스본행 야간열차는 나의 남은 인생이 어떤 시간들로 채워져야 할 지 생각하게 한다. 시간이 아깝다.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Aug 2014 23:45:17 +0900</pubDate>
+        <link>http://localhost:4000/3%7C%20%EC%84%B8%EA%B3%84%EB%8A%94%20%EA%B0%90%EA%B0%81=%EC%9D%8C%EC%95%85+%EB%AF%B8%EC%88%A0+%EC%97%AC%ED%96%89/2014/08/31/eb-a6-ac-ec-8a-a4-eb-b3-b8-ed-96-89-ec-95-bc-ea-b0-84-ec-97-b4-ec-b0-a8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/3%7C%20%EC%84%B8%EA%B3%84%EB%8A%94%20%EA%B0%90%EA%B0%81=%EC%9D%8C%EC%95%85+%EB%AF%B8%EC%88%A0+%EC%97%AC%ED%96%89/2014/08/31/eb-a6-ac-ec-8a-a4-eb-b3-b8-ed-96-89-ec-95-bc-ea-b0-84-ec-97-b4-ec-b0-a8.html</guid>
         
         
         <category>3| 세계는 감각=음악+미술+여행</category>

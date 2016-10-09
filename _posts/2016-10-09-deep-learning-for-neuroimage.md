@@ -15,7 +15,6 @@ layout: post
   * `2016` Understanding deep convolutional networks [[pdf]](http://rsta.royalsocietypublishing.org/content/374/2065/20150203)
   * `2016` Deep Learning in medical imaging: overview and future promise of an exciting new technique [[pdf]](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7463094)
   * `2016.07` Towards an integration of Deep Learning and Neuroscience [[pdf]](http://biorxiv.org/content/biorxiv/early/2016/06/13/058545.full.pdf)
-
 * Network Models    
   * `2012` ImageNet classification with deep convolutional neural networks (A. Krizhevsky et al. Hinton) [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
   * `2015` Fully convolutional networks for semantic segmentation (J. Long et al.) [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)

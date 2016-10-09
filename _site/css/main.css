@@ -246,6 +246,7 @@ li {
   height: 100%; }
 
 .post-link {
+  color: #222;
   font-size: 28px;
   font-weight: bold; }
 
@@ -255,6 +256,7 @@ li {
   margin-left: 0px; }
 
 .post-title {
+  color: #222;
   font-size: 32px;
   font-weight: bold; }
 

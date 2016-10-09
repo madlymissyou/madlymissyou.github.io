@@ -5,9 +5,44 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Oct 2016 23:59:40 +0900</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 23:59:40 +0900</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 00:03:42 +0900</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 00:03:42 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>깃헙 블로그 개설</title>
+        <description>&lt;p&gt;와 이거 깃헓 블로그다&lt;/p&gt;
+
+&lt;p&gt;헑&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/10/10/open-github-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/10/open-github-blog.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>깃 헙 블 로 그 투</title>
+        <description>&lt;p&gt;this is github blog;;;&lt;/p&gt;
+
+&lt;p&gt;이거 왜이래&lt;/p&gt;
+
+&lt;h2 id=&quot;jekyll--&quot;&gt;Jekyll 블로그 만들기&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://halryang.net/tag-and-archive/&quot;&gt;태그 시스템/아카이브 페이지/전체글 목록&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb-ko.github.io/docs/posts/&quot;&gt;포스트 목록&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/news/2016/10/10/github-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/2016/10/10/github-jekyll.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>Deep Learning for Neuroimage</title>

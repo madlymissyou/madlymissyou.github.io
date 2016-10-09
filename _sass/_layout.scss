@@ -154,6 +154,10 @@ li {
 	list-style:none;
 }
 
+.post-list > li {
+	background-color: #FFF;
+	margin: 15px;
+}
 .post-list li h3 {
 	margin-bottom: 5px;
 	font-weight: 500px;

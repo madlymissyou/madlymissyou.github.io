@@ -21,7 +21,7 @@ layout: post
   * `2014` Visualizing and understanding convolutional networks (M. Zeiler and R. Fergus) [[pdf]](http://arxiv.org/pdf/1311.2901)
   * `2015` Fast R-CNN (R. Girshick) [[pdf]](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)
   * `2015` Going deeper with convolutions (C. Szegedy et al. Google) [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf) 
-  * `2016` Deep residual learning for image recognition (K. He et al. Microsoft) [[pdf]](http://arxiv.org/pdf/1512.03385)
+  * `2016` Deep residual learning for image recognition (K. He et al. Microsoft) [[pdf]](http://arxiv.org/pdf/1512.03385)  
 
 * CNN
   * `2013` Decaf: A deep convolutional activation feature for generic visual recognition (J. Donahue et al.) [[pdf]](http://arxiv.org/pdf/1310.1531)

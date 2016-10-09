@@ -9,6 +9,7 @@ layout: post
 * Review papers
   * `2013` Representation learning: A review and new perspectives (Yushua Bengio) [[pdf]](http://www.cl.uni-heidelberg.de/courses/ws14/deepl/BengioETAL12.pdf)
   * `2014` Deep learning for neuroimaging: a validation study [[pdf]](http://journal.frontiersin.org/article/10.3389/fnins.2014.00229/full)
+<!--more-->
   * `2015 Nature` Deep learning (Yann LeCun, Yoshua Bengio, Geoffrey Hinton) [[pdf]](http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html)
   * `2015` Deep learning in neural networks: An overview (J. Schmidhuber) [[pdf]](http://www2.econ.iastate.edu/tesfatsi/DeepLearningInNeuralNetworksOverview.JSchmidhuber2015.pdf)  
   * `2016` Understanding deep convolutional networks [[pdf]](http://rsta.royalsocietypublishing.org/content/374/2065/20150203)

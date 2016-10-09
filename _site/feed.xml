@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2016 00:41:34 +0900</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2016 00:41:34 +0900</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 01:17:09 +0900</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 01:17:09 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -56,7 +56,8 @@
   &lt;li&gt;Review papers
     &lt;ul&gt;
       &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2013&lt;/code&gt; Representation learning: A review and new perspectives (Yushua Bengio) &lt;a href=&quot;http://www.cl.uni-heidelberg.de/courses/ws14/deepl/BengioETAL12.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt; Deep learning for neuroimaging: a validation study &lt;a href=&quot;http://journal.frontiersin.org/article/10.3389/fnins.2014.00229/full&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt; Deep learning for neuroimaging: a validation study &lt;a href=&quot;http://journal.frontiersin.org/article/10.3389/fnins.2014.00229/full&quot;&gt;[pdf]&lt;/a&gt;
+&lt;!--more--&gt;&lt;/li&gt;
       &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015 Nature&lt;/code&gt; Deep learning (Yann LeCun, Yoshua Bengio, Geoffrey Hinton) &lt;a href=&quot;http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep learning in neural networks: An overview (J. Schmidhuber) &lt;a href=&quot;http://www2.econ.iastate.edu/tesfatsi/DeepLearningInNeuralNetworksOverview.JSchmidhuber2015.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Understanding deep convolutional networks &lt;a href=&quot;http://rsta.royalsocietypublishing.org/content/374/2065/20150203&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;

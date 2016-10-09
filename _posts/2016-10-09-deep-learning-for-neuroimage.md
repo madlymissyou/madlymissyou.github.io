@@ -6,7 +6,6 @@ layout: post
 ## Deep Learning in general
 * Textbook
   * Deep Learning Book (Yoshua Bengio) [[html]](http://www.deeplearningbook.org/) 
-  
 * Review papers
   * `2013` Representation learning: A review and new perspectives (Yushua Bengio) [[pdf]](http://www.cl.uni-heidelberg.de/courses/ws14/deepl/BengioETAL12.pdf)
   * `2014` Deep learning for neuroimaging: a validation study [[pdf]](http://journal.frontiersin.org/article/10.3389/fnins.2014.00229/full)
@@ -14,7 +13,7 @@ layout: post
   * `2015` Deep learning in neural networks: An overview (J. Schmidhuber) [[pdf]](http://www2.econ.iastate.edu/tesfatsi/DeepLearningInNeuralNetworksOverview.JSchmidhuber2015.pdf)  
   * `2016` Understanding deep convolutional networks [[pdf]](http://rsta.royalsocietypublishing.org/content/374/2065/20150203)
   * `2016` Deep Learning in medical imaging: overview and future promise of an exciting new technique [[pdf]](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7463094)
-  * `2016.07` Towards an integration of Deep Learning and Neuroscience [[pdf]](http://biorxiv.org/content/biorxiv/early/2016/06/13/058545.full.pdf)
+  * `2016.07` Towards an integration of Deep Learning and Neuroscience [[pdf]](http://biorxiv.org/content/biorxiv/early/2016/06/13/058545.full.pdf)  
 * Network Models    
   * `2012` ImageNet classification with deep convolutional neural networks (A. Krizhevsky et al. Hinton) [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
   * `2015` Fully convolutional networks for semantic segmentation (J. Long et al.) [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)

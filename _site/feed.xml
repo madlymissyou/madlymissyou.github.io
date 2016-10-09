@@ -6,9 +6,211 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Oct 2016 20:38:24 +0900</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 20:38:24 +0900</lastBuildDate>
+    <pubDate>Sun, 09 Oct 2016 20:43:24 +0900</pubDate>
+    <lastBuildDate>Sun, 09 Oct 2016 20:43:24 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Deep Learning For Neuroimage</title>
+        <description>&lt;h1 id=&quot;deep-learning-for-neuroimage&quot;&gt;Deep Learning for Neuroimage&lt;/h1&gt;
+
+&lt;h2 id=&quot;deep-learning-in-general&quot;&gt;Deep Learning in general&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Textbook
+    &lt;ul&gt;
+      &lt;li&gt;Deep Learning Book (Yoshua Bengio) &lt;a href=&quot;http://www.deeplearningbook.org/&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Review papers
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2013&lt;/code&gt; Representation learning: A review and new perspectives (Yushua Bengio) &lt;a href=&quot;http://www.cl.uni-heidelberg.de/courses/ws14/deepl/BengioETAL12.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt; Deep learning for neuroimaging: a validation study &lt;a href=&quot;http://journal.frontiersin.org/article/10.3389/fnins.2014.00229/full&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015 Nature&lt;/code&gt; Deep learning (Yann LeCun, Yoshua Bengio, Geoffrey Hinton) &lt;a href=&quot;http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep learning in neural networks: An overview (J. Schmidhuber) &lt;a href=&quot;http://www2.econ.iastate.edu/tesfatsi/DeepLearningInNeuralNetworksOverview.JSchmidhuber2015.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Understanding deep convolutional networks &lt;a href=&quot;http://rsta.royalsocietypublishing.org/content/374/2065/20150203&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Deep Learning in medical imaging: overview and future promise of an exciting new technique &lt;a href=&quot;http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7463094&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.07&lt;/code&gt; Towards an integration of Deep Learning and Neuroscience &lt;a href=&quot;http://biorxiv.org/content/biorxiv/early/2016/06/13/058545.full.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Network Models
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2012&lt;/code&gt; ImageNet classification with deep convolutional neural networks (A. Krizhevsky et al. Hinton) &lt;a href=&quot;http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Fully convolutional networks for semantic segmentation (J. Long et al.) &lt;a href=&quot;http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt; Very deep convolutional networks for large-scale image recognition (K. Simonyan and A. Zisserman) &lt;a href=&quot;http://arxiv.org/pdf/1409.1556&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt; Visualizing and understanding convolutional networks (M. Zeiler and R. Fergus) &lt;a href=&quot;http://arxiv.org/pdf/1311.2901&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Fast R-CNN (R. Girshick) &lt;a href=&quot;http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Going deeper with convolutions (C. Szegedy et al. Google) &lt;a href=&quot;http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Deep residual learning for image recognition (K. He et al. Microsoft) &lt;a href=&quot;http://arxiv.org/pdf/1512.03385&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;CNN
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2013&lt;/code&gt; Decaf: A deep convolutional activation feature for generic visual recognition (J. Donahue et al.) &lt;a href=&quot;http://arxiv.org/pdf/1310.1531&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt; DeepFace: Closing the Gap to Human-Level Performance in Face Verification (Y. Taigman et al.) &lt;a href=&quot;http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks (S. Ren et al.) &lt;a href=&quot;http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Imagenet large scale visual recognition challenge (O. Russakovsky et al.) &lt;a href=&quot;http://arxiv.org/pdf/1409.0575&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; &lt;a href=&quot;http://sanghyukchun.github.io/92&quot;&gt;A Neural Algorithm of Artistic Style&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;CNN visuatlization
+    &lt;ul&gt;
+      &lt;li&gt;Visualizing and understanding convolutional networks &lt;a href=&quot;http://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;mNeuron: a Matlab plugin to visualize neurons from deep models &lt;a href=&quot;http://vision03.csail.mit.edu/cnn_art/index.html&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Deep visualization toolbox &lt;a href=&quot;https://github.com/yosinski/deep-visualization-toolbox&quot;&gt;[code]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;3D visualization of a convolutional neural network &lt;a href=&quot;http://scs.ryerson.ca/~aharley/vis/conv/&quot;&gt;[demo]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Understanding neural networks through deep visualization &lt;a href=&quot;http://yosinski.com/deepvis&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Convolutional neural networks for visual recognition &lt;a href=&quot;http://cs231n.github.io/understanding-cnn/&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep Dream: visualizing every layer of GoogLeNet &lt;a href=&quot;http://www.pyimagesearch.com/2015/08/03/deep-dream-visualizing-every-layer-of-googlenet/&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Visualization of deep convolutional neural networks &lt;a href=&quot;http://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=1150&amp;amp;context=eng_etds&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Articles
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.03&lt;/code&gt; Deep learning in medical imaging: the not-so-near future &lt;a href=&quot;http://www.diagnosticimaging.com/pacs-and-informatics/deep-learning-medical-imaging-not-so-near-future&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.04&lt;/code&gt; Deep learning used to assist overburdened diagnosticians &lt;a href=&quot;https://www.sciencedaily.com/releases/2016/04/160404134050.htm&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.08&lt;/code&gt; AI startups in Healthcare &lt;a href=&quot;https://www.cbinsights.com/blog/artificial-intelligence-startups-healthcare/&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.09&lt;/code&gt; Machine Intelligence in Medical Imaging Conference – Report &lt;a href=&quot;http://n2value.com/blog/machine-intelligence-in-medical-imaging-conference-report&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.09&lt;/code&gt; The role of AI in Healthcare &lt;a href=&quot;https://www.linkedin.com/pulse/role-ai-healthcare-in-depth-guide-thomas-riisgaard-hansen&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.09&lt;/code&gt; DeepMind wants its healthcare AI to charge by results - but first it needs your data &lt;a href=&quot;https://techcrunch.com/2016/09/20/deepmind-wants-its-healthcare-ai-to-charge-by-results-but-first-it-needs-your-data/&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.09&lt;/code&gt; Microsoft announces new AI-powered health care initiatives targeting cancer &lt;a href=&quot;http://www.theverge.com/2016/9/20/12986314/microsoft-ai-healthcare-project-hanover-cancer&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.09&lt;/code&gt; &lt;a href=&quot;http://fortune.com/ai-artificial-intelligence-deep-machine-learning/&quot;&gt;Why deep learning is suddenly changing your life&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Link
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/terryum/awesome-deep-learning-papers&quot;&gt;Awesome - Most Cited Deep Learning Papers&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://memkite.com/deep-learning-bibliography/&quot;&gt;Links to Deep Learning Subtopics&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tensorflowkorea.wordpress.com/2016/04/18/fundamental-of-deep-learning-preview/&quot;&gt;Book: Fundamental of Deep Learning&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://laonple.blog.me/220463627091&quot;&gt;머신러닝 튜토리얼&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Topic
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016.09&lt;/code&gt; &lt;a href=&quot;http://visla.kr/?p=45671&quot;&gt;인공지능이 작곡한 세계 최초의 음악이 공개되다&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tensorflow&quot;&gt;TensorFlow&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Tutorials
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://tensorflow.org&quot;&gt;TensorFlow 공식 홈페이지&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/tensorflow/tensorflow/releases&quot;&gt;TensorFlow Github&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://playground.tensorflow.org/&quot;&gt;TensorFlow Playground&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hub.docker.com/r/imcomking/bi_deeplearning/&quot;&gt;Deep LEarning Docker Image&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gist.github.com/haje01/202ac276bace4b25dd3f&quot;&gt;텐서플로우 시작하기 (김정주)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tensorflowkorea.wordpress.com/&quot;&gt;텐서플로우 코리아&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tensorflowkorea.wordpress.com/2015/12/04/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-1/comment-page-1/&quot;&gt;텐서플로우 튜토리얼 (텐서플로우 코리아)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tensorflowkorea.wordpress.com/2015/12/04/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-1/comment-page-1/&quot;&gt;Book: 텐서플로우 첫걸음&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://hunkim.github.io/ml/&quot;&gt;Lecture: 모두를 위한 딥러닝/머신러닝 강의 TensorFlow (김성)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://codeonweb.com/course/7e8c4944-308e-410e-85aa-644624613741&quot;&gt;Lecture: TensorFlow 로 시작하는 기계 학습과 딥 러닝 (CodeOnWeb)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/bi-lab/deeplearning_tutorial/blob/master/Deep_RL_tensorflow/TensorFlow_Tutorial.ipynb&quot;&gt;TensorFlow Tutorial (SNU BILAB)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://dsmoon.tistory.com/category/Deep%20Learning/TensorFlow&quot;&gt;Deep learning/TensorFlow (문동선)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://tflearn.org/&quot;&gt;TFlearn&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open-source TensorFlow Implementation
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/tensorflow/models&quot;&gt;Syntax Net, Magenta, Image2Txt&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/TensorFlowKR/awesome_tensorflow_implementations&quot;&gt;https://github.com/TensorFlowKR/awesome_tensorflow_implementations&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;deep-learning-for-neuroinformatics&quot;&gt;Deep learning for Neuroinformatics&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep Neural Networks: a new fraomework for modeling biological vision and brain information processing &lt;a href=&quot;http://www.annualreviews.org/doi/pdf/10.1146/annurev-vision-082114-035447&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;deep-learning-for-neuron-segmentation&quot;&gt;Deep learning for Neuron Segmentation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Electron Microscopy
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2013&lt;/code&gt; Large-scale automatic reconstruction of neuroanl processes from electron microscopy images &lt;a href=&quot;https://arxiv.org/pdf/1303.7186.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Deep learning trends for focal brain pathology segmentation in MRI &lt;a href=&quot;https://arxiv.org/pdf/1607.05258.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;deep-learning-for-brain-tumor-segmentation&quot;&gt;Deep learning for Brain Tumor Segmentation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;CODE
+    &lt;ul&gt;
+      &lt;li&gt;ISBI 2012 brain EM image segmentation &lt;a href=&quot;https://github.com/ahmed-fakhry/dive&quot;&gt;[github]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Efficient multi-scale 3D convolution neural network for brain lesion segmentation &lt;a href=&quot;https://github.com/Kamnitsask/deepmedic&quot;&gt;[github]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MRI
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2012&lt;/code&gt; A comparative study of MRI data using various Machine Learning and pattern recognition algorithms to Detect Brain Abnormalities &lt;a href=&quot;http://crpit.com/confpapers/CRPITV134Singh.pdf&quot;&gt;[pdf]&lt;/a&gt; = A novel machine learning approach for detecting the Brain Abnormalities from MRI structural images &lt;a href=&quot;http://link.springer.com/chapter/10.1007%2F978-3-642-34123-6_9#page-1&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2014&lt;/code&gt; Survey of intelligent methods for Brain Tumor Detection &lt;a href=&quot;http://www.ijcsi.org/papers/IJCSI-11-5-1-108-117.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Brain tumor detection and segmentation in multisequence MRI &lt;a href=&quot;https://www.vutbr.cz/www_base/zav_prace_soubor_verejne.php?file_id=109549&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Automated glioma segmentation in MRI using deep convolutional networks  &lt;a href=&quot;http://www.diva-portal.org/smash/get/diva2:841518/FULLTEXT01.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Learning with Difference of Gaussian Features in the 3D Segmentation of Glioblastoma Brain Tumors &lt;a href=&quot;http://cs229.stanford.edu/proj2015/277_report.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Multi-scale 3D convolutional neural networks for lesion segmentation in brain MRI &lt;a href=&quot;http://www.doc.ic.ac.uk/~bglocker/pdfs/kamnitsas2015isles.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; MICCAI-BRATS 2015 proceedings &lt;a href=&quot;http://people.csail.mit.edu/menze/papers/proceedings_miccai_brats_2015.pdf&quot;&gt;[pdf]&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Structured prediction with convolutional neural networks for multimodal brain tumor segmentation&lt;/li&gt;
+          &lt;li&gt;A convolutional neural network approach to brain tumor segmentation&lt;/li&gt;
+          &lt;li&gt;Multimodal brain tumor segmentation (BRATS) using Sparse Coding and 2-layer Neural Network&lt;/li&gt;
+          &lt;li&gt;Deep convolutional neural networks for the segmentation of gliomas in multi-sequence MRI&lt;/li&gt;
+          &lt;li&gt;Brain tumor segmentation with Deep Learning&lt;/li&gt;
+          &lt;li&gt;Multi-modal brain tumor segmentation using Stacked Denoising Autoencoders&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Brain tumor detection and classification using deep learning classifier on MRI images  &lt;a href=&quot;http://www.maxwellsci.com/jp/abstract.php?jid=RJASET&amp;amp;no=547&amp;amp;abs=08&quot;&gt;[html]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Detection and segmentation of brain metastases with deep convolutional networks &lt;a href=&quot;http://www.diva-portal.se/smash/get/diva2:853460/FULLTEXT01.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep Feature Learning with discrimination mechanism for brain tumor segmentation and diagnosis &lt;a href=&quot;http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7415818&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015 Plos One&lt;/code&gt; Automated glioblastoma segmentation based on a multiparametric structured unsupervised classification &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125143&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015 CVPR&lt;/code&gt; Deep neural networks for anatomical brain segmentation &lt;a href=&quot;https://www.semanticscholar.org/paper/Deep-neural-networks-for-anatomical-brain-Br%C3%A9bisson-Montana/1689c752d566a2b3bdee46d0b87d7623c66218d0&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Brain Tumor Segmentation Using Convolutional Neural Networks in MRI Images &lt;a href=&quot;http://ieeexplore.ieee.org/document/7426413/?tp=&amp;amp;arnumber=7426413&amp;amp;punumber%3D42&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016 Stanford Report&lt;/code&gt; A new algorithm for fully automatic brain tumor segmentation with 3D convolutional Neural Networks &lt;a href=&quot;http://cs231n.stanford.edu/reports2016/322_Report.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; On image segmentation methods applied to glioblastoma: state of art and new trends &lt;a href=&quot;https://hal.archives-ouvertes.fr/hal-01325355/document&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation &lt;a href=&quot;http://arxiv.org/pdf/1603.05959v2.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pathology
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2012&lt;/code&gt; Deep Neural Networks segment neuronal membranes in electron Microscopy images &lt;a href=&quot;http://papers.nips.cc/paper/4741-deep-neural-networks-segment-neuronal-membranes-in-electron-microscopy-images&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;deep-learning-for-brain-tumor-grading&quot;&gt;Deep learning for Brain Tumor Grading&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;MRI
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015 IEEE EMBS&lt;/code&gt; Brain tumor grading based on neural networks and convolutional neural netsworks &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/26736358&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016 Comput Math Methods Med&lt;/code&gt; Multiscale CNNs for brain tumor segmentation and diagnosis &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4812495/pdf/CMMM2016-8356294.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PET
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016&lt;/code&gt; Convolutional neural network can help differentiate FDG PET images of brain tumor between glioblastoma and primary central nervous system lymphoma [&lt;a href=&quot;http://jnm.snmjournals.org/content/57/supplement_2/1855?related-urls=yes&amp;amp;legid=jnumed;57/supplement_2/1855&quot;&gt;html&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Brain pathology images
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Automated grading of gliomas using deep learning in digital pathology images: a modular approach with ensemble of convolutional neural networks &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4765616/pdf/2243353.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prostate/chest pathology images
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2016 Nature Sci.Rep.&lt;/code&gt; Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis &lt;a href=&quot;http://www.nature.com/articles/srep26286&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2015&lt;/code&gt; Deep learning with non-medical training used for chest pathology identification &lt;a href=&quot;https://www.cs.tau.ac.il/~wolf/papers/SPIE15chest.pdf&quot;&gt;[pdf]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;emoji-cheat-sheethttpwwwwebpagefxcomtoolsemoji-cheat-sheet-sparkles-star-star2-twohearts-giftheart--boom&quot;&gt;&lt;a href=&quot;http://www.webpagefx.com/tools/emoji-cheat-sheet/&quot;&gt;Emoji Cheat Sheet&lt;/a&gt; :sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom:&lt;/h6&gt;
+</description>
+        <pubDate>Sun, 09 Oct 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/10/09/deep-learning-for-neuroimage.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/09/deep-learning-for-neuroimage.html</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>

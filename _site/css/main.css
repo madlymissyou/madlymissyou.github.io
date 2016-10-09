@@ -301,7 +301,8 @@ li {
   font-family: Monaco,"Courier New",monospace; }
 
 .well > h2 {
-  font-family: Monaco,"Courier New",monospace; }
+  font-family: Monaco,"Courier New",monospace;
+  margin-left: 40px; }
 
 .well ul {
   color: #AAA;

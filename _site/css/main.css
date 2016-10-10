@@ -250,13 +250,16 @@ li {
   border-bottom: dotted 3px #E7E7E7;
   margin-bottom: 35px; }
 
-.post-list li h3 a {
-  color: #111; }
+.post-list a {
+  color: #666; }
+
+.post-list a:hover {
+  color: #444;
+  text-decoration: none; }
 
 .post-link {
-  color: #222;
-  font-size: 30px;
-  font-weight: bold; }
+  font-size: 40px;
+  font-weight: 100; }
 
 .post-meta {
   color: #AAA;

@@ -7,16 +7,21 @@ layout: default
 {% assign category = categories | split:',' | sort %}
 {% for item in (0..site.categories.size) %}{% unless forloop.last %}
 {% capture word %}{{ category[item] | strip_newlines }}{% endcapture %}
+
+
 	<div class="postgroup">
 		<h2 class="category" id="{{ word }}">{{ word }}
 		</h2>
 	</div>
+	
+	
 	<div class="postlist">
 		<ul>
 		{% for post in site.categories[word] %}{% if post.title != null %}
 			<li><span>{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
 		{% endif %}{% endfor %}
+
+{% endunless %}{% endfor %}
 		</ul>
 	</div>
-{% endunless %}{% endfor %}
 </div>

@@ -19,5 +19,3 @@ Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the 
 1.> We loved with a love that was more than love
 
 > We loved with a love that was more than love
-
-![이정원]({{site.baseurl}}/_posts/android-icon-144x144.png)![android-icon-144x144.png]({{site.baseurl}}/_posts/android-icon-144x144.png)

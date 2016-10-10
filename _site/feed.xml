@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2016 00:50:51 +0900</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2016 00:50:51 +0900</lastBuildDate>
+    <pubDate>Tue, 11 Oct 2016 01:03:51 +0900</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2016 01:03:51 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -26,8 +26,6 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;We loved with a love that was more than love&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/_posts/android-icon-144x144.png&quot; alt=&quot;이정원&quot; /&gt;&lt;img src=&quot;/_posts/android-icon-144x144.png&quot; alt=&quot;android-icon-144x144.png&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/jekyll/2016/10/10/your-filename.html</link>

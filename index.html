@@ -7,10 +7,11 @@ layout: default
      
       <li>
        	<div class="article-header">
+					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} 와와 </span>
 					<h3>
 						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 					</h3>
-					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} 와와 </span>
+
 
 
 <!--					<a href="$base-edit-url{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}.md" >edit</a>-->

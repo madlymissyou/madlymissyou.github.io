@@ -16,10 +16,10 @@ markdown: kramdown
 # Read more
 excerpt_separator: <!--readmore-->
 
-# Google analytics
-google_analytics:
-  ua: "UA-85454753-1"
-	
+## Google analytics
+#google_analytics:
+#  ua: 'UA-85454753-1'
+#	
 				
 				
 				

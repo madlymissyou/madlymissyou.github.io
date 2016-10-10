@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2016 14:28:15 +0900</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2016 14:28:15 +0900</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 16:40:45 +0900</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 16:40:45 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -26,7 +26,9 @@
     
       <item>
         <title>깃 헙 블 로 그 투</title>
-        <description>&lt;p&gt;this is github blog;;;&lt;/p&gt;
+        <description>&lt;p&gt;http://favicon-generator.org&lt;/p&gt;
+
+&lt;p&gt;this is github blog;;;&lt;/p&gt;
 
 &lt;p&gt;이거 왜이래&lt;/p&gt;
 

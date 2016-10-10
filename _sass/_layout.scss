@@ -148,16 +148,6 @@ li {
 	
 }
 
-.post-title {
-	color: #222;
-	font-size: 32px;
-	font-weight: bolder;
-}
-.post-content {
-	margin-top: 20px;
-	color: #666;
-	font-size: 16px;
-}
 
 .readmore-a > a {
 	color: #888;
@@ -191,9 +181,7 @@ li {
 	
 }
 
-.post-content p {
-	font-size: 18px;
-}
+
 /**
  * Artist
  */
@@ -227,7 +215,26 @@ li {
 	color: #777;
 }
 
+.post-wrapper {
+	margin-left: $spacing-unit;
+	margin-right: $spacing-unit;
+}
 
+
+.post-title {
+	color: #222;
+	font-size: 30px;
+	font-weight: bold;
+}
+.post-content {
+	margin-top: 20px;
+	color: #666;
+	font-size: 18px;
+}
+
+.post-content p {
+	font-size: 18px;
+}
 /**
  * Category
  */

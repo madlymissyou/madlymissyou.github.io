@@ -5,19 +5,26 @@ layout: default
 <div class="well">
 {%for post in site.posts %}
     {% unless post.next %}
+       <div class=postgroup>
         <h2>{{ post.date | date: '%Y' }}</h2>
-        <ul>
+				</div>
+
     {% else %}
+				<div class=postlist>
+        <ul>
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
         {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
         {% if year != nyear %}
-            </ul>
+				</ul>
             <h2>{{ post.date | date: '%Y' }}</h2>
-            <ul>
+				<ul>
+				</div>
         {% endif %}
     {% endunless %}
-    <li><span>{{ post.date | date: "%m/%d" }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+    <div class-postgroup>
+				<li><span>{{ post.date | date: "%m/%d" }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+				</ul>
+		</div>
 </div>
 

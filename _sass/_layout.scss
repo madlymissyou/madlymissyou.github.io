@@ -80,14 +80,7 @@ li {
     color: #FFF;
 }
 
-.site-title {
-		padding-top: 10px;
-    font-size: 30px;
-		font-weight: bold;
-    line-height: 1.5em;
-    color: #EEE;
-}
-.description {
+.blogtitle {
     padding-top: 10px;
     font-size: 30px;
 		font-weight: 900;
@@ -127,10 +120,6 @@ li {
 	list-style:none;
 }
 
-.timeline {
-	background-color: #FFF;
-	padding: 25px 15px 15px 15px;
-}
 
 .post-list > li {
 	border-bottom: double 5px #E7E7E7;
@@ -193,31 +182,30 @@ li {
  */
 .well {
 	background-color: #FFF;
-	padding-top: 40px;
+	padding: 25px 0px 0px 0px;
 	height: 100vh;
 	color: #000;
 	font-size: 14px;
 }
 
-.well > h2 {
+.well .postgroup {
 	font-family: Monaco,"Courier New",monospace;
-	margin-left: 10px;
 }
 
-.well ul {
-	margin-left: 10px;
+.well .postlist {
+//	margin-left: 10px;
 	color: #AAA;
 	font-size: 16px;
 //	line-height: 2em;
 	list-style:none;
 }
 
-.well ul a {
+.well .postlist a {
     text-decoration: none;
 		color: #222;
 }
 
-.well ul a:hover {
+.well .postlist a:hover {
 	text-decoration: underline;
 	color: #222;
 }

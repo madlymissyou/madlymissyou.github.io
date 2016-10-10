@@ -116,7 +116,8 @@ pre {
  */
 .wrapper {
   background-color: #FFF;
-  padding: 25px 0px 0px 0px;
+  padding-top: 35px;
+  padding-left: 20px;
   max-width: -webkit-calc(800px - (20px * 2));
   max-width: calc(800px - (20px * 2));
   margin-right: auto;
@@ -253,7 +254,7 @@ li {
   font-weight: 500px; }
 
 .post-list li h3 a {
-  color: #000; }
+  color: #111; }
 
 .post-link {
   color: #222;
@@ -270,7 +271,7 @@ li {
   font-size: 32px;
   font-weight: bolder; }
 
-.content {
+.post-content {
   margin-top: 20px;
   color: #666;
   font-size: 16px; }
@@ -292,12 +293,12 @@ li {
  */
 .well {
   background-color: #FFF;
-  padding: 25px 0px 0px 0px;
   height: 100vh;
   color: #000;
   font-size: 14px; }
 
 .well .postlist {
+  margin-left: 5px;
   color: #AAA;
   font-size: 16px;
   list-style: none; }
@@ -308,7 +309,7 @@ li {
 
 .well .postlist a:hover {
   text-decoration: underline;
-  color: #555; }
+  color: #777; }
 
 /**
  * Category

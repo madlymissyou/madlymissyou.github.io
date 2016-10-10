@@ -20,8 +20,8 @@ html,body {
 }
 
 .nav {
-	color: #707070;
-	text-transform: uppercase;
+		color: #707070;
+		text-transform: uppercase;
     font-size: 18px;
     font-weight: 600;
     display:inline;
@@ -132,7 +132,7 @@ li {
 }
 
 .post-list li h3 a {
-	color: #000;	
+	color: #111;	
 }
 
 .post-link {
@@ -153,7 +153,7 @@ li {
 	font-size: 32px;
 	font-weight: bolder;
 }
-.content {
+.post-content {
 	margin-top: 20px;
 	color: #666;
 	font-size: 16px;
@@ -181,7 +181,7 @@ li {
  */
 .well {
 	background-color: #FFF;
-	padding: 25px 0px 0px 0px;
+//	padding: 25px 0px 0px 0px;
 	height: 100vh;
 	color: #000;
 	font-size: 14px;
@@ -192,10 +192,9 @@ li {
 }
 
 .well .postlist {
-//	margin-left: 10px;
+	margin-left: 5px;
 	color: #AAA;
 	font-size: 16px;
-//	line-height: 2em;
 	list-style:none;
 }
 
@@ -206,7 +205,7 @@ li {
 
 .well .postlist a:hover {
 	text-decoration: underline;
-	color: #555;
+	color: #777;
 }
 
 

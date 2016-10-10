@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 15px; }
+  margin-bottom: 10px; }
 
 /**
  * Images
@@ -51,7 +51,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 30px; }
+  margin-left: 20px; }
 
 li > ul,
 li > ol {
@@ -78,7 +78,7 @@ a {
 blockquote {
   color: #828282;
   border-left: 4px solid #e8e8e8;
-  padding-left: 15px;
+  padding-left: 10px;
   font-size: 18px;
   letter-spacing: -1px;
   font-style: italic; }
@@ -117,18 +117,18 @@ pre {
 .wrapper {
   background-color: #FFF;
   padding: 25px 0px 0px 0px;
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(800px - (20px * 2));
+  max-width: calc(800px - (20px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px; }
+  padding-right: 20px;
+  padding-left: 20px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
+      max-width: -webkit-calc(800px - (20px));
+      max-width: calc(800px - (20px));
+      padding-right: 10px;
+      padding-left: 10px; } }
 
 /**
  * Clearfix

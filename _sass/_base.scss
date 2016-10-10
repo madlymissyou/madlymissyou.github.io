@@ -69,6 +69,7 @@ figcaption {
  */
 ul, ol {
     margin-left: $spacing-unit;
+		margin-right: $spacing-unit;
 }
 
 li {
@@ -165,7 +166,9 @@ pre {
  */
 .wrapper {
 		background-color: #FFF;
-		padding-top: 35px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;

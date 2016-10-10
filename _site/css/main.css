@@ -51,7 +51,8 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 20px; }
+  margin-left: 20px;
+  margin-right: 20px; }
 
 li > ul,
 li > ol {
@@ -116,7 +117,8 @@ pre {
  */
 .wrapper {
   background-color: #FFF;
-  padding-top: 35px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   max-width: -webkit-calc(800px - (20px * 2));
   max-width: calc(800px - (20px * 2));
   margin-right: auto;
@@ -156,7 +158,7 @@ html, body {
  * Header
  */
 .header {
-  padding: 40px 20px 20px 0px;
+  padding: 40px 20px 20px 20px;
   background-color: #515865;
   font-family: "Montserrat",sans-serif; }
 

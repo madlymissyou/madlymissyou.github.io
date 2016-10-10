@@ -277,9 +277,24 @@ li {
   color: #666;
   font-size: 16px; }
 
-.readmore {
-  text-align: right;
-  color: #2a7ae2; }
+.readmore-a > a {
+  color: #888; }
+
+.readmore-a > a:link {
+  color: #888; }
+
+.readmore-a > a:hover {
+  color: #666;
+  text-decoration: none; }
+
+.readmore-a {
+  margin-top: 30px;
+  text-align: center;
+  padding: 5px 7px;
+  font-size: 16px;
+  background: #F3F3F3;
+  color: #888;
+  cursor: pointer; }
 
 #line {
   opacity: 0.2;

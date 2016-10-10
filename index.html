@@ -11,7 +11,7 @@ layout: default
 					<span class="post-meta">|</span>
 					<span class="post-meta"> {{ post.category }} </span>
 					
-					<a href="https://madlymissyou.github.io/category.html#{{ post.category }}">이동</a>
+					<a class="link-category" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ post.category }} </a>
 					<h3>
 						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 					</h3>

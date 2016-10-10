@@ -247,7 +247,7 @@ li {
   list-style: none; }
 
 .post-list > li {
-  border-bottom: dotted 5px #E7E7E7;
+  border-bottom: dotted 3px #E7E7E7;
   margin-bottom: 35px; }
 
 .post-list li h3 {

@@ -252,10 +252,9 @@ li {
 
 .post-list a {
   color: #515865; }
-
-.post-list a:hover {
-  color: #1756a9;
-  text-decoration: none; }
+  .post-list a:hover {
+    color: #2f333b;
+    text-decoration: none; }
 
 .post-link {
   font-size: 40px;

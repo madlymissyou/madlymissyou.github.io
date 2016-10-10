@@ -7,15 +7,16 @@ layout: default
      
       <li>
        	<div class="article-header">
-					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} 와와 </span>
+					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} </span> 
+					<span class="post-meta">|</span>
+					<span class="post-meta"> {{ post.category }} </span>
+					
+					<a href="https://madlymissyou.github.io/category/#{{ post.category }}">이동</a>
 					<h3>
 						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 					</h3>
 
-
-
-<!--					<a href="$base-edit-url{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}.md" >edit</a>-->
-
+					<a class="post-edit"  href="https://github.com/madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}.md" target="_blank">edit</a>
         
 				</div>
 				

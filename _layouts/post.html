@@ -5,9 +5,18 @@ layout: default
 
 <div class="post-wrapper">
   <div class="post-header">
-    <h3 class="post-title">{{ page.title }}</h3>
-    <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  
+	<span class="post-meta">{{ page.date | date: "%Y-%m-%d" }} </span> 
+	<span class="post-meta">|</span>
+	<span class="post-meta"> {{ page.category }} </span>
+
+<!--	 <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} 	-->
+	<h3 class="post-title">{{ page.title }}</h3>
+
+    
+
   </div>
+	<a class="post-edit"  href="https://github.com/madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}.md" target="_blank">edit</a>
 	<hr id="line">
   <article class="post-content">
     {{ content }}

@@ -150,11 +150,17 @@ li {
 	
 }
 
-.link-category:visitied {
+.category-link {
 	color: #AAA;
 }
-.link-category:hover {
-	color: #999;
+.category-link:link {
+	color: #AAA;
+}
+.category-link:visited {
+	color: #AAA;
+}
+.category-link:hover {
+	color: #888;
 }
 
 .post-edit {

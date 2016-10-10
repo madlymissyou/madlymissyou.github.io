@@ -9,9 +9,13 @@ layout: default
        	<div class="article-header">
 					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} </span> 
 					<span class="post-meta">|</span>
-					<span class="post-meta"> {{ post.category }} </span>
+					<span class="post-meta"> 
 					
 					<a class="link-category" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ post.category }} </a>
+					
+					</span>
+					
+					
 					<h3>
 						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 					</h3>

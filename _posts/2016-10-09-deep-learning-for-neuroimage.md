@@ -1,6 +1,7 @@
 ---
 title: Deep Learning for Neuroimage
 layout: post
+category: Deep Learning
 ---
 
 ## Deep Learning in general

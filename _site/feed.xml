@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2016 10:16:01 +0900</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2016 10:16:01 +0900</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 11:17:23 +0900</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 11:17:23 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -16,9 +16,11 @@
 &lt;p&gt;헑&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2016/10/10/open-github-blog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/10/open-github-blog.html</guid>
+        <link>http://localhost:4000/%EA%B9%83%ED%97%99/2016/10/10/open-github-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/%EA%B9%83%ED%97%99/2016/10/10/open-github-blog.html</guid>
         
+        
+        <category>깃헙</category>
         
       </item>
     
@@ -230,9 +232,11 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 09 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2016/10/09/deep-learning-for-neuroimage.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/09/deep-learning-for-neuroimage.html</guid>
+        <link>http://localhost:4000/deep%20learning/2016/10/09/deep-learning-for-neuroimage.html</link>
+        <guid isPermaLink="true">http://localhost:4000/deep%20learning/2016/10/09/deep-learning-for-neuroimage.html</guid>
         
+        
+        <category>Deep Learning</category>
         
       </item>
     

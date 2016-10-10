@@ -4,12 +4,17 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
+     
       <li>
        	<div class="article-header">
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" post.slug}} </span>
+					<h3>
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					</h3>
+					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} </span>
+
+
+						<a href="http://github.com/madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ post/date | date: "%Y-%m-%d" }}-{{ post.slug }}.md" />edit</a>
+
         
 				</div>
 				

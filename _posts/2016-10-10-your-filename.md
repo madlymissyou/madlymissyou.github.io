@@ -1,7 +1,5 @@
 ---
-published: false
----
----
+published: true
 title: 이거 좋다 prose.io
 layout: post
 category: Jekyll

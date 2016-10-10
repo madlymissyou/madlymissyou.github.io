@@ -13,4 +13,4 @@ github_username:  madlymissyou
 markdown: kramdown
 #markdown: redcarpet
 
-excerpt_separator: <!--more-->
+excerpt_separator: <!--readmore-->

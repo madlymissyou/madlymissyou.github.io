@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -11,7 +12,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Nanum Gothic", "나눔고딕", "맑은고딕", sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: #111;
@@ -145,6 +146,9 @@ pre {
   vertical-align: middle; }
   .icon > svg path {
     fill: #828282; }
+
+html, body {
+  font-family: "Nanum Gothic", "나눔고딕", "맑은고딕", sans-serif; }
 
 /**
  * Header

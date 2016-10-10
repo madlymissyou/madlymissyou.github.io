@@ -5,9 +5,36 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Oct 2016 23:55:59 +0900</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2016 23:55:59 +0900</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 23:56:17 +0900</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 23:56:17 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>이거 좋다 prose.io</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;#&lt;/h1&gt;
+&lt;h3 id=&quot;section-1&quot;&gt;야 이거 좋다&lt;/h3&gt;
+&lt;p&gt;여기서 써야겠다.
+Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-new-post&quot;&gt;A New Post&lt;/h2&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.
+1.&amp;gt; We loved with a love that was more than love&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We loved with a love that was more than love&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/_posts/android-icon-144x144.png&quot; alt=&quot;이정원&quot; /&gt;&lt;img src=&quot;/_posts/android-icon-144x144.png&quot; alt=&quot;android-icon-144x144.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/2016/10/10/your-filename.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/2016/10/10/your-filename.html</guid>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
     
       <item>
         <title>깃헙 블로그 개설</title>

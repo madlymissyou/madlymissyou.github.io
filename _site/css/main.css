@@ -117,7 +117,6 @@ pre {
 .wrapper {
   background-color: #FFF;
   padding-top: 35px;
-  padding-left: 20px;
   max-width: -webkit-calc(800px - (20px * 2));
   max-width: calc(800px - (20px * 2));
   margin-right: auto;
@@ -157,7 +156,7 @@ html, body {
  * Header
  */
 .header {
-  padding: 50px 20px 40px;
+  padding: 40px 20px 20px 0px;
   background-color: #515865;
   font-family: "Montserrat",sans-serif; }
 

@@ -14,7 +14,3 @@ markdown: kramdown
 #markdown: redcarpet
 
 excerpt_separator: <!--readmore-->
-
-# Google analytics
-google_analytics:
-  ua: 'UA-85454753-1'

@@ -149,6 +149,14 @@ li {
 .post-link {
 	font-size: 40px;
 	font-weight: 100;
+	color: $font-color;
+	&:visited {
+		color: $font-color;
+	}
+	&:hover {
+		color: $font-color;
+		text-decoration: none;
+	}
 }
 
 .post-meta {

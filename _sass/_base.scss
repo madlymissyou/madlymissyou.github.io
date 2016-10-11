@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -17,14 +15,10 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-//    font-weight: 200;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
-
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -37,17 +31,33 @@ ul, ol, dl, figure,
 }
 
 
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+//    font-weight: 100;
+}
+
+h1, h2 {
+	margin-top: 40px;
+	font-weight: 600;
+}
+
+h3, h4, h5, h6 {
+	margin-top: 20px;
+	font-weight: 600;
+}
+p {
+	
+}
 
 /**
  * Images
  */
 img {
     max-width: 100%;
-    vertical-align: middle;
-	
-	
+    vertical-align: middle;	
 }
-
 
 
 /**
@@ -81,16 +91,6 @@ li {
 }
 
 
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-//    font-weight: 100;
-}
-
-
-
 /**
  * Links
  */
@@ -118,7 +118,7 @@ blockquote {
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
+//    font-style: italic;
 
     > :last-child {
         margin-bottom: 0;

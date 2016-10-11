@@ -4,7 +4,7 @@ layout: post
 category: Deep Learning
 ---
 
-## Deep Learning in general
+# Deep Learning in general
 * Textbook
   * Deep Learning Book (Yoshua Bengio) [[html]](http://www.deeplearningbook.org/) 
 * Review papers
@@ -124,6 +124,10 @@ category: Deep Learning
 * Prostate/chest pathology images
   * `2016 Nature Sci.Rep.` Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis [[pdf]](http://www.nature.com/articles/srep26286)
   * `2015` Deep learning with non-medical training used for chest pathology identification [[pdf]](https://www.cs.tau.ac.il/~wolf/papers/SPIE15chest.pdf)
-	
- #### 이모지 [Emoji Cheat Sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
- :sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom: 
+
+### 딥러닝
+알파고
+
+#### 이모지
+[Emoji Cheat Sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
+:sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom:

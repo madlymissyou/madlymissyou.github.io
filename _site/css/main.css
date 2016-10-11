@@ -30,6 +30,17 @@ ul, ol, dl, figure,
   margin-bottom: 10px; }
 
 /**
+ * Headings
+ */
+h1, h2 {
+  margin-top: 40px;
+  font-weight: 600; }
+
+h3, h4, h5, h6 {
+  margin-top: 20px;
+  font-weight: 600; }
+
+/**
  * Images
  */
 img {
@@ -59,9 +70,6 @@ li > ol {
   margin-bottom: 0; }
 
 /**
- * Headings
- */
-/**
  * Links
  */
 a {
@@ -80,8 +88,7 @@ blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 10px;
   font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic; }
+  letter-spacing: -1px; }
   blockquote > :last-child {
     margin-bottom: 0; }
 

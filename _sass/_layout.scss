@@ -11,7 +11,7 @@ html,body {
     padding: 40px 20px 20px 20px;
     background-color: #515865;
 //		font-family: $base-font-family;
-		font-family: "Montserrat",sans-serif;
+//		font-family: "Montserrat",sans-serif;
 //		font-family: "Lucida Grande", sans-serif;
 }
 
@@ -24,7 +24,7 @@ html,body {
 		color: #707070;
 		text-transform: uppercase;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 100;
     display:inline;
 }
 
@@ -84,7 +84,7 @@ li {
 .blogtitle {
     padding-top: 10px;
     font-size: 30px;
-		font-weight: 200;
+		font-weight: 100;
     line-height: 1.5em;
     color: #EEE;
 }
@@ -212,7 +212,8 @@ li {
 #line {
 	opacity: 0.2;
 	color: #000;
-	margin-bottom: 15px;
+	margin-top: 10px;
+	margin-bottom: 25px;
 }
 
 
@@ -250,7 +251,6 @@ li {
 	margin-left: $spacing-unit;
 	margin-right: $spacing-unit;
 }
-
 
 .post-title {
 	font-size: 40px;

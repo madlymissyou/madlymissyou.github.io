@@ -55,6 +55,7 @@ category: Deep Learning
   * [머신러닝 튜토리얼](http://laonple.blog.me/220463627091)
 * Topic
   * `2016.09` [인공지능이 작곡한 세계 최초의 음악이 공개되다](http://visla.kr/?p=45671) 
+	
 ## TensorFlow
 * Tutorials
   * [TensorFlow 공식 홈페이지](http://tensorflow.org)
@@ -73,12 +74,15 @@ category: Deep Learning
 * Open-source TensorFlow Implementation
   * [Syntax Net, Magenta, Image2Txt](https://github.com/tensorflow/models)
   * [https://github.com/TensorFlowKR/awesome_tensorflow_implementations](https://github.com/TensorFlowKR/awesome_tensorflow_implementations)  
+	
 ## Deep learning for Neuroinformatics
   * `2015` Deep Neural Networks: a new fraomework for modeling biological vision and brain information processing [[pdf]](http://www.annualreviews.org/doi/pdf/10.1146/annurev-vision-082114-035447)
+	
 ## Deep learning for Neuron Segmentation
 * Electron Microscopy  
   * `2013` Large-scale automatic reconstruction of neuroanl processes from electron microscopy images [[pdf]](https://arxiv.org/pdf/1303.7186.pdf)
   * `2016` Deep learning trends for focal brain pathology segmentation in MRI [[pdf]](https://arxiv.org/pdf/1607.05258.pdf)
+	
 ## Deep learning for Brain Tumor Segmentation
 * CODE
   * ISBI 2012 brain EM image segmentation [[github]](https://github.com/ahmed-fakhry/dive)
@@ -120,4 +124,6 @@ category: Deep Learning
 * Prostate/chest pathology images
   * `2016 Nature Sci.Rep.` Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis [[pdf]](http://www.nature.com/articles/srep26286)
   * `2015` Deep learning with non-medical training used for chest pathology identification [[pdf]](https://www.cs.tau.ac.il/~wolf/papers/SPIE15chest.pdf)
- #### [Emoji Cheat Sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/) :sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom: 
+	
+ #### 이모지 [Emoji Cheat Sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
+ :sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom: 

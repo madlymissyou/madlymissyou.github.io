@@ -27,4 +27,26 @@ layout: default
 	</div>
 {% endunless %}{% endfor %}
 
+
+
+<div class="postgroup">
+	<div id="uncategorized">
+		Uncategorized <a name="uncategorized"></a>
+	</div>
+</div>
+
+{% for post in site.posts %}
+	{% if post.category == null %}
+	<div class="postlist">
+		<ul>
+			<li>
+				<span>{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+			</li>
+		</ul>
+	</div>
+		
+	{% endif %}
+{% endfor %}
+	
+
 </div>

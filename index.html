@@ -34,10 +34,12 @@ layout: default
 				
 
 				{% if post.excerpt != post.content %}
-				<div class="readmore-box" href="{{ site.baseurl }}{{ post.url }}">
+				<div class="readmore-box">
+				 <a href="{{ site.baseurl }}{{ post.url }}">
 					<div class="readmore">
 						Read more..
 					</div>
+					</a>
 				</div>
 {% endif %}
 

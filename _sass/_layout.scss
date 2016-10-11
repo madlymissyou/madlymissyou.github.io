@@ -134,19 +134,34 @@ li {
 
 
 
-.post-list {
+.post-list-ul {
 	list-style:none;
 }
 
 
-.post-list > li {
+.post-list-ul > li {
 	border-bottom: dotted 3px #E7E7E7;
 //	box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.06);
 	margin-bottom: 35px;
 }
 
+.post-abstract h1, 
+.post-abstract h2, 
+.post-abstract h3, 
+.post-abstract h4, 
+.post-abstract h5,
+.post-abstract h6, 
+.post-abstract p, 
+.post-abstract ul, 
+.post-abstract li {
+	font-weight: 200;
+}
 
-.post-content a {
+.post-abstract > :first-child {
+	margin-top: 20px;
+}
+
+.post-abstract a, .post-content a {
 	color: $brand-color;	
 
 	&:visited {
@@ -160,7 +175,11 @@ li {
 }
 
 
-.post-link {
+.post-title-wrapper {
+	margin-top: 20px;
+}
+
+.post-title-link {
 	font-size: 40px;
 	font-weight: 100;
 	color: $font-color;
@@ -243,21 +262,33 @@ li {
 //	font-family: $base-font-family;
 }
 
+.well .postgroup {
+	font-size: 24px;
+	margin-bottom: 15px;
+	font-weight: 200;
+	color: $brand-color;
+}
+
 .well .postlist {
 	margin-left: 5px;
 	color: #AAA;
-	font-size: 24px;
-	list-style:none;
+	font-size: 18px;
+	list-style: none;
+	font-weight: 200;
 }
 
-.well .postlist a {
+.well .postlist a {	
     text-decoration: none;
-		color: #777;
+		color: #555;
 }
 
 .well .postlist a:hover {
 	text-decoration: none;
 	color: #777;
+}
+
+.well .postlist li {
+	
 }
 
 .post-wrapper {

@@ -257,28 +257,45 @@ li {
 .article-header {
   background-color: #FFF; }
 
-.post-list {
+.post-list-ul {
   list-style: none; }
 
-.post-list > li {
+.post-list-ul > li {
   border-bottom: dotted 3px #E7E7E7;
   margin-bottom: 35px; }
 
-.post-content a {
+.post-abstract h1,
+.post-abstract h2,
+.post-abstract h3,
+.post-abstract h4,
+.post-abstract h5,
+.post-abstract h6,
+.post-abstract p,
+.post-abstract ul,
+.post-abstract li {
+  font-weight: 200; }
+
+.post-abstract > :first-child {
+  margin-top: 20px; }
+
+.post-abstract a, .post-content a {
   color: #4bb4c1; }
-  .post-content a:visited {
+  .post-abstract a:visited, .post-content a:visited {
     color: #4bb4c1; }
-  .post-content a:hover {
+  .post-abstract a:hover, .post-content a:hover {
     color: #31848e;
     text-decoration: none; }
 
-.post-link {
+.post-title-wrapper {
+  margin-top: 20px; }
+
+.post-title-link {
   font-size: 40px;
   font-weight: 100;
   color: #4d5256; }
-  .post-link:visited {
+  .post-title-link:visited {
     color: #4d5256; }
-  .post-link:hover {
+  .post-title-link:hover {
     color: #4d5256;
     text-decoration: none; }
 
@@ -335,15 +352,22 @@ li {
   color: #000;
   font-size: 14px; }
 
+.well .postgroup {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 200;
+  color: #4bb4c1; }
+
 .well .postlist {
   margin-left: 5px;
   color: #AAA;
-  font-size: 24px;
-  list-style: none; }
+  font-size: 18px;
+  list-style: none;
+  font-weight: 200; }
 
 .well .postlist a {
   text-decoration: none;
-  color: #777; }
+  color: #555; }
 
 .well .postlist a:hover {
   text-decoration: none;

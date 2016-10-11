@@ -4,7 +4,7 @@ layout: default
 
 
 <div>
-  <ul class="post-list">
+  <ul class="post-list-ul">
     {% for post in site.posts %}
      
       <li>
@@ -17,8 +17,8 @@ layout: default
 					<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ post.category }} </a></span>
 				{% endif %}
 
-					<div>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					<div class="post-title-wrapper">
+						<a class="post-title-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 						<a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}.md" target="_blank">edit</a>
 					</div>
 
@@ -28,7 +28,7 @@ layout: default
 				
 <!--        <hr id="line">-->
         
-				<div class="post-content">
+				<div class="post-abstract">
 				{{ post.excerpt }}
 				
 

@@ -6,7 +6,7 @@ layout: default
 {%for post in site.posts %}
 	{% unless post.next %}
 		 <div class="postgroup">
-				<h2>{{ post.date | date: '%Y' }}</h2>
+				{{ post.date | date: '%Y' }}
 			</div>
 
 	{% else %}
@@ -16,7 +16,7 @@ layout: default
 				{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
 				
 				{% if year != nyear %}
-					<h2>{{ post.date | date: '%Y' }}</h2>
+					{{ post.date | date: '%Y' }}
 				{% endif %}
 			</div>				
 	{% endunless %}

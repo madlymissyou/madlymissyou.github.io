@@ -61,17 +61,19 @@ li > ol {
 /**
  * Headings
  */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
 /**
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #4bb4c1;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #3896a1; }
   a:hover {
-    color: #111;
-    text-decoration: underline; }
+    color: #31848e; }
 
 /**
  * Blockquotes
@@ -234,10 +236,10 @@ li {
 .social-links a {
   color: #959BA6; }
 
-.social-links a:active {
+.social-links a:hover {
   opacity: 0.6; }
 
-.social-links a:hover {
+.social-links a:active {
   opacity: 0.6; }
 
 .article-header {
@@ -250,10 +252,12 @@ li {
   border-bottom: dotted 3px #E7E7E7;
   margin-bottom: 35px; }
 
-.post-list a {
-  color: #515865; }
-  .post-list a:hover {
-    color: #2f333b;
+.post-content a {
+  color: #4bb4c1; }
+  .post-content a:visited {
+    color: #4bb4c1; }
+  .post-content a:hover {
+    color: #31848e;
     text-decoration: none; }
 
 .post-link {
@@ -267,42 +271,20 @@ li {
   margin-bottom: 30px;
   margin-right: 10px; }
 
-.category-link {
-  color: #AAA; }
-
-.category-link:link {
-  color: #AAA; }
-
-.category-link:visited {
-  color: #AAA; }
-
-.category-link:hover {
-  color: #888; }
-
 .post-edit {
+  float: right;
   color: #EEE;
   font-size: 16px;
-  margin-left: 0px;
+  margin-left: 50px;
   margin-right: 10px;
   text-align: right; }
+  .post-edit:visited {
+    color: #EEE; }
+  .post-edit:hover {
+    color: #EEE;
+    text-decoration: none; }
 
-.post-edit:visited {
-  color: #EEE; }
-
-.post-edit:hover {
-  color: #AAA; }
-
-.readmore-a > a {
-  color: #888; }
-
-.readmore-a > a:link {
-  color: #888; }
-
-.readmore-a > a:hover {
-  color: #666;
-  text-decoration: none; }
-
-.readmore-a {
+.readmore-box {
   margin-top: 30px;
   text-align: center;
   padding: 5px 7px;
@@ -310,6 +292,9 @@ li {
   background: #F3F3F3;
   color: #888;
   cursor: pointer; }
+
+.readmore-box:hover {
+  background: #e6e6e6; }
 
 #line {
   opacity: 0.2;

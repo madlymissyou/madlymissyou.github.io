@@ -355,7 +355,7 @@ li {
 .well .postgroup {
   font-size: 24px;
   margin-bottom: 15px;
-  font-weight: 200;
+  font-weight: 400;
   color: #4bb4c1; }
 
 .well .postlist {
@@ -363,7 +363,7 @@ li {
   color: #AAA;
   font-size: 18px;
   list-style: none;
-  font-weight: 200; }
+  font-weight: 400; }
 
 .well .postlist a {
   text-decoration: none;
@@ -372,6 +372,9 @@ li {
 .well .postlist a:hover {
   text-decoration: none;
   color: #777; }
+
+.well .postlist li {
+  line-height: 1.5em; }
 
 .post-wrapper {
   margin-left: 20px;

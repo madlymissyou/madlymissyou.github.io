@@ -265,7 +265,7 @@ li {
 .well .postgroup {
 	font-size: 24px;
 	margin-bottom: 15px;
-	font-weight: 200;
+	font-weight: 400;
 	color: $brand-color;
 }
 
@@ -274,7 +274,7 @@ li {
 	color: #AAA;
 	font-size: 18px;
 	list-style: none;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 .well .postlist a {	
@@ -288,7 +288,7 @@ li {
 }
 
 .well .postlist li {
-	
+	line-height: 1.5em;
 }
 
 .post-wrapper {

@@ -1,5 +1,4 @@
 ---
-published: true
 title: page test
 layout: post
 ---

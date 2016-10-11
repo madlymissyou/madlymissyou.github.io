@@ -10,13 +10,12 @@ layout: default
       <li>
        	<div class="article-header">
 					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} </span> 
+					
+				{% if post.category %}
 					<span class="post-meta">|</span>
 					<span class="post-meta"> 
-					
-					<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ post.category }} </a>
-					
-					</span>
-					
+					<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ post.category }} </a></span>
+				{% endif %}
 
 					<div>
 						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

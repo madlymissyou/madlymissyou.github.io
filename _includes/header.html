@@ -1,6 +1,7 @@
 <header class="header">
 	<div class="header-container">
 		<div class="nav">
+<!--
 			{% if page.path == "index.html" %}
 			<span class="title">
 				<li>
@@ -12,6 +13,7 @@
 					<a href="/index.html">home</a>
 				</li>			
 			{% endif %}
+-->
 			{% if page.path == "archive.html" %}
 			<span class="title">
 				<li>
@@ -53,9 +55,14 @@
 			{{site.title}}
 		</div>
 -->
+	
+			
 		<div class="blogtitle"> 
-			{{ site.motto }}
+			<a href="/index.html">{{ site.motto }}</a>
 		</div>		
+		
+		
+		
 		
 		<ul class="social-links">
 			<li>

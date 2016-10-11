@@ -89,6 +89,19 @@ li {
     color: #EEE;
 }
 
+.blogtitle a {
+	color: #FFF;
+	&:link {
+		color: #FFF;
+	}
+	&:visited {
+		color: #FFF;
+	}
+	&:hover {
+		color: #FFF;
+	}
+}
+
 .social-links {
     padding-top: 10px;
 		margin-left: 0px;

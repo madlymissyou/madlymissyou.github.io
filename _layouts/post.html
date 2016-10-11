@@ -5,20 +5,20 @@ layout: default
 
 <div class="post-wrapper">
   <div class="post-header">
-  
-	<span class="post-meta">{{ page.date | date: "%Y-%m-%d" }} </span> 
-	<span class="post-meta">|</span>
-	<span class="post-meta"> {{ page.category }} </span>
 
-<!--	 <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} 	-->
-	<h3 class="post-title">{{ page.title }}</h3>
-
-    
-
-  </div>
-  
-	<a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md" target="_blank">edit</a>
+		<span class="post-meta">{{ page.date | date: "%Y-%m-%d" }} </span> 
+		<span class="post-meta">|</span>
+		<span class="post-meta">
+			<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ page.category }} </a>
+		</span>
+	<!--	 <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} 	-->
 	
+	
+		<div>
+			<a class="post-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+			<a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md" target="_blank">edit</a>
+		</div>
+	</div>
 	<hr id="line">
   <article class="post-content">
     {{ content }}

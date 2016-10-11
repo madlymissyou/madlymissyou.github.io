@@ -5,9 +5,42 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2016 11:08:46 +0900</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2016 11:08:46 +0900</lastBuildDate>
+    <pubDate>Tue, 11 Oct 2016 11:23:49 +0900</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2016 11:23:49 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Blog</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;title: Jekyll 블로그 만들기
+layout: post
+category: News
+___&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jekyll 설치&lt;/li&gt;
+  &lt;li&gt;Github page 저장소 생성&lt;/li&gt;
+  &lt;li&gt;로컬 웹서버&lt;/li&gt;
+  &lt;li&gt;Pithy theme&lt;/li&gt;
+  &lt;li&gt;Layout 수정&lt;/li&gt;
+  &lt;li&gt;edit link&lt;/li&gt;
+  &lt;li&gt;prose.io&lt;/li&gt;
+  &lt;li&gt;readmore&lt;/li&gt;
+  &lt;li&gt;web font&lt;/li&gt;
+  &lt;li&gt;favicon&lt;/li&gt;
+  &lt;li&gt;name #tag&lt;/li&gt;
+  &lt;li&gt;pagination&lt;/li&gt;
+  &lt;li&gt;google search&lt;/li&gt;
+  &lt;li&gt;google analytics&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 11 Oct 2016 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2016/10/11/blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/10/11/blog.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>이거 좋다 prose.io</title>
@@ -194,19 +227,6 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
         <pubDate>Sun, 09 Oct 2016 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/2016/10/09/my-filename2.html</link>
         <guid isPermaLink="true">http://localhost:4000/2016/10/09/my-filename2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>page test</title>
-        <description>&lt;h2 id=&quot;a-new-post&quot;&gt;A New Post&lt;/h2&gt;
-
-&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2016/10/09/my-filename10.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/09/my-filename10.html</guid>
         
         
       </item>

@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 11 Oct 2016 11:27:02 +0900</pubDate>
-    <lastBuildDate>Tue, 11 Oct 2016 11:27:02 +0900</lastBuildDate>
+    <pubDate>Tue, 11 Oct 2016 12:56:47 +0900</pubDate>
+    <lastBuildDate>Tue, 11 Oct 2016 12:56:47 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -23,7 +23,11 @@
   &lt;li&gt;web font&lt;/li&gt;
   &lt;li&gt;favicon&lt;/li&gt;
   &lt;li&gt;name #tag&lt;/li&gt;
-  &lt;li&gt;pagination&lt;/li&gt;
+  &lt;li&gt;pagination
+    &lt;ul&gt;
+      &lt;li&gt;https://lky88.github.io/jekyll-pagination/ 이게 좋았지만, v3.3 에서는 Jekyll paginate 지원 중단해서 포기&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;google search&lt;/li&gt;
   &lt;li&gt;google analytics&lt;/li&gt;
 &lt;/ul&gt;

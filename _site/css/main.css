@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Nanum Gothic", "나눔고딕", "맑은고딕", sans-serif;
+  font-family: "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", "나눔고딕", "맑은고딕", Verdana, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: #111;
@@ -152,7 +152,7 @@ pre {
     fill: #828282; }
 
 html, body {
-  font-family: "Nanum Gothic", "나눔고딕", "맑은고딕", sans-serif; }
+  font-family: "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", "나눔고딕", "맑은고딕", Verdana, Arial, sans-serif; }
 
 /**
  * Header

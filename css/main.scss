@@ -7,7 +7,8 @@
 
 // Our variables
 
-$base-font-family: "Nanum Gothic", "나눔고딕", "맑은고딕", sans-serif;
+
+$base-font-family: "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Malgun Gothic", "나눔고딕", "맑은고딕", Verdana, Arial, sans-serif; 
 $base-font-size:   18px;
 //$small-font-size:  $base-font-size * 0.875;
 $small-font-size: 0.875rem;
@@ -23,7 +24,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $blue-color:	   #515865;
-
+$font-color: 		 #4d5256;
 // Width of the content area
 $content-width:    800px;
 

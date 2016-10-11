@@ -15,10 +15,14 @@ layout: default
 		</div>
 		
 		<span class="post-meta">{{ page.date | date: "%Y-%m-%d" }} </span> 
+		
+	{% if page.category %}
 		<span class="post-meta">|</span>
-		<span class="post-meta">
-			<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ page.category }} </a>
-		</span>
+		<span class="post-meta"> 
+		<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ page.category }} </a></span>
+	{% endif %}
+				
+
 	<!--	 <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} 	-->
 	
 	</div>

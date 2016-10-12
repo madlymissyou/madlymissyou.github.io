@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Oct 2016 01:02:48 +0900</pubDate>
-    <lastBuildDate>Thu, 13 Oct 2016 01:02:48 +0900</lastBuildDate>
+    <pubDate>Thu, 13 Oct 2016 01:19:30 +0900</pubDate>
+    <lastBuildDate>Thu, 13 Oct 2016 01:19:30 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -34,8 +34,8 @@
 
 </description>
         <pubDate>Tue, 11 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/2016/10/11/blog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/news/2016/10/11/blog.html</guid>
+        <link>http://localhost:4000/2016-10-11/blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-11/blog/</guid>
         
         
         <category>News</category>
@@ -61,8 +61,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/2016/10/10/your-filename3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2016/10/10/your-filename3.html</guid>
+        <link>http://localhost:4000/2016-10-10/your-filename3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-10/your-filename3/</guid>
         
         
         <category>Jekyll</category>
@@ -88,8 +88,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/2016/10/10/your-filename2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2016/10/10/your-filename2.html</guid>
+        <link>http://localhost:4000/2016-10-10/your-filename2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-10/your-filename2/</guid>
         
         
         <category>Jekyll</category>
@@ -115,8 +115,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/jekyll/2016/10/10/your-filename.html</link>
-        <guid isPermaLink="true">http://localhost:4000/jekyll/2016/10/10/your-filename.html</guid>
+        <link>http://localhost:4000/2016-10-10/your-filename/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-10/your-filename/</guid>
         
         
         <category>Jekyll</category>
@@ -132,8 +132,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 &lt;p&gt;헑&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/%EA%B9%83%ED%97%99/2016/10/10/open-github-blog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%EA%B9%83%ED%97%99/2016/10/10/open-github-blog.html</guid>
+        <link>http://localhost:4000/2016-10-10/open-github-blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-10/open-github-blog/</guid>
         
         
         <category>깃헙</category>
@@ -149,8 +149,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 &lt;p&gt;헑&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/%EA%B9%83%ED%97%99/2016/10/10/open-github-blog-1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/%EA%B9%83%ED%97%99/2016/10/10/open-github-blog-1.html</guid>
+        <link>http://localhost:4000/2016-10-10/open-github-blog-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-10/open-github-blog-1/</guid>
         
         
         <category>깃헙</category>
@@ -173,8 +173,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/2016/10/10/github-jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/news/2016/10/10/github-jekyll.html</guid>
+        <link>http://localhost:4000/2016-10-10/github-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-10/github-jekyll/</guid>
         
         
         <category>news</category>
@@ -197,8 +197,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 10 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/news/2016/10/10/github-jekyll-1.html</link>
-        <guid isPermaLink="true">http://localhost:4000/news/2016/10/10/github-jekyll-1.html</guid>
+        <link>http://localhost:4000/2016-10-10/github-jekyll-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-10/github-jekyll-1/</guid>
         
         
         <category>news</category>
@@ -212,8 +212,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 &lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2016/10/09/my-filename3.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/09/my-filename3.html</guid>
+        <link>http://localhost:4000/2016-10-09/my-filename3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-09/my-filename3/</guid>
         
         
       </item>
@@ -225,8 +225,8 @@ Github 마크다운 글은 여기서 수정해야겠다.&lt;/p&gt;
 &lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
 </description>
         <pubDate>Sun, 09 Oct 2016 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2016/10/09/my-filename2.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/10/09/my-filename2.html</guid>
+        <link>http://localhost:4000/2016-10-09/my-filename2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-10-09/my-filename2/</guid>
         
         
       </item>

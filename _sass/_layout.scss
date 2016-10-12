@@ -303,7 +303,7 @@ html,body {
 }
 
 .post-title {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 100;
 	color: $font-color;
 	&:visited {
@@ -373,7 +373,7 @@ html,body {
 .site-category .category-post .category-post-list .category-post-list-wrap .post-item .dot-on-line {
     position: absolute;
     left: -23px;
-    top: 22%;
+    top: 16px;
     border-radius: 10px;
     width: 10px;
     height: 10px;
@@ -411,12 +411,17 @@ html,body {
 
 .site-category .category-post .category-post-list .category-post-list-wrap .post-item  .category-post-content .category-post-title {
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
 .site-category .category-post .category-post-list .category-post-list-wrap .post-item  .category-post-content .category-post-title a {
     color: #606060;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item  .category-post-content .category-post-meta {
+		color: #adaead;
+		font-size: 14px;
 }
 
 /**

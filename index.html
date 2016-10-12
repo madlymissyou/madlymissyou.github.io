@@ -2,57 +2,74 @@
 layout: default
 ---
 
+<div class="site-category">
 
-<div>
-  <ul class="post-list-ul">
-    {% for post in site.posts %}
-     
-      <li>
-       	<div class="article-header">
-					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} </span> 
+	<div class="category-post">
+		<div class="category-post-list">
+	{%for post in site.posts %}		
+			<ul class="category-post-list-wrap">
+
+				<div class="post-item">
+					<div class="dot-on-line"></div>
 					
-				{% if post.category %}
-					<span class="post-meta">|</span>
-					<span class="post-meta"> 
-					<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ post.category }} </a></span>
+					<li>
+				
+						<div class="post-date-info">
+							<div class="post-date">{{ post.date | date: "%d" }}</div>
+							<div class="post-month">{{ post.date | date: "%b" }}. {{ post.date | date: "%Y"}} </div>
+						</div>
+						<div class="category-post-content">
+							<div class="category-post-category">
+								{% if post.category == null %}
+									Uncategorized
+								{% else %}
+									{{ post.category }}
+								{% endif %}
+							</div>
+							<div class="category-post-title">
+								<a href="{{ site.baseurl}}{{ post.url }}"> {{ post.title }}</a>
+							</div>
+						</div>
+
+					</li>
+				</div>
+
+			</ul>
+		{% endfor %}			
+		</div>
+		
+		
+	</div>
+<!--
+
+{%for post in site.posts %}
+	{% unless post.next %}
+		 <div class="postgroup">
+				{{ post.date | date: '%Y' }}
+			</div>
+
+	{% else %}
+			<div class="postgroup">
+
+				{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+				{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+				
+				{% if year != nyear %}
+					{{ post.date | date: '%Y' }}
 				{% endif %}
-
-					<div class="post-title-wrapper">
-						<a class="post-title-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-						<a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}.md" target="_blank">edit</a>
-					</div>
-
-
-        
-				</div>
-				
-<!--        <hr id="line">-->
-        
-				<div class="post-abstract">
-				{{ post.excerpt }}
-				
-
-				{% if post.excerpt != post.content %}
-				<div class="readmore-box">
-				 <a href="{{ site.baseurl }}{{ post.url }}">
-					<div class="readmore">
-						Read more..
-					</div>
-					</a>
-				</div>
-{% endif %}
-
-				</div>
-				<br>
-      </li>
-    {% endfor %}
-  </ul>
-
+			</div>				
+	{% endunless %}
+		
+		
+			<div class="postlist">
+				<ul>
+					<li>
+						<span>{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+					</li>
+				</ul>
+			</div>
+{% endfor %}
+-->
 </div>
 
 
-<div>
-
-	
-	
-</div>

@@ -34,10 +34,10 @@ html,body {
     line-height: 1;
 }
 
-li {
-    margin-left: 0px;
-    line-height: 2em;
-}
+//li {
+//    margin-left: 0px;
+//    line-height: 2em;
+//}
 
 .nav a {
     color: #959BA6;
@@ -184,8 +184,8 @@ li {
 }
 
 .post-title-link {
-	font-size: 40px;
-	font-weight: 100;
+	font-size: 30px;
+	font-weight: 200;
 	color: $font-color;
 	&:visited {
 		color: $font-color;
@@ -199,9 +199,11 @@ li {
 .post-meta {
 	color: #AAA;
 	font-size: 16px;
+	font-weight: 100;
 	margin-left: 0px;
 	margin-bottom: 30px;
 	margin-right: 10px;
+	
 	
 }
 
@@ -252,80 +254,170 @@ li {
 	margin-bottom: 25px;
 }
 
-
-/**
- * Artist
- */
-.well {
-	background-color: #FFF;
-	margin-left: $spacing-unit;
-	margin-right: $spacing-unit;
-	height: 100vh;
-	color: #000;
-	font-size: 14px;
-//	font-family: $base-font-family;
-}
-
-.well .postgroup {
-	font-size: 24px;
-	margin-bottom: 15px;
-	font-weight: 400;
-	color: $brand-color;
-}
-
-.well .postlist {
-	margin-left: 5px;
-	color: #AAA;
-	font-size: 18px;
-	list-style: none;
-	font-weight: 400;
-}
-
-.well .postlist a {	
-    text-decoration: none;
-		color: #555;
-}
-
-.well .postlist a:hover {
-	text-decoration: none;
-	color: #777;
-}
-
-.well .postlist li {
-	line-height: 1.5em;
-}
-
-.post-wrapper {
-	margin-left: $spacing-unit;
-	margin-right: $spacing-unit;
-}
-
-.post-title {
-	font-size: 40px;
-	font-weight: 100;
-	color: $font-color;
-	&:visited {
-		color: $font-color;
-	}
-	&:hover {
-		color: $font-color;
-		text-decoration: none;
-	}
-}
-
-.post-content {
-	margin-top: 20px;
-	color: #666;
-	font-size: 18px;
-}
-
-.post-content p {
-	font-size: 18px;
-}
+//
+///**
+// * Archieve
+// */
+//.well {
+//	background-color: #FFF;
+//	margin-left: $spacing-unit;
+//	margin-right: $spacing-unit;
+//	height: 100vh;
+//	color: #000;
+//	font-size: 14px;
+////	font-family: $base-font-family;
+//}
+//
+//.well .postgroup {
+//	font-size: 24px;
+//	margin-bottom: 15px;
+//	font-weight: 400;
+//	color: $brand-color;
+//}
+//
+//.well .postlist {
+//	margin-left: 5px;
+//	color: #AAA;
+//	font-size: 18px;
+//	list-style: none;
+//	font-weight: 400;
+//}
+//
+//.well .postlist a {	
+//    text-decoration: none;
+//		color: #555;
+//}
+//
+//.well .postlist a:hover {
+//	text-decoration: none;
+//	color: #777;
+//}
+//
+//.well .postlist li {
+//	line-height: 1.5em;
+//}
+//
+//.post-wrapper {
+//	margin-left: $spacing-unit;
+//	margin-right: $spacing-unit;
+//}
+//
+//.post-title {
+//	font-size: 40px;
+//	font-weight: 100;
+//	color: $font-color;
+//	&:visited {
+//		color: $font-color;
+//	}
+//	&:hover {
+//		color: $font-color;
+//		text-decoration: none;
+//	}
+//}
+//
+//.post-content {
+//	margin-top: 20px;
+//	color: #666;
+//	font-size: 18px;
+//}
+//
+//.post-content p {
+//	font-size: 18px;
+//}
 /**
  * Category
  */
 
+
+.site-category {
+	display: block;
+	backgrounc: black;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.site-category ul, .site-category ol {
+	list-style: none;
+}
+
+.site-category .category-post {
+	margin-top: 30px;
+	position: relative;
+}
+
+.site-category .category-post .category-post-list {
+	margin-left: 10px;
+}
+
+.site-category .category-post .category-post-list:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 4px;
+	background-color: #ebebeb;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item {
+	height: 100%;
+	position: relative;
+	padding: 10px;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item .dot-on-line {
+    position: absolute;
+    left: -33px;
+    top: 35%;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    background: #45b4c2;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item .post-date-info {
+    height: 100%;
+    width: 100px;
+    float: left;
+    color: #adaead;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item .post-date-info .post-date {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item .post-date-info .post-month {
+    margin-top: 0px;
+    color: #606060;
+    font-size: 12px;
+}
+
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item  .category-post-content .category-post-category {
+    color: #45b4c2;
+		font-size: 14px;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item  .category-post-content .category-post-title {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.site-category .category-post .category-post-list .category-post-list-wrap .post-item  .category-post-content .category-post-title a {
+    color: #606060;
+}
 
 /**
  * About
@@ -338,6 +430,7 @@ li {
  * Footer
  */
 .footer {
+		position: relative;
     font-size: 12px;
     text-align: center;
 		color: #666;
@@ -355,12 +448,10 @@ li {
     cursor: pointer;
 }
 
-.golist {
-
-
-	padding: 5px 7px;
-	font-size: 16px;
-	background: #333;
-	color: white;
-	cursor: pointer;
-}
+//.golist {
+//	padding: 5px 7px;
+//	font-size: 16px;
+//	background: #333;
+//	color: white;
+//	cursor: pointer;
+//}

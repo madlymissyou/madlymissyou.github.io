@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+
+<div>
+  <ul class="post-list-ul">
+    {% for post in site.posts %}
+     
+      <li>
+				<div class="post-title-wrapper">
+					<a class="post-title-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					<a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.slug }}.md" target="_blank">edit</a>
+				</div>
+      	
+      	
+       	<div class="article-header">
+					<span class="post-meta">{{ post.date | date: "%Y-%m-%d" }} </span> 
+					
+				{% if post.category %}
+					<span class="post-meta">|</span>
+					<span class="post-meta"> 
+					<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ post.category }} </a></span>
+				{% endif %}
+
+
+
+        
+				</div>
+				
+<!--        <hr id="line">-->
+        
+<!--
+				<div class="post-abstract">
+				{{ post.excerpt }}
+				
+				{% if post.excerpt != post.content %}
+				<div class="readmore-box">
+				 <a href="{{ site.baseurl }}{{ post.url }}">
+					<div class="readmore">
+						Read more..
+					</div>
+					</a>
+				</div>
+				{% endif %}
+
+				</div>
+-->
+				<br>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+
+<div>
+
+	
+	
+</div>

@@ -17,23 +17,23 @@
 			{% if page.path == "archive.html" %}
 			<span class="title">
 				<li>
-					<a href="/archive.html">archive</a>
+					<a href="{{ site.baseurl}}/archive.html">archive</a>
 				</li>
 			</span>			
 			{% else %}
 				<li>
-					<a href="/archive.html">archive</a>
+					<a href="{{ site.baseurl}}/archive.html">archive</a>
 				</li>			
 			{% endif %}
 			{% if page.path == "category.html" %}
 			<span class="title">
 				<li>
-					<a href="/category.html">category</a>
+					<a href="{{ site.baseurl}}/category.html">category</a>
 				</li>
 			</span>			
 			{% else %}
 				<li>
-					<a href="/category.html">category</a>
+					<a href="{{ site.baseurl}}/category.html">category</a>
 				</li>			
 			{% endif %}
 <!--
@@ -58,7 +58,7 @@
 	
 			
 		<div class="blogtitle"> 
-			<a href="/index.html">{{ site.motto }}</a>
+			<a href="{{ site.baseurl}}/index.html">{{ site.motto }}</a>
 		</div>		
 		
 		
@@ -67,7 +67,7 @@
 		<ul class="social-links">
 			<li>
 				<a href="https://github.com/{{ site.github_username }}/cv/blob/master/README.md" title="Github">
-					<img width="19px" height="19px" src="/images/github.png"/>
+					<img width="19px" height="19px" src="{{ site.baseurl}}/images/github.png"/>
 				</a>
 			</li>
 <!--

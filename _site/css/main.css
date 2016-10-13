@@ -460,7 +460,7 @@ html, body {
 
 .site-category .category-post-title {
   margin-top: 0px;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 100; }
 
 .site-category .category-post-title a {
@@ -469,6 +469,10 @@ html, body {
 .site-category .category-post-meta {
   color: #adaead;
   font-size: 14px; }
+
+.site-category .post-content-truncate {
+  color: #878887;
+  font-size: 16px; }
 
 /**
  * About

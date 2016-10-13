@@ -14,4 +14,4 @@ markdown: kramdown
 #markdown: redcarpet
 
 excerpt_separator: <!--readmore-->
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title

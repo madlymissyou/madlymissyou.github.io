@@ -14,12 +14,6 @@ layout: default
 					
 					<li>
 				
-<!--
-						<div class="post-date-info">
-							<div class="post-date">{{ post.date | date: "%d" }}</div>
-							<div class="post-month">{{ post.date | date: "%b" }}. {{ post.date | date: "%Y"}} </div>
-						</div>
--->
 						<div class="category-post-content">
 							<div class="category-post-category">
 								{% if post.category == null %}
@@ -31,16 +25,22 @@ layout: default
 							<div class="category-post-title">
 								<a href="{{ site.baseurl}}{{ post.url }}"> {{ post.title }}</a>
 							</div>
-<!--
 							<div class="category-post-meta">
 								{{ post.meta }}
 							</div>
--->
+									
+							<div class="post-content-truncate">
+<!--								{{ post.content | strip_newlines | truncate: 180 }}-->
+								{{ post.content | strip_html | strip_newlines | truncate: 180 }}
+							</div>
+							
 							<div class="post-date-info">
 								<div class="post-month">{{ post.date | date: "%Y" }}. {{ post.date | date: "%m"}}. {{ post.date | date: "%d"}}. </div>
 							</div>
-						</div>
 
+				
+						
+						</div>
 					</li>
 				</div>
 

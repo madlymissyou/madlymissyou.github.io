@@ -260,8 +260,8 @@ html,body {
  */
 .well {
 	background-color: #FFF;
-	margin-left: $spacing-unit;
-	margin-right: $spacing-unit;
+	margin-left: $spacing-unit/2;
+	margin-right: $spacing-unit/2;
 	height: 100vh;
 	color: #000;
 	font-size: 14px;
@@ -269,20 +269,25 @@ html,body {
 }
 
 .well .postgroup {
-	font-size: 24px;
-	margin-bottom: 15px;
+	font-size: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
+	margin-bottom: 22px;
 	font-weight: 400;
 	color: $brand-color;
 }
 
 .well .postlist {
-	margin-left: 5px;
+	margin-left: 10px;
+  margin-right: 0px;
 	color: #AAA;
-	font-size: 18px;
+	font-size: 16px;
 	list-style: none;
 	font-weight: 400;
 }
-
+.well .postlist span {
+  margin-right: 7px;
+}
 .well .postlist a {	
     text-decoration: none;
 		color: #555;
@@ -298,21 +303,13 @@ html,body {
 }
 
 .post-wrapper {
-	margin-left: $spacing-unit;
-	margin-right: $spacing-unit;
+	margin-left: $spacing-unit/2;
+	margin-right: $spacing-unit/2;
 }
 
 .post-title {
 	font-size: 30px;
 	font-weight: 100;
-	color: $font-color;
-	&:visited {
-		color: $font-color;
-	}
-	&:hover {
-		color: $font-color;
-		text-decoration: none;
-	}
 }
 
 .post-content {
@@ -332,8 +329,8 @@ html,body {
 .site-category {
 	display: block;
 	backgrounc: black;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .site-category ul, .site-category ol {
@@ -413,6 +410,14 @@ html,body {
     margin-top: 0px;
     font-size: 24px;
     font-weight: 100;
+    color: darken($brand-color, 15%);
+//  &:hover {
+//    color: $brand-color;
+//  }
+}
+
+.site-category .category-post-content a:hover .category-post-title {
+  color: $brand-color;
 }
 
 .site-category .category-post-title a {

@@ -75,7 +75,7 @@ a {
   color: #4bb4c1;
   text-decoration: none; }
   a:visited {
-    color: #3896a1; }
+    color: #3ea7b4; }
   a:hover {
     color: #31848e; }
 
@@ -337,24 +337,30 @@ html, body {
  */
 .well {
   background-color: #FFF;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   height: 100vh;
   color: #000;
   font-size: 14px; }
 
 .well .postgroup {
-  font-size: 24px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-bottom: 22px;
   font-weight: 400;
   color: #4bb4c1; }
 
 .well .postlist {
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-right: 0px;
   color: #AAA;
-  font-size: 18px;
+  font-size: 16px;
   list-style: none;
   font-weight: 400; }
+
+.well .postlist span {
+  margin-right: 7px; }
 
 .well .postlist a {
   text-decoration: none;
@@ -368,18 +374,12 @@ html, body {
   line-height: 1.5em; }
 
 .post-wrapper {
-  margin-left: 20px;
-  margin-right: 20px; }
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .post-title {
   font-size: 30px;
-  font-weight: 100;
-  color: #4d5256; }
-  .post-title:visited {
-    color: #4d5256; }
-  .post-title:hover {
-    color: #4d5256;
-    text-decoration: none; }
+  font-weight: 100; }
 
 .post-content {
   margin-top: 20px;
@@ -395,8 +395,8 @@ html, body {
 .site-category {
   display: block;
   backgrounc: black;
-  padding-left: 25px;
-  padding-right: 25px; }
+  padding-left: 0px;
+  padding-right: 0px; }
 
 .site-category ul, .site-category ol {
   list-style: none; }
@@ -461,7 +461,11 @@ html, body {
 .site-category .category-post-title {
   margin-top: 0px;
   font-size: 24px;
-  font-weight: 100; }
+  font-weight: 100;
+  color: #31848e; }
+
+.site-category .category-post-content a:hover .category-post-title {
+  color: #4bb4c1; }
 
 .site-category .category-post-title a {
   color: #606060; }

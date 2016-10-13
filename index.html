@@ -13,7 +13,7 @@ layout: default
 					<div class="dot-on-line"></div>
 					
 					<li>
-				
+              
 	
 						<div class="category-post-content">
 							<div class="category-post-category">
@@ -28,26 +28,21 @@ layout: default
 
              
               <a href="{{ site.baseurl}}{{ post.url }}">
+
 							<div class="category-post-title">
 							{{ post.title }}
-<!--								<a href="{{ site.baseurl}}{{ post.url }}"> {{ post.title }}</a>-->
 							</div>
-<!--
-							<div class="category-post-meta">
-								{{ post.meta }}
-							</div>
--->
-									
 							<div class="post-content-truncate">
-<!--								{{ post.content | strip_newlines | truncate: 180 }}-->
 								{{ post.content | strip_html | strip_newlines | truncate: 152 }}
 							</div>
-							
+
+              </a>
+              						
 							<div class="post-date-info">
 								<div class="post-month">{{ post.date | date: "%Y" }}. {{ post.date | date: "%m"}}. {{ post.date | date: "%d"}}. </div>
 								
 							</div>
-              </a>
+
 
 				
 						

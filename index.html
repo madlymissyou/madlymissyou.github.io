@@ -14,15 +14,20 @@ layout: default
 					
 					<li>
 				
-				<a href="{{ site.baseurl}}{{ post.url }}">
+	
 						<div class="category-post-content">
 							<div class="category-post-category">
 								{% if post.category == null %}
-									Uncategorized
+		              <a class="category-link" href="https://madlymissyou.github.io/category.html#etc."> etc. </a>
 								{% else %}
-									{{ post.category }}
+		              <a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ post.category }} </a>
 								{% endif %}
 							</div>
+							
+     
+
+             
+              <a href="{{ site.baseurl}}{{ post.url }}">
 							<div class="category-post-title">
 							{{ post.title }}
 <!--								<a href="{{ site.baseurl}}{{ post.url }}"> {{ post.title }}</a>-->
@@ -40,12 +45,14 @@ layout: default
 							
 							<div class="post-date-info">
 								<div class="post-month">{{ post.date | date: "%Y" }}. {{ post.date | date: "%m"}}. {{ post.date | date: "%d"}}. </div>
+								
 							</div>
+              </a>
 
 				
 						
 						</div>
-        </a>
+
 					</li>
 				</div>
 

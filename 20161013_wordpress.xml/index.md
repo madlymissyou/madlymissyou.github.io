@@ -1,3 +1,4 @@
+---
 title: 내 인생의 조각모음
 description: 간결하고 풍요롭게
 author_display_name: 이정원
@@ -5,7 +6,9 @@ author_login: madlymissyou
 author_email: madlymissyou@gmail.com
 base_site_url: http://wordpress.com/
 base_blog_url: https://madlymissyou.wordpress.com
-export_date: 2016/10/13 00:55:48
+export_date: 2016/10/13 03:06:01
+layout: post
+---
 
 # 내 인생의 조각모음
 

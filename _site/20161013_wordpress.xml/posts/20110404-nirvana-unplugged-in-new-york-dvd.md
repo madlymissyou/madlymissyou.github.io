@@ -1,0 +1,15 @@
+title: Nirvana [Unplugged in New York] DVD
+link: https://madlymissyou.wordpress.com/2011/04/04/nirvana-unplugged-in-new-york-dvd/
+author: madlymissyou
+description: 
+post_id: 571
+created: 2011/04/04 02:53:55
+created_gmt: 2011/04/03 17:53:55
+comment_status: open
+post_name: nirvana-unplugged-in-new-york-dvd
+status: publish
+post_type: post
+
+# Nirvana [Unplugged in New York] DVD
+
+CD로 수도 없이 들었던 Nirvana [Unplugged in New York] DVD 샀다. 그러고보니 내일이 커트 코베인 기일이다. 커트 코베인의 유서, 1994.4.5. > "사실을 말자하면 나는 여러분 가운데 어느 누구도 속일 수 없다는 것입니다. ... 내가 생각할 수 있는 최악의 범죄는 마치 내가 100퍼센트 즐기고 있는 것처럼 가장하고 여러분을 등쳐먹는 것일 겁니다. ..." Nirvana [Unplugged in New York] DVD를 내가 왜 예전에 못봤나 했더니, 1994년 커트코베인 사후 CD가 먼저 발매되고 한참 지나서야 DVD가 발매(2007년)되었다. 1993년 MTV에 방송되었던 공연실황이다. 커트 코베인의 유작. 차 시동을 켠 채로 서너 곡을 더 듣다가 내렸다. Dumb, Polly, On A Plain... CD에서 듣지 못했던 멤버들과의 시덥잖은 얘기들, 기침, 담배 연기... 공연 리스트는 멤버들끼리도 약속이 없었나보다. 즉흥적이다.

@@ -1,0 +1,15 @@
+title: 피렌체를 싫어한 괴테
+link: https://madlymissyou.wordpress.com/2011/06/11/%ed%94%bc%eb%a0%8c%ec%b2%b4%eb%a5%bc-%ec%8b%ab%ec%96%b4%ed%95%9c-%ea%b4%b4%ed%85%8c/
+author: madlymissyou
+description: 
+post_id: 538
+created: 2011/06/11 02:19:22
+created_gmt: 2011/06/10 17:19:22
+comment_status: open
+post_name: %ed%94%bc%eb%a0%8c%ec%b2%b4%eb%a5%bc-%ec%8b%ab%ec%96%b4%ed%95%9c-%ea%b4%b4%ed%85%8c
+status: publish
+post_type: post
+
+# 피렌체를 싫어한 괴테
+
+이럴 수가. 괴테는 피렌체를 마음에 들어하지 않았나보다. "성당과 세례교를 한눈에 훑어보고 시내를 잰걸음으로 지나갔다. 내가 몰랐던 아주 새로운 세계가 눈앞에 펼쳐졌지만 나는 오래 머무르고 싶지 않았다. 들어갈 때만큼이나 빨리 그곳을 빠져나왔다."

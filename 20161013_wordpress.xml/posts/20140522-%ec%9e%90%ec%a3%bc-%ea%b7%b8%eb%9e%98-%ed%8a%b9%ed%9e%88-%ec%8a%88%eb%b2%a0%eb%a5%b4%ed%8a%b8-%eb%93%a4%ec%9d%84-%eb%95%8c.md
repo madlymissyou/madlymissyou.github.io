@@ -1,0 +1,25 @@
+title: 자주 그래. 특히 슈베르트 들을 때.
+link: https://madlymissyou.wordpress.com/2014/05/22/%ec%9e%90%ec%a3%bc-%ea%b7%b8%eb%9e%98-%ed%8a%b9%ed%9e%88-%ec%8a%88%eb%b2%a0%eb%a5%b4%ed%8a%b8-%eb%93%a4%ec%9d%84-%eb%95%8c/
+author: madlymissyou
+description: 
+post_id: 293
+created: 2014/05/22 23:56:46
+created_gmt: 2014/05/22 14:56:46
+comment_status: open
+post_name: %ec%9e%90%ec%a3%bc-%ea%b7%b8%eb%9e%98-%ed%8a%b9%ed%9e%88-%ec%8a%88%eb%b2%a0%eb%a5%b4%ed%8a%b8-%eb%93%a4%ec%9d%84-%eb%95%8c
+status: publish
+post_type: post
+
+# 자주 그래. 특히 슈베르트 들을 때.
+
+![ginger-and-rosa-poster](http://madlymissyou.files.wordpress.com/2014/05/ginger-and-rosa-poster.jpg?w=611)
+
+아트시네마에서 본 <진저 앤 로사>의 한 장면.
+
+한밤의 보트. 진저 아빠 롤랜드가 음악을 들으며 흐느끼듯 눈물을 흘리는 것을 본 진저가 로사에게 말한다.
+
+"자주 그래. 특히 슈베르트 들을 때"
+
+그 장면에서 롤랜드가 듣던 음악이 슈베르트 판타지 D.940 였다.
+
+드라마 <밀회>에서 가장 유명한 장면, 오혜원이 선재와 함께 연주를 마치고 "이거 특급 칭찬이야"라며 볼을 꼬집던 장면에서 연주한 [바로 그 곡](http://www.youtube.com/watch?v=7xvpe2Zz45A).

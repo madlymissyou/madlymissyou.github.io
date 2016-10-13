@@ -44,7 +44,7 @@ WHAT2SAVE = {
         'post_date',
         'post_date_gmt',
         'comment_status',
-        'post_name',
+#        'post_name',
         'status',
         'post_type',
         'excerpt',
@@ -172,7 +172,7 @@ def parse_args():
         '-d',
         action='store',
         metavar='PATH',
-        default='{year}{month}{day}_{source}',
+        default='{year}-{month}-{day}_{source}',
         help='destination path for generated files')
     parser.add_argument(
         '-u',
@@ -320,7 +320,8 @@ def get_path(item_type, file_name=None, data=None):
     if file_name:
         relpath = file_name
     else:
-        name = data.get('post_name', '').strip()
+#        name = data.get('post_name', '').strip()
+        name = data.get('post_id', '').strip() # 파일 이름을 post_id.md로 설정
         name = name or data.get('post_id', UNTITLED)
         relpath = get_path_fmt(item_type, data)
         field = FIELD_MAP.get('post_date', 'post_date')

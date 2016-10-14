@@ -213,7 +213,8 @@ content {
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 10px;
-  position: relative; }
+  position: relative;
+  line-height: 1.8em; }
 
 .timeline ul, .timeline ol {
   list-style: none; }
@@ -287,7 +288,8 @@ content {
   background-color: #FFF;
   height: 100vh;
   color: #000;
-  font-size: 14px; }
+  font-size: 14px;
+  line-height: 1.5em; }
 
 .archive .archive-postgroup {
   font-size: 20px;

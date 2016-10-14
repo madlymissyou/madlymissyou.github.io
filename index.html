@@ -5,16 +5,14 @@ layout: default
 <div class="timeline">
 		<div class="timeline-post-list">
 	{%for post in site.posts %}		
-			<ul class="category-post-list-wrap">
-
+			<ul class="timeline-post-list-ul">
 				<div class="post-item">
+				
 					<div class="dot-on-line"></div>
 					
 					<li>
-              
-	
-						<div class="category-post-content">
-							<div class="category-post-category">
+						<div class="timeline-post-content">
+							<div class="timeline-post-category">
 								{% if post.category == null %}
 		              <a class="category-link" href="https://madlymissyou.github.io/category.html#etc."> etc. </a>
 								{% else %}
@@ -22,23 +20,17 @@ layout: default
 								{% endif %}
 							</div>
 							
-     
-
-             
               <a href="{{ site.baseurl}}{{ post.url }}">
-
-							<div class="category-post-title">
-							{{ post.title }}
-							</div>
-							<div class="post-content-truncate">
-								{{ post.content | strip_html | strip_newlines | truncate: 152 }}
-							</div>
-
+                <div class="timeline-post-title">
+                  {{ post.title }}
+                </div>
+                <div class="timeline-post-content-truncate">
+                  {{ post.content | strip_html | strip_newlines | truncate: 152 }}
+                </div>
               </a>
               						
-							<div class="post-date-info">
-								<div class="post-month">{{ post.date | date: "%Y" }}. {{ post.date | date: "%m"}}. {{ post.date | date: "%d"}}. </div>
-								
+							<div class="timeline-post-date-info">
+								{{ post.date | date: "%Y" }}. {{ post.date | date: "%m"}}. {{ post.date | date: "%d"}}.
 							</div>
 
 

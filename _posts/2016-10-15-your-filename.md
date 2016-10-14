@@ -1,5 +1,7 @@
 ---
-published: false
+title: untitle
+laypout: post
+published: true
 ---
 ## A New Post
 

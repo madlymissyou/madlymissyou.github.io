@@ -290,17 +290,24 @@ content {
 
 .archive .archive-postgroup {
   font-size: 20px;
-  margin-top: 25px;
-  margin-bottom: 22px;
   font-weight: 400;
   color: #4bb4c1; }
 
 .archive .archive-postlist {
+  margin-left: 10px;
   margin-right: 0px;
   color: #AAA;
   font-size: 16px;
-  list-style: none;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.archive .archive-postlist ul {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.archive > :first-child {
+  margin-top: 25px; }
 
 .archive .archive-postlist span {
   margin-right: 7px; }
@@ -318,6 +325,13 @@ content {
 /*************/
 .post {
   margin-top: 20px; }
+
+.post ul {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.post li {
+  margin-bottom: 5px; }
 
 .post-title {
   font-size: 30px;

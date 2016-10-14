@@ -15,16 +15,15 @@ layout: default
 		</div>
 	</div>
 	
-	
+  {% for post in site.categories[word] %}{% if post.title != null %}	
 	<div class="archive-postlist">
-		{% for post in site.categories[word] %}{% if post.title != null %}
 		<ul>
 			<li>
 				<span>{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 			</li>
 		</ul>
-		{% endif %}{% endfor %}
 	</div>
+  {% endif %}{% endfor %}
 {% endunless %}{% endfor %}
 
 

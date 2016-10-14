@@ -401,21 +401,32 @@ content {
 
 .archive .archive-postgroup {
 	font-size: 20px;
-  margin-top: 25px;
+//  margin-top: 25px;
 //  margin-left: 10px;
-	margin-bottom: 22px;
+//	margin-bottom: 22px;
 	font-weight: 400;
 	color: $brand-color;
 }
 
 .archive .archive-postlist {
-//	margin-left: 10px;
+	margin-left: 10px;
   margin-right: 0px;
 	color: #AAA;
 	font-size: 16px;
-	list-style: none;
 	font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
+.archive .archive-postlist ul {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.archive >:first-child {
+  margin-top: 25px;
+}
+
 .archive .archive-postlist span {
   margin-right: 7px;
 }
@@ -429,6 +440,8 @@ content {
 	color: #777;
 }
 
+
+
 /*************/
 /* POST.html */
 /*************/
@@ -440,6 +453,14 @@ content {
   margin-top: 20px;
 }
 
+.post ul {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.post li {
+  margin-bottom: 5px;;
+}
 .post-title {
 	font-size: 30px;
 	font-weight: 100;
@@ -490,7 +511,7 @@ content {
 	font-weight: 200;
 }
 
-.post-abstract > :first-child {
+.post-abstract >:first-child {
 	margin-top: 20px;
 }
 

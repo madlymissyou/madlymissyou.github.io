@@ -401,11 +401,12 @@ content {
   line-height: 1.5em;
 }
 
+.archive >:first-child {
+  margin-top: 35px;
+}
+
 .archive .archive-postgroup {
 	font-size: 20px;
-//  margin-top: 25px;
-//  margin-left: 10px;
-//	margin-bottom: 22px;
 	font-weight: 400;
 	color: $brand-color;
 }
@@ -420,9 +421,7 @@ content {
   margin-bottom: 0px;
 }
 
-.archive >:first-child {
-  margin-top: 25px;
-}
+
 
 .archive .archive-postlist ul {
   margin-top: 15px;
@@ -473,6 +472,10 @@ content {
 	margin-top: 20px;
 	color: #666;
 	font-size: 18px;
+}
+
+.post-content>:first-child {
+  margin-top: 20px; 
 }
 
 .post-content p {

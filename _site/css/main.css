@@ -291,6 +291,9 @@ content {
   font-size: 14px;
   line-height: 1.5em; }
 
+.archive > :first-child {
+  margin-top: 35px; }
+
 .archive .archive-postgroup {
   font-size: 20px;
   font-weight: 400;
@@ -304,9 +307,6 @@ content {
   font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px; }
-
-.archive > :first-child {
-  margin-top: 25px; }
 
 .archive .archive-postlist ul {
   margin-top: 15px;
@@ -345,6 +345,9 @@ content {
   margin-top: 20px;
   color: #666;
   font-size: 18px; }
+
+.post-content > :first-child {
+  margin-top: 20px; }
 
 .post-content p {
   font-size: 18px; }

@@ -126,6 +126,7 @@ content {
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 60px;
   padding-right: 30px;
   padding-left: 30px; }
 
@@ -283,7 +284,6 @@ content {
 /* Archive.html & Category.html */
 /********************************/
 .archive {
-  margin-top: 20px;
   background-color: #FFF;
   height: 100vh;
   color: #000;
@@ -432,7 +432,7 @@ content {
 #line {
   opacity: 0.2;
   color: #000;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 25px; }
 
 /**

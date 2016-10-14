@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
 body {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 2;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
@@ -269,7 +269,8 @@ content {
 
 .timeline .timeline-post-content-truncate {
   color: #878887;
-  font-size: 16px; }
+  font-size: 16px;
+  line-heigth: 1.5; }
 
 .timeline .timeline-post-date-info {
   height: 100%;

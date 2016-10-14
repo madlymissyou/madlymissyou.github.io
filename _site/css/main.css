@@ -112,7 +112,7 @@ pre {
 
 header {
   background-color: #515865;
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 10px;
   font-family: "Montserrat",sans-serif; }
 
@@ -126,7 +126,6 @@ content {
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 60px;
   padding-right: 30px;
   padding-left: 30px; }
 

@@ -164,7 +164,7 @@ pre {
 
 header {
   background-color: #515865;
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 10px; 
   font-family: "Montserrat",sans-serif;
 }
@@ -180,7 +180,6 @@ content {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto; 
-    margin-bottom: 60px;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;

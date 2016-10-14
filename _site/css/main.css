@@ -283,6 +283,7 @@ content {
 /* Archive.html & Category.html */
 /********************************/
 .archive {
+  margin-top: 20px;
   background-color: #FFF;
   height: 100vh;
   color: #000;
@@ -302,15 +303,16 @@ content {
   margin-top: 0px;
   margin-bottom: 0px; }
 
+.archive > :first-child {
+  margin-top: 25px; }
+
 .archive .archive-postlist ul {
   margin-top: 15px;
   margin-bottom: 15px; }
 
-.archive > :first-child {
-  margin-top: 25px; }
-
 .archive .archive-postlist span {
-  margin-right: 7px; }
+  margin-right: 7px;
+  font-size: 14px; }
 
 .archive .archive-postlist a {
   text-decoration: none;

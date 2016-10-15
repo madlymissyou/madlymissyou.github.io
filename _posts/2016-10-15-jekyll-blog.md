@@ -5,7 +5,12 @@ category: Jekyll
 ---
 
 ### 왜 Jekyll인가?
+잘 정리된 글들이 많이 있다.
+- [내 글을 오래 남기기 위한 블로그 선택](http://blog.kalkin7.com/2015/07/07/maintain-a-blog-for-a-long-time/)
+- [Jekyll 기반의 GitHub Pages에 블로그 만들기](https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html)
 - [WordPress 에서 Jekyll로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
+- [Tistory에서 Jekyll을 이용하여 GitHub Pages로 블로그 이전](http://blog.saltfactory.net/note/renewal-blog-from-tistory-to-github-pages-via-jekyll.html)
+- [난 10년된 워드프레스에서 Jekyll로 마이그레이션](https://ilmol.com/2015/01/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-Jekyll%EB%A1%9C-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98.html)
 - [From Wordpress To Jekyll](http://halryang.net/From-Wordpress-To-Jekyll)
   - [한량넷 Jekyll 글모음](http://halryang.net/search/?tags=jekyll)
 - [정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로](http://blog.nacyot.com/articles/2014-01-15-static-site-generator)
@@ -18,7 +23,7 @@ category: Jekyll
 - [아이콘을 구한 대박 사이트 Flaticon](http://www.flaticon.com/search?word=github)
 
 ### Done list & 기술적인 도움을 받은 사이트
-- Jekyll 설치
+- [Jekyll 설치](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
 - 로컬 웹서버 가동
 - Guthub page 저장소 생성
 - md 파일 Github에 푸쉬하는 스크립트 ./gitpush

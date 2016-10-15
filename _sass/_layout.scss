@@ -337,18 +337,6 @@ content {
 //    background: lighten(#45b4c2, 30%);
 }
 
-.edit-icon {
-    position: absolute;
-//    left: ($spacing-unit*-1)+26;
-    right: 10px;
-    top: 65px;
-//    border-radius: 10px;
-    width: 20px;
-    height: 20px;
-    opacity: 1;
-//    background: lighten(#45b4c2, 30%);
-}
-
 .timeline .dot-on-line {
     position: absolute;
     left: ($spacing-unit*-1)+12;
@@ -498,9 +486,30 @@ content {
 .post-header {
   positon: relative;
 }
+
+.post-title-wrapper {
+  margin-top: 30px;
+}
 .post-title {
 	font-size: 30px;
 	font-weight: 100;
+  line-height: 1.2em;
+}
+
+.post-header-meta {
+  position: relative;
+}
+.edit-icon {
+    position: absolute;
+//    left: ($spacing-unit*-1)+26;
+    right: 10px;
+    bottom: 7px;
+//    bottom: 25px;
+//    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+//    background: lighten(#45b4c2, 30%);
 }
 
 .post-content {
@@ -641,8 +650,8 @@ content {
 #line {
 	opacity: 0.2;
 	color: #000;
-	margin-top: 20px;
-	margin-bottom: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 /**
  * About

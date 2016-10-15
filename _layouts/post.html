@@ -5,13 +5,10 @@ layout: default
 
 <div class="post">
   <div class="post-header">
-		<div>
-			<a class="post-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-			
-      <a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md" target="_blank"><img class="edit-icon" src="/images/png/edit.png"></a>
-
+    <div class="post-title-wrapper">
+    <a class="post-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 		</div>
-		
+		<div class="post-header-meta">
 		<span class="post-meta">{{ page.date | date: "%Y-%m-%d" }} </span> 
 		
 	{% if page.category %}
@@ -19,7 +16,8 @@ layout: default
 		<span class="post-meta"> 
 		<a class="category-link" href="https://madlymissyou.github.io/category.html#{{ post.category }}"> {{ page.category }} </a></span>
 	{% endif %}
-				
+    <a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/{{ page.date | date: "%Y-%m-%d" }}-{{ page.slug }}.md" target="_blank"><img class="edit-icon" src="/images/png/edit.png"></a>
+    </div>
 
 	<!--	 <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} 	-->
 	

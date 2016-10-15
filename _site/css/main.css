@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
 body {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 18px;
-  line-height: 2;
+  line-height: 1.8;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
@@ -345,11 +345,7 @@ content {
   position: relative; }
 
 .post ul {
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.post li {
-  margin-bottom: 5px; }
+  margin-left: 15px; }
 
 .post-header {
   positon: relative; }

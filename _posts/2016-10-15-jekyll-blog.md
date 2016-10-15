@@ -7,12 +7,6 @@ category: Jekyll
 ## Jekyll 블로그 만들기
 
 - Jekyll 설치
-
-> sudo gem install jekyll-import  
-> sudo gem install sequel hpricot  
-> jekyll import wordpressdotcom --source wordpress.xml  
-> /Users/jeongwon/madlymissyou.github.io/_posts/blog.md  
-
 - Github page dependency
   - https://pages.github.com/versions/
 - 로컬 웹서버 가동
@@ -32,19 +26,24 @@ category: Jekyll
   - 예쁘지 않고 불필요해서 뺌
 - google analytics
 - 워드프레스에서 Jekyll로 이전
-> sudo gem install jekyll-import sudo gem install sequel hpricot jekyll import wordpressdotcom –source wordpress.xml
- - http://ohyecloudy.com/pnotes/archives/moving-to-jekyll/
+
+> sudo gem install jekyll-import  
+> sudo gem install sequel hpricot  
+> jekyll import wordpressdotcom --source wordpress.xml  
+> /Users/jeongwon/madlymissyou.github.io/_posts/blog.md  
+
 - [wd2md.py](https://github.com/dreikanter/wp2md
 ) Jekyll 스타일에 맞게 수정
  - 파일이름: Y%%m%d > %Y-%m-%d
- - f.write(‘—‘)
- - f.write(‘layout: post \n —‘)
- -  'post_name', 삭제
- - name = data.get('post_name', '').strip() 수정
- - name = data.get('post_id', '').strip()
- - title은 []로 시작하면 안 된다. 
- - ‘, 가 있으면 안된다. (), &, , 는 된다. 
- - python wp2md.py wordpress.xml 실행
+ 
+> f.write(‘—‘)  
+> f.write(‘layout: post \n —‘)  
+> 'post_name', 삭제  
+> name = data.get('post_name', '').strip() 수정  
+> name = data.get('post_id', '').strip()  
+> title은 []로 시작하면 안 된다.  
+> ‘, 가 있으면 안된다. (), &, , 는 된다.   
+> python wp2md.py wordpress.xml 실행  
 
 
 

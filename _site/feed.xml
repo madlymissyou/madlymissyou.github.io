@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Oct 2016 22:27:31 +0900</pubDate>
-    <lastBuildDate>Sat, 15 Oct 2016 22:27:31 +0900</lastBuildDate>
+    <pubDate>Sat, 15 Oct 2016 22:31:36 +0900</pubDate>
+    <lastBuildDate>Sat, 15 Oct 2016 22:31:36 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -15,16 +15,6 @@
 
 &lt;ul&gt;
   &lt;li&gt;Jekyll 설치&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;sudo gem install jekyll-import&lt;br /&gt;
-sudo gem install sequel hpricot&lt;br /&gt;
-jekyll import wordpressdotcom –source wordpress.xml&lt;br /&gt;
-/Users/jeongwon/madlymissyou.github.io/_posts/blog.md&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
   &lt;li&gt;Github page dependency
     &lt;ul&gt;
       &lt;li&gt;https://pages.github.com/versions/&lt;/li&gt;
@@ -49,23 +39,31 @@ jekyll import wordpressdotcom –source wordpress.xml&lt;br /&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;google analytics&lt;/li&gt;
-  &lt;li&gt;워드프레스에서 Jekyll로 이전
-    &lt;blockquote&gt;
-      &lt;p&gt;sudo gem install jekyll-import sudo gem install sequel hpricot jekyll import wordpressdotcom –source wordpress.xml&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;http://ohyecloudy.com/pnotes/archives/moving-to-jekyll/&lt;/li&gt;
+  &lt;li&gt;워드프레스에서 Jekyll로 이전&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;sudo gem install jekyll-import&lt;br /&gt;
+sudo gem install sequel hpricot&lt;br /&gt;
+jekyll import wordpressdotcom –source wordpress.xml&lt;br /&gt;
+/Users/jeongwon/madlymissyou.github.io/_posts/blog.md&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/dreikanter/wp2md&quot;&gt;wd2md.py&lt;/a&gt; Jekyll 스타일에 맞게 수정&lt;/li&gt;
   &lt;li&gt;파일이름: Y%%m%d &amp;gt; %Y-%m-%d&lt;/li&gt;
-  &lt;li&gt;f.write(‘—‘)&lt;/li&gt;
-  &lt;li&gt;f.write(‘layout: post \n —‘)&lt;/li&gt;
-  &lt;li&gt;‘post_name’, 삭제&lt;/li&gt;
-  &lt;li&gt;name = data.get(‘post_name’, ‘’).strip() 수정&lt;/li&gt;
-  &lt;li&gt;name = data.get(‘post_id’, ‘’).strip()&lt;/li&gt;
-  &lt;li&gt;title은 []로 시작하면 안 된다.&lt;/li&gt;
-  &lt;li&gt;‘, 가 있으면 안된다. (), &amp;amp;, , 는 된다.&lt;/li&gt;
-  &lt;li&gt;python wp2md.py wordpress.xml 실행&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;f.write(‘—‘)&lt;br /&gt;
+f.write(‘layout: post \n —‘)&lt;br /&gt;
+‘post_name’, 삭제&lt;br /&gt;
+name = data.get(‘post_name’, ‘’).strip() 수정&lt;br /&gt;
+name = data.get(‘post_id’, ‘’).strip()&lt;br /&gt;
+title은 []로 시작하면 안 된다.&lt;br /&gt;
+‘, 가 있으면 안된다. (), &amp;amp;, , 는 된다. &lt;br /&gt;
+python wp2md.py wordpress.xml 실행&lt;/p&gt;
+&lt;/blockquote&gt;
 
 </description>
         <pubDate>Sat, 15 Oct 2016 00:00:00 +0900</pubDate>

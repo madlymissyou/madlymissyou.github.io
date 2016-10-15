@@ -5,14 +5,15 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 05:35:59 +0900</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 05:35:59 +0900</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 05:38:34 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 05:38:34 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Jekyll + Github 블로그 구축</title>
         <description>&lt;h3 id=&quot;jekyll&quot;&gt;왜 Jekyll인가?&lt;/h3&gt;
 &lt;p&gt;잘 정리된 글들이 많이 있다.&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.kalkin7.com/2015/07/07/maintain-a-blog-for-a-long-time/&quot;&gt;내 글을 오래 남기기 위한 블로그 선택&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html&quot;&gt;Jekyll 기반의 GitHub Pages에 블로그 만들기&lt;/a&gt;&lt;/li&gt;

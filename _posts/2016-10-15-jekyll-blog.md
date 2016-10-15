@@ -6,6 +6,7 @@ category: Jekyll
 
 ### 왜 Jekyll인가?
 잘 정리된 글들이 많이 있다.
+
 - [내 글을 오래 남기기 위한 블로그 선택](http://blog.kalkin7.com/2015/07/07/maintain-a-blog-for-a-long-time/)
 - [Jekyll 기반의 GitHub Pages에 블로그 만들기](https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html)
 - [WordPress 에서 Jekyll로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)

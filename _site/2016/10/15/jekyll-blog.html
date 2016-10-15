@@ -8,7 +8,7 @@
 
  
   <title>Jekyll + Github 블로그 구축</title>
-  <meta name="description" content="Jekyll 블로그 만들기  왜 Jekyll인가?  Jekyll 이전 사례 경험담          WordPress 에서 Jekyll 로      From Wordpress To Jekyll      [정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로] (h...">
+  <meta name="description" content="Jekyll 블로그 만들기  왜 Jekyll인가?          WordPress 에서 Jekyll 로      From Wordpress To Jekyll                  한량넷 Jekyll 글모음                    정적 웹사이트 생성기의 역습 -...">
 
 
 
@@ -111,41 +111,49 @@
 	</div>
 	<hr id="line">
   <article class="post-content">
-    <h2 id="jekyll--">Jekyll 블로그 만들기</h2>
+    <h3 id="jekyll--">Jekyll 블로그 만들기</h3>
 
 <ul>
-  <li>왜 Jekyll인가?</li>
-  <li>Jekyll 이전 사례 경험담
+  <li>왜 Jekyll인가?
     <ul>
       <li><a href="http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/">WordPress 에서 Jekyll 로</a></li>
-      <li><a href="http://halryang.net/From-Wordpress-To-Jekyll">From Wordpress To Jekyll</a></li>
-      <li>[정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로] (http://blog.nacyot.com/articles/2014-01-15-static-site-generator/)</li>
-      <li><a href="http://halryang.net/search/?tags=jekyll">한량넷 Jekyll 글모음</a></li>
-      <li><a href="http://lawfully.kr/smart/jekyll.html">다 만들고 난 후에 발견한 잘 정리된 글</a></li>
+      <li><a href="http://halryang.net/From-Wordpress-To-Jekyll">From Wordpress To Jekyll</a>
+        <ul>
+          <li><a href="http://halryang.net/search/?tags=jekyll">한량넷 Jekyll 글모음</a></li>
+        </ul>
+      </li>
+      <li><a href="http://blog.nacyot.com/articles/2014-01-15-static-site-generator">정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로</a></li>
+      <li><a href="http://lawfully.kr/smart/jekyll.html">다 만들고 난 후에 발견한 좋은 글</a></li>
     </ul>
   </li>
+</ul>
+
+<h3 id="section">디자인 영감을 받은 사이트</h3>
+<ul>
+  <li><a href="https://spoqa.github.io/index.html">스포카</a>의 제목 폰트</li>
+  <li><a href="https://heelog.github.io/development/">워니님 블로그</a>의 timeline css style</li>
+  <li><a href="http://halryang.net/micro/">잡담 페이지</a></li>
+  <li><a href="http://www.flaticon.com/search?word=github">아이콘을 구한 대박 사이트 Flaticon</a></li>
+</ul>
+
+<h3 id="done-list-----">Done list &amp; 기술적인 도움을 뱓은 사이트</h3>
+<ul>
   <li>Jekyll 설치</li>
   <li>로컬 웹서버 가동</li>
   <li>Guthub page 저장소 생성</li>
   <li>md 파일 Github에 푸쉬하는 스크립트 ./gitpush</li>
   <li>chmod +x gitpush</li>
   <li>웹서버 가동</li>
-  <li>Pithy theme fork &amp; customizing</li>
-  <li>CSS 디자인 영감을 받은 사이트</li>
-  <li><a href="https://spoqa.github.io/index.html">스포카</a>의 제목 폰트</li>
-  <li><a href="https://heelog.github.io/development/">워니님 블로그</a>의 timeline css style</li>
-  <li>[잡담 페이지](http://halryang.net/micro/</li>
-  <li><a href="http://narie.tistory.com/107">웹폰트는 나눔고딕</a></li>
-  <li><a href="http://www.flaticon.com/search?word=github">아이콘을 구한 대박 사이트 Flaticon</a></li>
+  <li><a href="https://github.com/smallmuou/Jekyll-Pithy">Pithy theme</a> fork &amp; customizing</li>
+  <li>[나눔고딕 웹폰트] 적용(http://narie.tistory.com/107)</li>
   <li>readmore 구현</li>
-  <li>favicon</li>
+  <li>파비콘(favicon) 적용</li>
   <li>카테고리 #name tag 바로가기</li>
   <li><a href="http://halryang.net/embed-youtube-responsively/">유튜브 임베딩</a></li>
   <li><a href="https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/">태그</a></li>
-  <li>파머링크</li>
-  <li><a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">Liquid 공부</a></li>
-  <li>pagination</li>
-  <li>v3.3 에서는 Jekyll paginate <a href="https://github.com/jekyll/jekyll/issues/4124">지원 중단</a></li>
+  <li>파머링크 생성</li>
+  <li><a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">Liquid</a> 문법</li>
+  <li>pagination (v3.3 에서는 Jekyll paginate <a href="https://github.com/jekyll/jekyll/issues/4124">지원 중단</a>)</li>
   <li><a href="http://halryang.net/tag-and-archive/">태그 시스템/아카이브 페이지/전체글 목록</a></li>
   <li><a href="https://cse.google.com/cse/all">google 검색창 달기</a></li>
   <li><a href="http://loustler.io/2016/09/26/github_pages_blog_google_analytics/">google analytics</a></li>
@@ -154,18 +162,6 @@
   <li><a href="http://halryang.net/Disable-comments/">댓글 잠금</a></li>
   <li>워드프레스에서 Jekyll로 이전</li>
   <li><a href="https://github.com/dreikanter/wp2md">wd2md.py</a>을 Jekyll 스타일에 맞게 수정</li>
-</ul>
-
-<h4 id="section">포스팅 하기</h4>
-<ul>
-  <li><a href="http://boxersb.github.io/etc/2013/04/03/jekyll-introduction/">rake 를 알게 된 곳</a></li>
-  <li>자동화 매크로 (나는 적용하지 않음)
-    <ul>
-      <li><a href="http://halryang.net/automation-for-jekyll-posting/">http://halryang.net/automation-for-jekyll-posting/</a></li>
-      <li><a href="http://halryang.net/Insert-Image-easily-to-Jekyll-blog/">이미지 삽입 매크로</a></li>
-    </ul>
-  </li>
-  <li>웹기반 마크다운 에디터 <a href="">prose.io</a> 발견</li>
 </ul>
 
 <blockquote>
@@ -179,6 +175,18 @@ title은 []로 시작하면 안 된다.<br />
 ‘,’ 가 있으면 안된다. (), &amp;, , 는 된다. <br />
 python wp2md.py wordpress.xml 실행</p>
 </blockquote>
+
+<h4 id="section-1">포스팅 하기</h4>
+<ul>
+  <li><a href="http://boxersb.github.io/etc/2013/04/03/jekyll-introduction/">rake 를 알게 된 곳</a></li>
+  <li>자동화 매크로 (적용하지 않음)
+    <ul>
+      <li><a href="http://halryang.net/automation-for-jekyll-posting/">http://halryang.net/automation-for-jekyll-posting/</a></li>
+      <li><a href="http://halryang.net/Insert-Image-easily-to-Jekyll-blog/">이미지 삽입 매크로</a></li>
+    </ul>
+  </li>
+  <li>웹기반 마크다운 에디터 <a href="http://prose.io">prose.io</a></li>
+</ul>
 
   </article>
 </div>

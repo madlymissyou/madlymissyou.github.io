@@ -4,38 +4,36 @@ layout: post
 category: Jekyll, Blog
 ---
 
-## Jekyll 블로그 만들기
-
-- 왜 Jekyll인가?
-- Jekyll 이전 사례 경험담
-  - [WordPress 에서 Jekyll 로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
-  - [From Wordpress To Jekyll](http://halryang.net/From-Wordpress-To-Jekyll)
-  - [정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로] (http://blog.nacyot.com/articles/2014-01-15-static-site-generator/)
+### 왜 Jekyll인가?
+- [WordPress 에서 Jekyll 로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
+- [From Wordpress To Jekyll](http://halryang.net/From-Wordpress-To-Jekyll)
   - [한량넷 Jekyll 글모음](http://halryang.net/search/?tags=jekyll)
-  - [다 만들고 난 후에 발견한 잘 정리된 글](http://lawfully.kr/smart/jekyll.html)
+- [정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로](http://blog.nacyot.com/articles/2014-01-15-static-site-generator)
+- [다 만들고 난 후에 발견한 좋은 글](http://lawfully.kr/smart/jekyll.html)
 
+### 디자인 영감을 받은 사이트
+- [스포카](https://spoqa.github.io/index.html)의 제목 폰트
+- [워니님 블로그](https://heelog.github.io/development/)의 timeline css style
+- [잡담 페이지](http://halryang.net/micro/)
+- [아이콘을 구한 대박 사이트 Flaticon](http://www.flaticon.com/search?word=github)
+
+### Done list & 기술적인 도움을 뱓은 사이트
 - Jekyll 설치
 - 로컬 웹서버 가동
 - Guthub page 저장소 생성
 - md 파일 Github에 푸쉬하는 스크립트 ./gitpush
  - chmod +x gitpush
 - 웹서버 가동
-- Pithy theme fork & customizing
-- CSS 디자인 영감을 받은 사이트
- - [스포카](https://spoqa.github.io/index.html)의 제목 폰트
- - [워니님 블로그](https://heelog.github.io/development/)의 timeline css style
- - [잡담 페이지](http://halryang.net/micro/
-- [웹폰트는 나눔고딕](http://narie.tistory.com/107)
-- [아이콘을 구한 대박 사이트 Flaticon](http://www.flaticon.com/search?word=github)
+- [Pithy theme](https://github.com/smallmuou/Jekyll-Pithy) fork & customizing
+- [나눔고딕 웹폰트] 적용(http://narie.tistory.com/107)
 - readmore 구현
-- favicon
+- 파비콘(favicon) 적용
 - 카테고리 #name tag 바로가기
 - [유튜브 임베딩](http://halryang.net/embed-youtube-responsively/)
 - [태그](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)
-- 파머링크
-- [Liquid 공부](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-- pagination
- - v3.3 에서는 Jekyll paginate [지원 중단](https://github.com/jekyll/jekyll/issues/4124)
+- 파머링크 생성
+- [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) 문법
+- pagination (v3.3 에서는 Jekyll paginate [지원 중단](https://github.com/jekyll/jekyll/issues/4124))
 - [태그 시스템/아카이브 페이지/전체글 목록](http://halryang.net/tag-and-archive/)
 - [google 검색창 달기](https://cse.google.com/cse/all)
 - [google analytics](http://loustler.io/2016/09/26/github_pages_blog_google_analytics/)
@@ -44,13 +42,6 @@ category: Jekyll, Blog
 - [댓글 잠금](http://halryang.net/Disable-comments/)
 - 워드프레스에서 Jekyll로 이전
 - [wd2md.py](https://github.com/dreikanter/wp2md)을 Jekyll 스타일에 맞게 수정
-
-#### 포스팅 하기
-- [rake 를 알게 된 곳](http://boxersb.github.io/etc/2013/04/03/jekyll-introduction/)
-- 자동화 매크로 (나는 적용하지 않음)
-  - [http://halryang.net/automation-for-jekyll-posting/](http://halryang.net/automation-for-jekyll-posting/)
-  - [이미지 삽입 매크로](http://halryang.net/Insert-Image-easily-to-Jekyll-blog/)
-- 웹기반 마크다운 에디터 [prose.io]() 발견
 
 > 파일이름: Y%%m%d > %Y-%m-%d
 > f.write(‘—‘)  
@@ -61,3 +52,10 @@ category: Jekyll, Blog
 > title은 []로 시작하면 안 된다.  
 > ‘,' 가 있으면 안된다. (), &, , 는 된다.   
 > python wp2md.py wordpress.xml 실행  
+
+#### 포스팅 하기
+- [rake 를 알게 된 곳](http://boxersb.github.io/etc/2013/04/03/jekyll-introduction/)
+- 자동화 매크로 (적용하지 않음)
+  - [http://halryang.net/automation-for-jekyll-posting/](http://halryang.net/automation-for-jekyll-posting/)
+  - [이미지 삽입 매크로](http://halryang.net/Insert-Image-easily-to-Jekyll-blog/)
+- 웹기반 마크다운 에디터 [prose.io](http://prose.io)

@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 05:29:38 +0900</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 05:29:38 +0900</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 05:35:59 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 05:35:59 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -51,7 +51,7 @@
   &lt;li&gt;&lt;a href=&quot;https://github.com/smallmuou/Jekyll-Pithy&quot;&gt;Pithy theme&lt;/a&gt; fork &amp;amp; customizing&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://narie.tistory.com/107&quot;&gt;나눔고딕 웹폰트 적용&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;readmore 구현&lt;/li&gt;
-  &lt;li&gt;파비콘(favicon) 적용&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://icoconvert.com/&quot;&gt;파비콘(favicon)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/&quot;&gt;마크다운으로 이미지 정렬&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;카테고리 #name tag 바로가기&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://halryang.net/embed-youtube-responsively/&quot;&gt;유튜브 임베딩&lt;/a&gt;&lt;/li&gt;

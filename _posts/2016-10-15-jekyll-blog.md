@@ -33,7 +33,7 @@ category: Jekyll
 - [Pithy theme](https://github.com/smallmuou/Jekyll-Pithy) fork & customizing
 - [나눔고딕 웹폰트 적용](http://narie.tistory.com/107)
 - readmore 구현
-- 파비콘(favicon) 적용
+- [파비콘(favicon)](http://icoconvert.com/)
 - [마크다운으로 이미지 정렬](http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/)
 - 카테고리 #name tag 바로가기
 - [유튜브 임베딩](http://halryang.net/embed-youtube-responsively/)

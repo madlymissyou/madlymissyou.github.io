@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>    
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+ 
+  <title>Jekyll + Github 블로그 구축</title>
+  <meta name="description" content="Jekyll 블로그 만들기  Jekyll 설치  sudo gem install jekyll-importsudo gem install sequel hpricotjekyll import wordpressdotcom –source wordpress.xml/Users/jeongwon/ma...">
+
+
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2016/10/15/jekyll-blog">
+  <link rel="alternate" type="application/atom+xml" title="이정원" href="http://localhost:4000/feed.xml" />
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"/>
+  <script src="/scripts/jquery-1.11.2.min.js"></script>
+  <script src="/scripts/pithy.js"></script>
+</head>
+
+  
+  <body>
+   <header>
+    <div class="wrapper">
+      <header class="header">
+	<div class="header-container">
+		<div class="nav">
+<!--
+			
+				<li>
+					<a href="/index.html">home</a>
+				</li>			
+			
+-->
+			
+				<li>
+					<a href="/archive.html">archive</a>
+				</li>			
+			
+			
+				<li>
+					<a href="/category.html">category</a>
+				</li>			
+			
+<!--
+			
+				<li>
+					<a href="/about.html">about</a>
+				</li>			
+			
+-->
+		</div>
+<!--
+		<div class="site-title">
+			이정원
+		</div>
+-->
+	
+			
+		<div class="blogtitle"> 
+			<a href="/index.html">FORK THE WORLD</a>
+		</div>		
+		
+		
+		
+		
+		<ul class="social-links">
+			<li>
+				<a href="https://github.com/madlymissyou/cv/blob/master/README.md" title="Github">
+					<img width="19px" height="19px" src="/images/png/github.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://facebook.com/madlymissyou" title="Facebook">
+					<img width="19px" height="19px" src="/images/png/facebook-logo.png"/>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/jeongwon.madlymissyou" title="Instagram">
+					<img width="19px" height="19px" src="/images/png/instagram-logo.png"/>
+				</a>
+			</li>
+		</ul>		
+	</div>
+</header>
+
+    </div>
+  </header>
+  <content>
+    <div class="wrapper">
+      <div class="post">
+  <div class="post-header">
+    <div class="post-title-wrapper">
+    <a class="post-title" href="/2016/10/15/jekyll-blog">Jekyll + Github 블로그 구축</a>
+		</div>
+		<div class="post-header-meta">
+		<span class="post-meta">2016-10-15 </span> 
+		
+	
+		<span class="post-meta">|</span>
+		<span class="post-meta"> 
+		<a class="category-link" href="https://madlymissyou.github.io/category.html#"> Jekyll </a></span>
+	
+    <a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/2016-10-15-jekyll-blog.md" target="_blank"><img class="edit-icon" src="/images/png/edit.png"></a>
+    </div>
+
+	<!--	 <p class="post-meta">2016-10-15 	-->
+	
+	</div>
+	<hr id="line">
+  <article class="post-content">
+    <h2 id="jekyll--">Jekyll 블로그 만들기</h2>
+
+<ul>
+  <li>Jekyll 설치</li>
+</ul>
+
+<blockquote>
+  <p>sudo gem install jekyll-import
+sudo gem install sequel hpricot
+jekyll import wordpressdotcom –source wordpress.xml
+/Users/jeongwon/madlymissyou.github.io/_posts/blog.md</p>
+</blockquote>
+
+<ul>
+  <li>Github page dependency
+    <ul>
+      <li>https://pages.github.com/versions/</li>
+    </ul>
+  </li>
+  <li>로컬 웹서버 가동</li>
+  <li>Guthub page 저장소 생성</li>
+  <li>md 파일 Github에 푸쉬하는 스크립트 ./gitpush</li>
+  <li>chmod +x gitpush</li>
+  <li>웹서버 가동</li>
+  <li>Pithy theme fork &amp; customizing</li>
+  <li>prose.io 발견</li>
+  <li>readmore 구현</li>
+  <li>favicon</li>
+  <li>카테고리 #name tag 바로가기</li>
+  <li>pagination</li>
+  <li><a href="http://halryang.net/tag-and-archive/">태그 시스템/아카이브 페이지/전체글 목록</a></li>
+  <li>https://lky88.github.io/jekyll-pagination/ 이게 좋았지만, v3.3 에서는 Jekyll paginate 지원 중단</li>
+  <li>google search
+    <ul>
+      <li>예쁘지 않고 불필요해서 뺌</li>
+    </ul>
+  </li>
+  <li>google analytics</li>
+  <li>워드프레스에서 Jekyll로 이전
+    <blockquote>
+      <p>sudo gem install jekyll-import sudo gem install sequel hpricot jekyll import wordpressdotcom –source wordpress.xml</p>
+    </blockquote>
+  </li>
+  <li>http://ohyecloudy.com/pnotes/archives/moving-to-jekyll/</li>
+  <li><a href="https://github.com/dreikanter/wp2md">wd2md.py</a> Jekyll 스타일에 맞게 수정</li>
+  <li>파일이름: Y%%m%d &gt; %Y-%m-%d</li>
+  <li>f.write(‘—‘)</li>
+  <li>f.write(‘layout: post \n —‘)</li>
+  <li>
+    <h1 id="postname-">‘post_name’, 삭제</h1>
+  </li>
+  <li>
+    <h1 id="name--datagetpostname-strip-">name = data.get(‘post_name’, ‘’).strip() 살제</h1>
+  </li>
+  <li>name = data.get(‘post_id’, ‘’).strip()</li>
+  <li>title은 []로 시작하면 안 된다.</li>
+  <li>‘, 가 있으면 안된다. (), &amp;, , 는 된다.</li>
+  <li>python wp2md.py wordpress.xml 실행</li>
+</ul>
+
+
+  </article>
+</div>
+
+    </div>
+  </content>
+    
+  <footer class="footer">
+
+  
+<!--  @2016 Jeongwon LEE-->
+<!--
+	@2016 modified Pithy Theme by Pawpaw.
+	<a href="/archive.html">archive</a>
+ <a href="/category.html">category</a>
+-->
+  <div id="gotop">top</div>
+</footer>
+
+    
+  </body>
+
+</html>

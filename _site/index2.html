@@ -96,8 +96,8 @@
      
       <li>
 				<div class="post-title-wrapper">
-					<a class="post-title-link" href="/2016/10/15/your-filename">test</a>
-					<a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/2016-10-15-your-filename.md" target="_blank">edit</a>
+					<a class="post-title-link" href="/2016/10/15/jekyll-blog">Jekyll + Github 블로그 구축</a>
+					<a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/2016-10-15-jekyll-blog.md" target="_blank">edit</a>
 				</div>
       	
       	
@@ -107,7 +107,7 @@
 				
 					<span class="post-meta">|</span>
 					<span class="post-meta"> 
-					<a class="category-link" href="https://madlymissyou.github.io/category.html#test"> test </a></span>
+					<a class="category-link" href="https://madlymissyou.github.io/category.html#Jekyll"> Jekyll </a></span>
 				
 
 
@@ -119,41 +119,66 @@
         
 <!--
 				<div class="post-abstract">
-				<h2 id="a-new-post">A New Post</h2>
+				<h2 id="jekyll--">Jekyll 블로그 만들기</h2>
 
-<p>Enter text in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</p>
+<ul>
+  <li>Jekyll 설치</li>
+</ul>
 
-				
-				
+<blockquote>
+  <p>sudo gem install jekyll-import
+sudo gem install sequel hpricot
+jekyll import wordpressdotcom –source wordpress.xml
+/Users/jeongwon/madlymissyou.github.io/_posts/blog.md</p>
+</blockquote>
 
-				</div>
--->
-				<br>
-      </li>
-    
-     
-      <li>
-				<div class="post-title-wrapper">
-					<a class="post-title-link" href="/2016/10/15/plz">plz</a>
-					<a class="post-edit"  href="http://prose.io/#madlymissyou/madlymissyou.github.io/edit/master/_posts/2016-10-15-plz.md" target="_blank">edit</a>
-				</div>
-      	
-      	
-       	<div class="article-header">
-					<span class="post-meta">2016-10-15 </span> 
-					
-				
+<ul>
+  <li>Github page dependency
+    <ul>
+      <li>https://pages.github.com/versions/</li>
+    </ul>
+  </li>
+  <li>로컬 웹서버 가동</li>
+  <li>Guthub page 저장소 생성</li>
+  <li>md 파일 Github에 푸쉬하는 스크립트 ./gitpush</li>
+  <li>chmod +x gitpush</li>
+  <li>웹서버 가동</li>
+  <li>Pithy theme fork &amp; customizing</li>
+  <li>prose.io 발견</li>
+  <li>readmore 구현</li>
+  <li>favicon</li>
+  <li>카테고리 #name tag 바로가기</li>
+  <li>pagination</li>
+  <li><a href="http://halryang.net/tag-and-archive/">태그 시스템/아카이브 페이지/전체글 목록</a></li>
+  <li>https://lky88.github.io/jekyll-pagination/ 이게 좋았지만, v3.3 에서는 Jekyll paginate 지원 중단</li>
+  <li>google search
+    <ul>
+      <li>예쁘지 않고 불필요해서 뺌</li>
+    </ul>
+  </li>
+  <li>google analytics</li>
+  <li>워드프레스에서 Jekyll로 이전
+    <blockquote>
+      <p>sudo gem install jekyll-import sudo gem install sequel hpricot jekyll import wordpressdotcom –source wordpress.xml</p>
+    </blockquote>
+  </li>
+  <li>http://ohyecloudy.com/pnotes/archives/moving-to-jekyll/</li>
+  <li><a href="https://github.com/dreikanter/wp2md">wd2md.py</a> Jekyll 스타일에 맞게 수정</li>
+  <li>파일이름: Y%%m%d &gt; %Y-%m-%d</li>
+  <li>f.write(‘—‘)</li>
+  <li>f.write(‘layout: post \n —‘)</li>
+  <li>
+    <h1 id="postname-">‘post_name’, 삭제</h1>
+  </li>
+  <li>
+    <h1 id="name--datagetpostname-strip-">name = data.get(‘post_name’, ‘’).strip() 살제</h1>
+  </li>
+  <li>name = data.get(‘post_id’, ‘’).strip()</li>
+  <li>title은 []로 시작하면 안 된다.</li>
+  <li>‘, 가 있으면 안된다. (), &amp;, , 는 된다.</li>
+  <li>python wp2md.py wordpress.xml 실행</li>
+</ul>
 
-
-
-        
-				</div>
-				
-<!--        <hr id="line">-->
-        
-<!--
-				<div class="post-abstract">
-				<p>이거 되면 진짜 좋은데</p>
 
 				
 				

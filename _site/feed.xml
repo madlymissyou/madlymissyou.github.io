@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 05:11:45 +0900</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 05:11:45 +0900</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 05:15:45 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 05:15:45 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -26,7 +26,6 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.nacyot.com/articles/2014-01-15-static-site-generator&quot;&gt;정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://lawfully.kr/smart/jekyll.html&quot;&gt;다 만들고 난 후에 발견한 좋은 글&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;section&quot;&gt;디자인 영감을 받은 사이트&lt;/h3&gt;
@@ -50,7 +49,7 @@
   &lt;li&gt;chmod +x gitpush&lt;/li&gt;
   &lt;li&gt;웹서버 가동&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/smallmuou/Jekyll-Pithy&quot;&gt;Pithy theme&lt;/a&gt; fork &amp;amp; customizing&lt;/li&gt;
-  &lt;li&gt;[나눔고딕 웹폰트] 적용(http://narie.tistory.com/107)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://narie.tistory.com/107&quot;&gt;나눔고딕 웹폰트 적용&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;readmore 구현&lt;/li&gt;
   &lt;li&gt;파비콘(favicon) 적용&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/&quot;&gt;마크다운으로 이미지 정렬&lt;/a&gt;&lt;/li&gt;

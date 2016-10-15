@@ -344,6 +344,16 @@ content {
   margin-top: 20px;
   position: relative; }
 
+.post img.left {
+  float: left; }
+
+.post img.right {
+  float: right; }
+
+.post img.center {
+  display: block;
+  margin: 0 auto; }
+
 .post ul {
   margin-left: 15px; }
 

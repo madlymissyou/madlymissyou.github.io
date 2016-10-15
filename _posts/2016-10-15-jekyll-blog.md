@@ -1,7 +1,8 @@
 ---
 title: Jekyll + Github 블로그 구축
 layout: post
-category: Jekyll, Blog
+category: 'Jekyll, Blog'
+published: true
 ---
 
 ### 왜 Jekyll인가?
@@ -59,3 +60,5 @@ category: Jekyll, Blog
   - [http://halryang.net/automation-for-jekyll-posting/](http://halryang.net/automation-for-jekyll-posting/)
   - [이미지 삽입 매크로](http://halryang.net/Insert-Image-easily-to-Jekyll-blog/)
 - 웹기반 마크다운 에디터 [prose.io](http://prose.io)
+
+  

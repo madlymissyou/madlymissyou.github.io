@@ -478,12 +478,6 @@ content {
 //.post img.alignright {float:right}
 //.post img.aligncenter {display:block;margin:0 auto}
 
-.post img {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  display:block;
-  margin:0 auto;
-}
 
 .post ul {
 //  margin-top: 15px;
@@ -500,9 +494,10 @@ content {
 }
 
 .post-title-wrapper {
-  margin-top: 50px;
+  padding-top: 30px;
 }
 .post-title {
+
 	font-size: 30px;
 	font-weight: 100;
   line-height: 1.2em;
@@ -536,6 +531,13 @@ content {
 
 .post-content p {
 	font-size: 18px;
+}
+
+.post-content img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display:block;
+  margin:0 auto;
 }
 
 
@@ -663,7 +665,7 @@ content {
 	opacity: 0.2;
 	color: #000;
 	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 /**
  * About

@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Oct 2016 22:36:22 +0900</pubDate>
-    <lastBuildDate>Sat, 15 Oct 2016 22:36:22 +0900</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 03:03:06 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 03:03:06 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -14,6 +14,16 @@
         <description>&lt;h2 id=&quot;jekyll--&quot;&gt;Jekyll 블로그 만들기&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;왜 Jekyll인가?&lt;/li&gt;
+  &lt;li&gt;Jekyll 이전 사례 경험담
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/&quot;&gt;WordPress 에서 Jekyll 로&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://halryang.net/From-Wordpress-To-Jekyll&quot;&gt;From Wordpress To Jekyll&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;[정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로] (http://blog.nacyot.com/articles/2014-01-15-static-site-generator/)&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://halryang.net/search/?tags=jekyll&quot;&gt;한량넷 Jekyll 글모음&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://lawfully.kr/smart/jekyll.html&quot;&gt;다 만들고 난 후에 발견한 잘 정리된 글&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Jekyll 설치&lt;/li&gt;
   &lt;li&gt;로컬 웹서버 가동&lt;/li&gt;
   &lt;li&gt;Guthub page 저장소 생성&lt;/li&gt;
@@ -21,28 +31,41 @@
   &lt;li&gt;chmod +x gitpush&lt;/li&gt;
   &lt;li&gt;웹서버 가동&lt;/li&gt;
   &lt;li&gt;Pithy theme fork &amp;amp; customizing&lt;/li&gt;
-  &lt;li&gt;prose.io 발견&lt;/li&gt;
+  &lt;li&gt;CSS 디자인 영감을 받은 사이트&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://spoqa.github.io/index.html&quot;&gt;스포카&lt;/a&gt;의 제목 폰트&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://heelog.github.io/development/&quot;&gt;워니님 블로그&lt;/a&gt;의 timeline css style&lt;/li&gt;
+  &lt;li&gt;[잡담 페이지](http://halryang.net/micro/&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://narie.tistory.com/107&quot;&gt;웹폰트는 나눔고딕&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.flaticon.com/search?word=github&quot;&gt;아이콘을 구한 대박 사이트 Flaticon&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;readmore 구현&lt;/li&gt;
   &lt;li&gt;favicon&lt;/li&gt;
   &lt;li&gt;카테고리 #name tag 바로가기&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://halryang.net/embed-youtube-responsively/&quot;&gt;유튜브 임베딩&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/&quot;&gt;태그&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;파머링크&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid 공부&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;pagination&lt;/li&gt;
-  &lt;li&gt;v3.3 에서는 Jekyll paginate 지원 중단&lt;/li&gt;
+  &lt;li&gt;v3.3 에서는 Jekyll paginate &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/4124&quot;&gt;지원 중단&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://halryang.net/tag-and-archive/&quot;&gt;태그 시스템/아카이브 페이지/전체글 목록&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;google search&lt;/li&gt;
-  &lt;li&gt;google analytics&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cse.google.com/cse/all&quot;&gt;google 검색창 달기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://loustler.io/2016/09/26/github_pages_blog_google_analytics/&quot;&gt;google analytics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cinos81.bitbucket.org/blog/_site/jekyll/2016/01/23/addRobotTxt.html&quot;&gt;구글 검색에 노출하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/appkr/blog/blob/master/_posts/2016-02-13-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%9D%B4%EC%A0%84-5-disqus-facebook.md&quot;&gt;댓글&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://halryang.net/Disable-comments/&quot;&gt;댓글 잠금&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;워드프레스에서 Jekyll로 이전&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/dreikanter/wp2md&quot;&gt;wd2md.py&lt;/a&gt;을 Jekyll 스타일에 맞게 수정&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;sudo gem install jekyll-import&lt;br /&gt;
-sudo gem install sequel hpricot&lt;br /&gt;
-jekyll import wordpressdotcom –source wordpress.xml&lt;br /&gt;
-/Users/jeongwon/madlymissyou.github.io/_posts/blog.md&lt;/p&gt;
-&lt;/blockquote&gt;
-
+&lt;h4 id=&quot;section&quot;&gt;포스팅 하기&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;[wd2md.py](https://github.com/dreikanter/wp2md&lt;/li&gt;
-  &lt;li&gt;Jekyll 스타일에 맞게 수정&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://boxersb.github.io/etc/2013/04/03/jekyll-introduction/&quot;&gt;rake 를 알게 된 곳&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;자동화 매크로 (나는 적용하지 않음)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://halryang.net/automation-for-jekyll-posting/&quot;&gt;http://halryang.net/automation-for-jekyll-posting/&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://halryang.net/Insert-Image-easily-to-Jekyll-blog/&quot;&gt;이미지 삽입 매크로&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;웹기반 마크다운 에디터 &lt;a href=&quot;&quot;&gt;prose.io&lt;/a&gt; 발견&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
@@ -56,7 +79,6 @@ title은 []로 시작하면 안 된다.&lt;br /&gt;
 ‘,’ 가 있으면 안된다. (), &amp;amp;, , 는 된다. &lt;br /&gt;
 python wp2md.py wordpress.xml 실행&lt;/p&gt;
 &lt;/blockquote&gt;
-
 </description>
         <pubDate>Sat, 15 Oct 2016 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/2016/10/15/jekyll-blog</link>

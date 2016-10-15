@@ -159,12 +159,8 @@ jekyll import wordpressdotcom –source wordpress.xml
   <li>파일이름: Y%%m%d &gt; %Y-%m-%d</li>
   <li>f.write(‘—‘)</li>
   <li>f.write(‘layout: post \n —‘)</li>
-  <li>
-    <h1 id="postname-">‘post_name’, 삭제</h1>
-  </li>
-  <li>
-    <h1 id="name--datagetpostname-strip-">name = data.get(‘post_name’, ‘’).strip() 살제</h1>
-  </li>
+  <li>‘post_name’, 삭제</li>
+  <li>name = data.get(‘post_name’, ‘’).strip() 수정</li>
   <li>name = data.get(‘post_id’, ‘’).strip()</li>
   <li>title은 []로 시작하면 안 된다.</li>
   <li>‘, 가 있으면 안된다. (), &amp;, , 는 된다.</li>

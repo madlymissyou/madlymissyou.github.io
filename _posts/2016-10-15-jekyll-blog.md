@@ -53,7 +53,7 @@ category: Jekyll, Blog
 > ‘,' 가 있으면 안된다. (), &, , 는 된다.   
 > python wp2md.py wordpress.xml 실행  
 
-#### 포스팅 하기
+### 포스팅 하기
 - [rake 를 알게 된 곳](http://boxersb.github.io/etc/2013/04/03/jekyll-introduction/)
 - 자동화 매크로 (적용하지 않음)
   - [http://halryang.net/automation-for-jekyll-posting/](http://halryang.net/automation-for-jekyll-posting/)

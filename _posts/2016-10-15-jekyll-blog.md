@@ -17,7 +17,7 @@ category: Jekyll, Blog
 - [잡담 페이지](http://halryang.net/micro/)
 - [아이콘을 구한 대박 사이트 Flaticon](http://www.flaticon.com/search?word=github)
 
-### Done list & 기술적인 도움을 뱓은 사이트
+### Done list & 기술적인 도움을 받은 사이트
 - Jekyll 설치
 - 로컬 웹서버 가동
 - Guthub page 저장소 생성

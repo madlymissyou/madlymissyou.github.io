@@ -2,11 +2,10 @@
 title: Jekyll + Github 블로그 구축
 layout: post
 category: Jekyll
-published: true
 ---
 
 ### 왜 Jekyll인가?
-- [WordPress 에서 Jekyll 로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
+- [WordPress 에서 Jekyll로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
 - [From Wordpress To Jekyll](http://halryang.net/From-Wordpress-To-Jekyll)
   - [한량넷 Jekyll 글모음](http://halryang.net/search/?tags=jekyll)
 - [정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로](http://blog.nacyot.com/articles/2014-01-15-static-site-generator)

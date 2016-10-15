@@ -1,7 +1,7 @@
 ---
 title: Jekyll + Github 블로그 구축
 layout: post
-category: Jekyll
+category: Jekyll, Blog
 ---
 
 ## Jekyll 블로그 만들기

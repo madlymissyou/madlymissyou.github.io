@@ -1,11 +1,11 @@
 ---
 title: Jekyll + Github 블로그 구축
 layout: post
-category: 'Jekyll, Blog'
+category: Jekyll
 published: true
 ---
 
-# 왜 Jekyll인가?
+### 왜 Jekyll인가?
 - [WordPress 에서 Jekyll 로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
 - [From Wordpress To Jekyll](http://halryang.net/From-Wordpress-To-Jekyll)
   - [한량넷 Jekyll 글모음](http://halryang.net/search/?tags=jekyll)

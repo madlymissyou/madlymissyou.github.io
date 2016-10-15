@@ -15,6 +15,7 @@ category: Jekyll
   - [한량넷 Jekyll 글모음](http://halryang.net/search/?tags=jekyll)
 - [정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로](http://blog.nacyot.com/articles/2014-01-15-static-site-generator)
 - [다 만들고 난 후에 발견한 좋은 글](http://lawfully.kr/smart/jekyll.html)
+- https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0
 
 ### 디자인 영감을 받은 사이트
 - [스포카](https://spoqa.github.io/index.html)의 제목 폰트
@@ -24,6 +25,7 @@ category: Jekyll
 
 ### Done list & 기술적인 도움을 받은 사이트
 - [Jekyll 설치](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
+  - [Jekyll로 Github Pages 사용하기](https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 - 로컬 웹서버 가동
 - Guthub page 저장소 생성
 - md 파일 Github에 푸쉬하는 스크립트 ./gitpush

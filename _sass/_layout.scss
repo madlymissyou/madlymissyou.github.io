@@ -319,6 +319,30 @@ content {
 	background-color: #ebebeb;
 }
 
+.new-icon {
+    position: absolute;
+//    left: ($spacing-unit*-1)+26;
+    right:20PX;
+    top: 20px;
+//    border-radius: 10px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+//    background: lighten(#45b4c2, 30%);
+}
+
+.edit-icon {
+    position: absolute;
+//    left: ($spacing-unit*-1)+26;
+    right: 10px;
+    bottom: 10px;
+//    border-radius: 10px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+//    background: lighten(#45b4c2, 30%);
+}
+
 .timeline .dot-on-line {
     position: absolute;
     left: ($spacing-unit*-1)+12;
@@ -453,6 +477,7 @@ content {
 //	margin-left: $spacing-unit/2;
 //	margin-right: $spacing-unit/2;
   margin-top: 20px;
+  position: relative;
 }
 
 .post ul {
@@ -462,6 +487,10 @@ content {
 
 .post li {
   margin-bottom: 5px;;
+}
+
+.post-header {
+  positon: relative;
 }
 .post-title {
 	font-size: 30px;

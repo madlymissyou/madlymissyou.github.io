@@ -228,6 +228,22 @@ content {
   width: 4px;
   background-color: #ebebeb; }
 
+.new-icon {
+  position: absolute;
+  right: 20PX;
+  top: 20px;
+  width: 24px;
+  height: 24px;
+  opacity: 0.5; }
+
+.edit-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 24px;
+  height: 24px;
+  opacity: 0.5; }
+
 .timeline .dot-on-line {
   position: absolute;
   left: -18px;
@@ -328,7 +344,8 @@ content {
 /* POST.html */
 /*************/
 .post {
-  margin-top: 20px; }
+  margin-top: 20px;
+  position: relative; }
 
 .post ul {
   margin-top: 15px;
@@ -336,6 +353,9 @@ content {
 
 .post li {
   margin-bottom: 5px; }
+
+.post-header {
+  positon: relative; }
 
 .post-title {
   font-size: 30px;

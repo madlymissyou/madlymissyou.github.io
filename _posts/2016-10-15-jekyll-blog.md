@@ -42,7 +42,7 @@ category: Jekyll
 > name = data.get('post_name', '').strip() 수정  
 > name = data.get('post_id', '').strip()  
 > title은 []로 시작하면 안 된다.  
-> ‘, 가 있으면 안된다. (), &, , 는 된다.   
+> ‘,' 가 있으면 안된다. (), &, , 는 된다.   
 > python wp2md.py wordpress.xml 실행  
 
 

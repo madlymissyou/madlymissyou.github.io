@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Oct 2016 22:31:36 +0900</pubDate>
-    <lastBuildDate>Sat, 15 Oct 2016 22:31:36 +0900</lastBuildDate>
+    <pubDate>Sat, 15 Oct 2016 22:32:37 +0900</pubDate>
+    <lastBuildDate>Sat, 15 Oct 2016 22:32:37 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -61,7 +61,7 @@ f.write(‘layout: post \n —‘)&lt;br /&gt;
 name = data.get(‘post_name’, ‘’).strip() 수정&lt;br /&gt;
 name = data.get(‘post_id’, ‘’).strip()&lt;br /&gt;
 title은 []로 시작하면 안 된다.&lt;br /&gt;
-‘, 가 있으면 안된다. (), &amp;amp;, , 는 된다. &lt;br /&gt;
+‘,’ 가 있으면 안된다. (), &amp;amp;, , 는 된다. &lt;br /&gt;
 python wp2md.py wordpress.xml 실행&lt;/p&gt;
 &lt;/blockquote&gt;
 

@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 15 Oct 2016 22:25:34 +0900</pubDate>
-    <lastBuildDate>Sat, 15 Oct 2016 22:25:34 +0900</lastBuildDate>
+    <pubDate>Sat, 15 Oct 2016 22:26:18 +0900</pubDate>
+    <lastBuildDate>Sat, 15 Oct 2016 22:26:18 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -16,9 +16,9 @@
 &lt;ul&gt;
   &lt;li&gt;Jekyll 설치
     &lt;blockquote&gt;
-      &lt;p&gt;sudo gem install jekyll-import
-sudo gem install sequel hpricot
-jekyll import wordpressdotcom –source wordpress.xml
+      &lt;p&gt;sudo gem install jekyll-import&lt;br /&gt;
+sudo gem install sequel hpricot&lt;br /&gt;
+jekyll import wordpressdotcom –source wordpress.xml&lt;br /&gt;
 /Users/jeongwon/madlymissyou.github.io/_posts/blog.md&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;

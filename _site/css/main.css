@@ -386,6 +386,12 @@ content {
   display: block;
   margin: 0 auto; }
 
+.post .post-footer {
+  position: relative;
+  font-size: 15.75px;
+  text-align: center;
+  color: #666; }
+
 .article-header {
   background-color: #FFF; }
 
@@ -485,7 +491,7 @@ content {
  */
 .footer {
   position: relative;
-  font-size: 12px;
+  font-size: 15.75px;
   text-align: center;
   color: #666; }
 

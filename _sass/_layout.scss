@@ -540,6 +540,12 @@ content {
   margin:0 auto;
 }
 
+.post .post-footer {
+		position: relative;
+    font-size: $small-font-size;
+    text-align: center;
+		color: #666;
+}
 
 .article-header {
 	background-color: #FFF;
@@ -635,6 +641,7 @@ content {
 
 
 
+
 .readmore-box {
 	margin-top: 30px;
 	text-align: center; 
@@ -679,7 +686,7 @@ content {
  */
 .footer {
 		position: relative;
-    font-size: 12px;
+    font-size: $small-font-size;
     text-align: center;
 		color: #666;
 }

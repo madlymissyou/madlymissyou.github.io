@@ -7,8 +7,6 @@ category: Jekyll
 ## Jekyll 블로그 만들기
 
 - Jekyll 설치
-- Github page dependency
-  - https://pages.github.com/versions/
 - 로컬 웹서버 가동
 - Guthub page 저장소 생성
 - md 파일 Github에 푸쉬하는 스크립트 ./gitpush
@@ -20,10 +18,9 @@ category: Jekyll
 - favicon 
 - 카테고리 #name tag 바로가기
 - pagination
+ - v3.3 에서는 Jekyll paginate 지원 중단
 - [태그 시스템/아카이브 페이지/전체글 목록](http://halryang.net/tag-and-archive/)
- - https://lky88.github.io/jekyll-pagination/ 이게 좋았지만, v3.3 에서는 Jekyll paginate 지원 중단
 - google search
-  - 예쁘지 않고 불필요해서 뺌
 - google analytics
 - 워드프레스에서 Jekyll로 이전
 

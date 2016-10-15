@@ -344,13 +344,13 @@ content {
   margin-top: 20px;
   position: relative; }
 
-.post img.left {
+.post img.alignleft {
   float: left; }
 
-.post img.right {
+.post img.alignright {
   float: right; }
 
-.post img.center {
+.post img.aligncenter {
   display: block;
   margin: 0 auto; }
 

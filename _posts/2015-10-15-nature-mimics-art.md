@@ -12,7 +12,7 @@ category: 과학과 예술
 
 회화에서 빈 모더니즘은 구스타프 클림트, 오스카어 코코슈카, 에곤 실레로 대표된다. 이들은 기존의 주류 예술 양식과 결별을 선언하며 빈 분리파를 결성하였고, 파리의 모더니즘 경향과 발맞추어 표현주의 작품으로 새로운 시대를 열었다. 『통찰의 시대』의 저자 에릭 캔델은 이들 세 화가와 더불어 프로이트, 극작가 아르투어 슈니츨러를 ‘통찰의 시대’의 주인공으로 캐스팅했다.
 
-![통찰의 시대](https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/AznPrkbzs9l9D9RGMOeqoG_JXCA) {.center}
+![통찰의 시대](https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/AznPrkbzs9l9D9RGMOeqoG_JXCA){.aligncenter}
 
 <img  src="https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/AznPrkbzs9l9D9RGMOeqoG_JXCA">
 

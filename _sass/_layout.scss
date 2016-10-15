@@ -474,9 +474,9 @@ content {
   position: relative;
 }
 
-.post img.left{float:left}
-.post img.right{float:right}
-.post img.center{display:block;margin:0 auto}
+.post img.alignleft {float:left}
+.post img.alignright {float:right}
+.post img.aligncenter {display:block;margin:0 auto}
 
 .post ul {
 //  margin-top: 15px;

@@ -39,8 +39,8 @@ jekyll import wordpressdotcom --source wordpress.xml
  - 파일이름: Y%%m%d > %Y-%m-%d
  - f.write(‘—‘)
  - f.write(‘layout: post \n —‘)
- - #  'post_name', 삭제
- - # name = data.get('post_name', '').strip() 살제
+ -  'post_name', 삭제
+ - name = data.get('post_name', '').strip() 수정
  - name = data.get('post_id', '').strip()
  - title은 []로 시작하면 안 된다. 
  - ‘, 가 있으면 안된다. (), &, , 는 된다. 

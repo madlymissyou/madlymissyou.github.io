@@ -30,9 +30,9 @@ category: Jekyll, Blog
 > /Users/jeongwon/madlymissyou.github.io/_posts/blog.md  
 
 - [wd2md.py](https://github.com/dreikanter/wp2md
-) Jekyll 스타일에 맞게 수정
- - 파일이름: Y%%m%d > %Y-%m-%d
- 
+- Jekyll 스타일에 맞게 수정
+
+> 파일이름: Y%%m%d > %Y-%m-%d
 > f.write(‘—‘)  
 > f.write(‘layout: post \n —‘)  
 > 'post_name', 삭제  

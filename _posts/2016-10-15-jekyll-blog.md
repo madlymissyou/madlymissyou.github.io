@@ -7,10 +7,10 @@ category: Jekyll
 ## Jekyll 블로그 만들기
 
 - Jekyll 설치
-> sudo gem install jekyll-import
-> sudo gem install sequel hpricot
-> jekyll import wordpressdotcom --source wordpress.xml
-> /Users/jeongwon/madlymissyou.github.io/_posts/blog.md
+> sudo gem install jekyll-import  
+> sudo gem install sequel hpricot  
+> jekyll import wordpressdotcom --source wordpress.xml  
+> /Users/jeongwon/madlymissyou.github.io/_posts/blog.md  
 - Github page dependency
   - https://pages.github.com/versions/
 - 로컬 웹서버 가동

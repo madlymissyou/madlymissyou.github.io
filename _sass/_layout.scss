@@ -474,9 +474,16 @@ content {
   position: relative;
 }
 
-.post img.alignleft {float:left}
-.post img.alignright {float:right}
-.post img.aligncenter {display:block;margin:0 auto}
+//.post img.alignleft {float:left}
+//.post img.alignright {float:right}
+//.post img.aligncenter {display:block;margin:0 auto}
+
+.post img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display:block;
+  margin:0 auto;
+}
 
 .post ul {
 //  margin-top: 15px;
@@ -493,7 +500,7 @@ content {
 }
 
 .post-title-wrapper {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .post-title {
 	font-size: 30px;

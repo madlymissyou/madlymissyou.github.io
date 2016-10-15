@@ -344,13 +344,9 @@ content {
   margin-top: 20px;
   position: relative; }
 
-.post img.alignleft {
-  float: left; }
-
-.post img.alignright {
-  float: right; }
-
-.post img.aligncenter {
+.post img {
+  margin-top: 15px;
+  margin-bottom: 15px;
   display: block;
   margin: 0 auto; }
 
@@ -361,7 +357,7 @@ content {
   positon: relative; }
 
 .post-title-wrapper {
-  margin-top: 30px; }
+  margin-top: 50px; }
 
 .post-title {
   font-size: 30px;

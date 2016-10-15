@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 03:46:30 +0900</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 03:46:30 +0900</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 03:51:01 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 03:51:01 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -43,6 +43,7 @@
   &lt;li&gt;[나눔고딕 웹폰트] 적용(http://narie.tistory.com/107)&lt;/li&gt;
   &lt;li&gt;readmore 구현&lt;/li&gt;
   &lt;li&gt;파비콘(favicon) 적용&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/&quot;&gt;마크다운으로 이미지 정렬&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;카테고리 #name tag 바로가기&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://halryang.net/embed-youtube-responsively/&quot;&gt;유튜브 임베딩&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/&quot;&gt;태그&lt;/a&gt;&lt;/li&gt;
@@ -82,7 +83,6 @@ python wp2md.py wordpress.xml 실행&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;웹기반 마크다운 에디터 &lt;a href=&quot;http://prose.io&quot;&gt;prose.io&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Sat, 15 Oct 2016 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/2016/10/15/jekyll-blog</link>
@@ -313,9 +313,7 @@ python wp2md.py wordpress.xml 실행&lt;/p&gt;
 
 &lt;p&gt;회화에서 빈 모더니즘은 구스타프 클림트, 오스카어 코코슈카, 에곤 실레로 대표된다. 이들은 기존의 주류 예술 양식과 결별을 선언하며 빈 분리파를 결성하였고, 파리의 모더니즘 경향과 발맞추어 표현주의 작품으로 새로운 시대를 열었다. 『통찰의 시대』의 저자 에릭 캔델은 이들 세 화가와 더불어 프로이트, 극작가 아르투어 슈니츨러를 ‘통찰의 시대’의 주인공으로 캐스팅했다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/AznPrkbzs9l9D9RGMOeqoG_JXCA&quot; alt=&quot;통찰의 시대&quot; /&gt; {.aligncenter}&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/AznPrkbzs9l9D9RGMOeqoG_JXCA&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/AznPrkbzs9l9D9RGMOeqoG_JXCA&quot; alt=&quot;통찰의 시대&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;합리주의와 실재론을 벗어던지고&lt;/h3&gt;
 &lt;p&gt;19세기 이전에는 합리주의자들의 독무대였다. 합리주의자들은 이성을 중시하고 감성은 무시했다. 합리주의와 경험주의를 통합하려 했던 18세기 철학자 이마누엘 칸트도 “도덕적 판단에 있어서 감성은 배제하고 이성을 활용해야 한다”고 했다.&lt;/p&gt;

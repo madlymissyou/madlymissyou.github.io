@@ -29,6 +29,7 @@ published: true
 - [나눔고딕 웹폰트] 적용(http://narie.tistory.com/107)
 - readmore 구현
 - 파비콘(favicon) 적용
+- [마크다운으로 이미지 정렬](http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/)
 - 카테고리 #name tag 바로가기
 - [유튜브 임베딩](http://halryang.net/embed-youtube-responsively/)
 - [태그](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)
@@ -60,5 +61,3 @@ published: true
   - [http://halryang.net/automation-for-jekyll-posting/](http://halryang.net/automation-for-jekyll-posting/)
   - [이미지 삽입 매크로](http://halryang.net/Insert-Image-easily-to-Jekyll-blog/)
 - 웹기반 마크다운 에디터 [prose.io](http://prose.io)
-
-  

@@ -228,13 +228,18 @@ content {
   width: 4px;
   background-color: #ebebeb; }
 
+.new-text {
+  positon: absolute;
+  right: 15px;
+  top: 25px; }
+
 .new-icon {
   position: absolute;
-  right: 20PX;
-  top: 20px;
+  right: 15px;
+  top: 25px;
   width: 24px;
   height: 24px;
-  opacity: 0.5; }
+  opacity: 0.1; }
 
 .edit-icon {
   position: absolute;

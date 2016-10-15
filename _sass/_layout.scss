@@ -319,15 +319,21 @@ content {
 	background-color: #ebebeb;
 }
 
+.new-text {
+  positon: absolute;
+  right: 15px;
+  top: 25px;
+
+}
 .new-icon {
     position: absolute;
 //    left: ($spacing-unit*-1)+26;
-    right:20PX;
-    top: 20px;
+    right:15px;
+    top: 25px;
 //    border-radius: 10px;
     width: 24px;
     height: 24px;
-    opacity: 0.5;
+    opacity: 0.1;
 //    background: lighten(#45b4c2, 30%);
 }
 

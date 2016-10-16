@@ -11,6 +11,7 @@ category: Jekyll
 - [내 글을 오래 남기기 위한 블로그 선택](http://blog.kalkin7.com/2015/07/07/maintain-a-blog-for-a-long-time/)
 - [Jekyll 기반의 GitHub Pages에 블로그 만들기](https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html)
 - [WordPress 에서 Jekyll로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
+- [kakao 기술 블로그가 GitHub Pages로 간 까닭은](http://tech.kakao.com/2016/07/07/tech-blog-story/)
 - [WordPress를 버리고 Jekyll로](https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/)
 - [Tistory에서 Jekyll을 이용하여 GitHub Pages로 블로그 이전](http://blog.saltfactory.net/note/renewal-blog-from-tistory-to-github-pages-via-jekyll.html)
 - [Jekyll, 즐겁게 사용하기](https://vjinn.github.io/environment/enjoy-jekylling/)
@@ -29,7 +30,17 @@ category: Jekyll
 - [아이콘을 구한 대박 사이트 Flaticon](http://www.flaticon.com/search?word=github)
 
 ### Done list & 기술적인 도움을 받은 사이트
-- [Jekyll 설치](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
+- Jekyll 설치
+  - [Jekyll을 사용하여 GitHub Pages 만들기](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
+  - [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+
+```ruby
+$ gem install jekyll
+~ $ jekyll new my-awesome-site
+~ $ cd my-awesome-site
+~/my-awesome-site $ jekyll serve
+# => 이제 브라우저로 http://localhost:4000 에 접속
+```
   - [Jekyll로 Github Pages 사용하기](https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 - 로컬 웹서버 가동
 - Guthub page 저장소 생성
@@ -55,6 +66,7 @@ chmod +x m
 ```
 
 - 웹서버 가동
+- 도메인 연결
 - [Pithy theme](https://github.com/smallmuou/Jekyll-Pithy) fork & customizing
 - [나눔고딕 웹폰트 적용](http://narie.tistory.com/107)
 - readmore 구현
@@ -64,6 +76,13 @@ chmod +x m
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl}}/images/favicon.ico"/>
 ```
 
+- 마크다운 엔진
+  - [놀부님의 블로그](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
+  ```
+  RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.
+
+  GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.
+  ```
 - [마크다운으로 이미지 정렬](http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/)
 - [반응형 디자인](http://www.nextree.co.kr/p8622/)
   - [참고](http://naradesign.net/wp/2012/05/30/1823/)

@@ -136,6 +136,7 @@
   <li><a href="http://blog.kalkin7.com/2015/07/07/maintain-a-blog-for-a-long-time/">내 글을 오래 남기기 위한 블로그 선택</a></li>
   <li><a href="https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html">Jekyll 기반의 GitHub Pages에 블로그 만들기</a></li>
   <li><a href="http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/">WordPress 에서 Jekyll로</a></li>
+  <li><a href="http://tech.kakao.com/2016/07/07/tech-blog-story/">kakao 기술 블로그가 GitHub Pages로 간 까닭은</a></li>
   <li><a href="https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/">WordPress를 버리고 Jekyll로</a></li>
   <li><a href="http://blog.saltfactory.net/note/renewal-blog-from-tistory-to-github-pages-via-jekyll.html">Tistory에서 Jekyll을 이용하여 GitHub Pages로 블로그 이전</a></li>
   <li><a href="https://vjinn.github.io/environment/enjoy-jekylling/">Jekyll, 즐겁게 사용하기</a></li>
@@ -158,11 +159,23 @@
 
 <h3 id="done-list-----">Done list &amp; 기술적인 도움을 받은 사이트</h3>
 <ul>
-  <li><a href="http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html">Jekyll 설치</a>
+  <li>Jekyll 설치
     <ul>
-      <li><a href="https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">Jekyll로 Github Pages 사용하기</a></li>
+      <li><a href="http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html">Jekyll을 사용하여 GitHub Pages 만들기</a></li>
+      <li><a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">Build A Blog With Jekyll And GitHub Pages</a></li>
     </ul>
   </li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
+<span class="o">~</span> <span class="err">$</span> <span class="n">jekyll</span> <span class="kp">new</span> <span class="n">my</span><span class="o">-</span><span class="n">awesome</span><span class="o">-</span><span class="n">site</span>
+<span class="o">~</span> <span class="err">$</span> <span class="n">cd</span> <span class="n">my</span><span class="o">-</span><span class="n">awesome</span><span class="o">-</span><span class="n">site</span>
+<span class="o">~</span><span class="sr">/my-awesome-site $ jekyll serve
+# =&gt; 이제 브라우저로 http:/</span><span class="o">/</span><span class="n">localhost</span><span class="p">:</span><span class="mi">4000</span> <span class="err">에</span> <span class="err">접속</span>
+</code></pre>
+</div>
+<ul>
+  <li><a href="https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0">Jekyll로 Github Pages 사용하기</a></li>
   <li>로컬 웹서버 가동</li>
   <li>Guthub page 저장소 생성</li>
   <li><a href="https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/">로컬저장소와 Github 저장소 싱크하는 스크립트 만들기</a></li>
@@ -189,6 +202,7 @@
 
 <ul>
   <li>웹서버 가동</li>
+  <li>도메인 연결</li>
   <li><a href="https://github.com/smallmuou/Jekyll-Pithy">Pithy theme</a> fork &amp; customizing</li>
   <li><a href="http://narie.tistory.com/107">나눔고딕 웹폰트 적용</a></li>
   <li>readmore 구현</li>
@@ -200,6 +214,16 @@
 </div>
 
 <ul>
+  <li>마크다운 엔진
+    <ul>
+      <li><a href="https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/">놀부님의 블로그</a>
+```
+RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.</li>
+    </ul>
+
+    <p>GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.
+```</p>
+  </li>
   <li><a href="http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/">마크다운으로 이미지 정렬</a></li>
   <li><a href="http://www.nextree.co.kr/p8622/">반응형 디자인</a>
     <ul>

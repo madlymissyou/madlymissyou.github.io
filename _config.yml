@@ -11,6 +11,8 @@ github_username:  madlymissyou
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 #markdown: redcarpet
 
 excerpt_separator: <!--readmore-->

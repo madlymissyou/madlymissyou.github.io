@@ -5,15 +5,13 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 15:09:14 +0900</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 15:09:14 +0900</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 15:46:55 +0900</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 15:46:55 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
         <title>Jekyll + Github 블로그 구축</title>
-        <description>&lt;p&gt;[[toc]]&lt;/p&gt;
-
-&lt;h3 id=&quot;jekyll&quot;&gt;왜 Jekyll인가?&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;jekyll&quot;&gt;왜 Jekyll인가?&lt;/h3&gt;
 &lt;p&gt;잘 정리된 글들이 많이 있다.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -48,8 +46,29 @@
   &lt;/li&gt;
   &lt;li&gt;로컬 웹서버 가동&lt;/li&gt;
   &lt;li&gt;Guthub page 저장소 생성&lt;/li&gt;
-  &lt;li&gt;md 파일 Github에 푸쉬하는 스크립트 ./gitpush&lt;/li&gt;
-  &lt;li&gt;chmod +x gitpush&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/&quot;&gt;로컬저장소와 Github 저장소 싱크하는 스크립트 만들기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pull&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;A&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Input commit message: &quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;input&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;commit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;$input&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;origin&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;master&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 터미널에서 다음 명령어로 m 파일 스크립트 생성&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# 터미널에서 다음과 같이 스크립트 실행&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
   &lt;li&gt;웹서버 가동&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/smallmuou/Jekyll-Pithy&quot;&gt;Pithy theme&lt;/a&gt; fork &amp;amp; customizing&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://narie.tistory.com/107&quot;&gt;나눔고딕 웹폰트 적용&lt;/a&gt;&lt;/li&gt;
@@ -106,15 +125,14 @@ python wp2md.py wordpress.xml # 실행
       &lt;li&gt;&lt;a href=&quot;http://halryang.net/Insert-Image-easily-to-Jekyll-blog/&quot;&gt;이미지 삽입 매크로&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.kalkin7.com/2014/03/06/how-to-insert-images-in-blog-using-sharex-and-markdown/&quot;&gt;SShareX로 마크다운으로 글을 쓸 때 블로그에 쉽게 이미지를 삽입하&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;웹기반 마크다운 에디터 &lt;a href=&quot;http://prose.io&quot;&gt;prose.io&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/biospin/BigBio/blob/master/reference/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4.md&quot;&gt;마크다운 문법&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2014/03/25/github-flavored-markdown/&quot;&gt;GFM (Github Flavored Markdown) 문법&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
-
-    &lt;p&gt;[ ] 할일목록
-[x] 완료됨&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;Atom 에디터에 github theme 설치&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 15 Oct 2016 00:00:00 +0900</pubDate>

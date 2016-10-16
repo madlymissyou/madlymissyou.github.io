@@ -128,9 +128,7 @@
         
 <!--
 				<div class="post-abstract">
-				<p>[[toc]]</p>
-
-<h3 id="jekyll">왜 Jekyll인가?</h3>
+				<h3 id="jekyll">왜 Jekyll인가?</h3>
 <p>잘 정리된 글들이 많이 있다.</p>
 
 <ul>
@@ -165,8 +163,29 @@
   </li>
   <li>로컬 웹서버 가동</li>
   <li>Guthub page 저장소 생성</li>
-  <li>md 파일 Github에 푸쉬하는 스크립트 ./gitpush</li>
-  <li>chmod +x gitpush</li>
+  <li><a href="https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/">로컬저장소와 Github 저장소 싱크하는 스크립트 만들기</a></li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="c1"># 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성</span>
+
+<span class="c1">#!/bin/bash</span>
+<span class="n">git</span> <span class="n">pull</span>
+<span class="n">git</span> <span class="n">add</span> <span class="p">.</span> <span class="nf">-</span><span class="no">A</span>
+<span class="n">echo</span> <span class="o">-</span><span class="n">n</span> <span class="s2">"Input commit message: "</span>
+<span class="n">read</span> <span class="n">input</span>
+<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"$input"</span>
+<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span>
+
+<span class="c1"># 터미널에서 다음 명령어로 m 파일 스크립트 생성</span>
+<span class="n">chmod</span> <span class="o">+</span><span class="n">x</span> <span class="n">m</span>
+
+<span class="c1"># 터미널에서 다음과 같이 스크립트 실행</span>
+<span class="p">.</span><span class="nf">/</span><span class="n">m</span>
+
+</code></pre>
+</div>
+
+<ul>
   <li>웹서버 가동</li>
   <li><a href="https://github.com/smallmuou/Jekyll-Pithy">Pithy theme</a> fork &amp; customizing</li>
   <li><a href="http://narie.tistory.com/107">나눔고딕 웹폰트 적용</a></li>
@@ -223,15 +242,14 @@ python wp2md.py wordpress.xml # 실행
       <li><a href="http://halryang.net/Insert-Image-easily-to-Jekyll-blog/">이미지 삽입 매크로</a></li>
     </ul>
   </li>
+  <li><a href="http://blog.kalkin7.com/2014/03/06/how-to-insert-images-in-blog-using-sharex-and-markdown/">SShareX로 마크다운으로 글을 쓸 때 블로그에 쉽게 이미지를 삽입하</a></li>
   <li>웹기반 마크다운 에디터 <a href="http://prose.io">prose.io</a></li>
   <li><a href="https://github.com/biospin/BigBio/blob/master/reference/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4.md">마크다운 문법</a>
     <ul>
       <li><a href="https://nolboo.kim/blog/2014/03/25/github-flavored-markdown/">GFM (Github Flavored Markdown) 문법</a></li>
     </ul>
-
-    <p>[ ] 할일목록
-[x] 완료됨</p>
   </li>
+  <li>Atom 에디터에 github theme 설치</li>
 </ul>
 
 				

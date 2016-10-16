@@ -4,8 +4,6 @@ layout: post
 category: Jekyll
 ---
 
-[[toc]]
-
 ### 왜 Jekyll인가?
 잘 정리된 글들이 많이 있다.
 
@@ -33,8 +31,27 @@ category: Jekyll
   - [Jekyll로 Github Pages 사용하기](https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 - 로컬 웹서버 가동
 - Guthub page 저장소 생성
-- md 파일 Github에 푸쉬하는 스크립트 ./gitpush
- - chmod +x gitpush
+- [로컬저장소와 Github 저장소 싱크하는 스크립트 만들기](https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/)
+
+```ruby
+# 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성
+
+#!/bin/bash
+git pull
+git add . -A
+echo -n "Input commit message: "
+read input
+git commit -m "$input"
+git push origin master
+
+# 터미널에서 다음 명령어로 m 파일 스크립트 생성
+chmod +x m
+
+# 터미널에서 다음과 같이 스크립트 실행
+./m
+
+```
+
 - 웹서버 가동
 - [Pithy theme](https://github.com/smallmuou/Jekyll-Pithy) fork & customizing
 - [나눔고딕 웹폰트 적용](http://narie.tistory.com/107)
@@ -77,9 +94,8 @@ python wp2md.py wordpress.xml # 실행
 - 자동화 매크로 (적용하지 않음)
   - [http://halryang.net/automation-for-jekyll-posting/](http://halryang.net/automation-for-jekyll-posting/)
   - [이미지 삽입 매크로](http://halryang.net/Insert-Image-easily-to-Jekyll-blog/)
+- [SShareX로 마크다운으로 글을 쓸 때 블로그에 쉽게 이미지를 삽입하](http://blog.kalkin7.com/2014/03/06/how-to-insert-images-in-blog-using-sharex-and-markdown/)
 - 웹기반 마크다운 에디터 [prose.io](http://prose.io)
 - [마크다운 문법](https://github.com/biospin/BigBio/blob/master/reference/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4.md)
   - [GFM (Github Flavored Markdown) 문법](https://nolboo.kim/blog/2014/03/25/github-flavored-markdown/)
-
-  [ ] 할일목록
-  [x] 완료됨
+- Atom 에디터에 github theme 설치

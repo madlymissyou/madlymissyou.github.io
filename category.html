@@ -20,7 +20,10 @@ layout: default
 	<div class="archive-postlist">
 		<ul>
 			<li>
-				<span>{{ post.date | date: "%Y.%m.%d." }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+			
+				<span class="archive-postdate">{{ post.date | date: "%Y.%m.%d." }}
+
+				</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 			</li>
 		</ul>
 	</div>
@@ -39,8 +42,10 @@ layout: default
 	{% if post.category == null %}
 	<div class="archive-postlist">
 		<ul>
-			<li>
-				<span>{{ post.date | date: "%Y.%m.%d." }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+			<li>			
+				<span class="archive-postdate">{{ post.date | date: "%Y.%m.%d." }}
+
+				</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
 			</li>
 		</ul>
 	</div>

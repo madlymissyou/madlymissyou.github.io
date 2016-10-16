@@ -36,6 +36,8 @@ category: Jekyll
 - readmore 구현
 - [파비콘(favicon)](http://icoconvert.com/)
 - [마크다운으로 이미지 정렬](http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/)
+- [반응형 디자인](http://www.nextree.co.kr/p8622/)
+  - [참고](http://naradesign.net/wp/2012/05/30/1823/)
 - 카테고리 #name tag 바로가기
 - [유튜브 임베딩](http://halryang.net/embed-youtube-responsively/)
 - [태그](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)

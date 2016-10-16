@@ -447,9 +447,25 @@ content {
 }
 
 .archive .archive-postlist span {
-  margin-right: 7px;
   font-size: 15px;
 }
+
+@media screen and (max-width:480px) { 
+  .archive .archive-postdate {
+    display: inline-block;
+    width: 0px;
+    margin-right: 0px;
+    color: #FFF;
+  }
+}
+
+@media screen and (min-width:481px) { 
+   .archive .archive-postdate {
+    margin-right: 7px;
+    
+  } 
+}
+
 .archive .archive-postlist a {	
     text-decoration: none;
 		color: #555;
@@ -459,6 +475,7 @@ content {
 	text-decoration: none;
 	color: #777;
 }
+
 
 
 

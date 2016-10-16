@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 git pull
 git add . -A
 echo -n "Input commit message: "

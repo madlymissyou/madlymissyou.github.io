@@ -4,9 +4,12 @@ layout: post
 category: Jekyll
 ---
 
+[[toc]]
+
 ### 왜 Jekyll인가?
 잘 정리된 글들이 많이 있다.
 
+- 다 만들고 난 후에 발견한 따끈따끈한 좋은 글: [한 미국 변호사의 서랍](http://lawfully.kr/smart/jekyll.html)
 - [내 글을 오래 남기기 위한 블로그 선택](http://blog.kalkin7.com/2015/07/07/maintain-a-blog-for-a-long-time/)
 - [Jekyll 기반의 GitHub Pages에 블로그 만들기](https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html)
 - [WordPress 에서 Jekyll로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
@@ -15,7 +18,9 @@ category: Jekyll
 - [From Wordpress To Jekyll](http://halryang.net/From-Wordpress-To-Jekyll)
   - [한량넷 Jekyll 글모음](http://halryang.net/search/?tags=jekyll)
 - [정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로](http://blog.nacyot.com/articles/2014-01-15-static-site-generator)
-- [다 만들고 난 후에 발견한 좋은 글](http://lawfully.kr/smart/jekyll.html)
+
+
+
 
 ### 디자인 영감을 받은 사이트
 - [스포카](https://spoqa.github.io/index.html)의 제목 폰트
@@ -41,27 +46,31 @@ category: Jekyll
 - 카테고리 #name tag 바로가기
 - [유튜브 임베딩](http://halryang.net/embed-youtube-responsively/)
 - [태그](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)
-- 파머링크 생성
+- 퍼머링크 스타일
+  - \_config.yml 파일에 `permalink: /:year/:month/:day/:title` 추가
 - [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) 문법
-- pagination (v3.3 에서는 Jekyll paginate [지원 중단](https://github.com/jekyll/jekyll/issues/4124))
+- Pagination (v3.3 에서는 Jekyll paginate [지원 중단](https://github.com/jekyll/jekyll/issues/4124))
 - [태그 시스템/아카이브 페이지/전체글 목록](http://halryang.net/tag-and-archive/)
 - [google 검색창 달기](https://cse.google.com/cse/all)
 - [google analytics](http://loustler.io/2016/09/26/github_pages_blog_google_analytics/)
 - [구글 검색에 노출하기](http://cinos81.bitbucket.org/blog/_site/jekyll/2016/01/23/addRobotTxt.html)
 - [댓글](https://github.com/appkr/blog/blob/master/_posts/2016-02-13-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%9D%B4%EC%A0%84-5-disqus-facebook.md)
-- [댓글 잠금](http://halryang.net/Disable-comments/)
+  - [댓글 잠금](http://halryang.net/Disable-comments/)
 - 워드프레스에서 Jekyll로 이전
 - [wd2md.py](https://github.com/dreikanter/wp2md)을 Jekyll 스타일에 맞게 수정
 
-> 파일이름: Y%%m%d > %Y-%m-%d
-> f.write(‘—‘)  
-> f.write(‘layout: post \n —‘)  
-> 'post_name', 삭제  
-> name = data.get('post_name', '').strip() 수정  
-> name = data.get('post_id', '').strip()  
-> title은 []로 시작하면 안 된다.  
-> ‘,' 가 있으면 안된다. (), &, , 는 된다.   
-> python wp2md.py wordpress.xml 실행  
+```
+# 1. Filename: Y%%m%d > %Y-%m-%d
+# 2. Front Matter:
+f.write(‘—‘)  
+f.write(‘layout: post \n —‘)  
+'post_name', # > 삭제  
+name = data.get('post_name', '').strip() # > 다음과 같이 수정  
+name = data.get('post_id', '').strip()  
+# title은 []로 시작하면 안 된다.
+# title에 ‘,' 가 있으면 안된다. (), &, , 는 된다.   
+python wp2md.py wordpress.xml # 실행
+```
 
 ### 포스팅 하기
 - [rake 를 알게 된 곳](http://boxersb.github.io/etc/2013/04/03/jekyll-introduction/)
@@ -69,3 +78,8 @@ category: Jekyll
   - [http://halryang.net/automation-for-jekyll-posting/](http://halryang.net/automation-for-jekyll-posting/)
   - [이미지 삽입 매크로](http://halryang.net/Insert-Image-easily-to-Jekyll-blog/)
 - 웹기반 마크다운 에디터 [prose.io](http://prose.io)
+- [마크다운 문법](https://github.com/biospin/BigBio/blob/master/reference/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4.md)
+  - [GFM (Github Flavored Markdown) 문법](https://nolboo.kim/blog/2014/03/25/github-flavored-markdown/)
+
+  [ ] 할일목록
+  [x] 완료됨

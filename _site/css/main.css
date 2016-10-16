@@ -70,7 +70,7 @@ blockquote {
   padding-left: 30px;
   font-size: 14px;
   letter-spacing: -1px;
-  line-height: 1.5; }
+  line-height: 1.8; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -98,7 +98,9 @@ code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 code {
   padding: 1px 5px; }

@@ -99,7 +99,7 @@ blockquote {
     padding-left: $spacing-unit;
     font-size: 14px;
     letter-spacing: -1px;
-    line-height: 1.5;
+    line-height: 1.8;
 //    font-style: italic;
 
     > :last-child {
@@ -144,6 +144,8 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #f5f5f5;
+          margin-top: 20px;
+        margin-bottom: 20px;
 }
 
 code {
@@ -158,6 +160,7 @@ pre {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+
     }
 }
 

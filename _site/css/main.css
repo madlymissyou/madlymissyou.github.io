@@ -356,6 +356,9 @@ content {
 .post ul {
   margin-left: 15px; }
 
+.post li {
+  margin-left: 10px; }
+
 .post-header {
   positon: relative; }
 

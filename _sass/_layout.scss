@@ -77,7 +77,7 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
+  
 
 a {
     color: $brand-color;
@@ -507,6 +507,7 @@ content {
 
 .post li {
 //  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .post-header {

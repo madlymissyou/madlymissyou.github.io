@@ -11,7 +11,9 @@ category: Jekyll
 - [내 글을 오래 남기기 위한 블로그 선택](http://blog.kalkin7.com/2015/07/07/maintain-a-blog-for-a-long-time/)
 - [Jekyll 기반의 GitHub Pages에 블로그 만들기](https://xho95.github.io/blog/github/jekyll/git/2016/01/11/Make-a-blog-with-Jekyll.html)
 - [WordPress 에서 Jekyll로](http://blog.suminb.com/post/goodbye-wordpress-hello-jekyll/)
+- [WordPress를 버리고 Jekyll로](https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/)
 - [Tistory에서 Jekyll을 이용하여 GitHub Pages로 블로그 이전](http://blog.saltfactory.net/note/renewal-blog-from-tistory-to-github-pages-via-jekyll.html)
+- [Jekyll, 즐겁게 사용하기](https://vjinn.github.io/environment/enjoy-jekylling/)
 - [난 10년된 워드프레스에서 Jekyll로 마이그레이션](https://ilmol.com/2015/01/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4%EC%97%90%EC%84%9C-Jekyll%EB%A1%9C-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98.html)
 - [From Wordpress To Jekyll](http://halryang.net/From-Wordpress-To-Jekyll)
   - [한량넷 Jekyll 글모음](http://halryang.net/search/?tags=jekyll)
@@ -57,12 +59,27 @@ chmod +x m
 - [나눔고딕 웹폰트 적용](http://narie.tistory.com/107)
 - readmore 구현
 - [파비콘(favicon)](http://icoconvert.com/)
+
+```html
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl}}/images/favicon.ico"/>
+```
+
 - [마크다운으로 이미지 정렬](http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/)
 - [반응형 디자인](http://www.nextree.co.kr/p8622/)
   - [참고](http://naradesign.net/wp/2012/05/30/1823/)
 - 카테고리 #name tag 바로가기
 - [유튜브 임베딩](http://halryang.net/embed-youtube-responsively/)
 - [태그](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)
+
+![alt text](https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/lq9o-O47VD16vXGpeM3xxG5SBdA.png "Title text")
+
+- 이미지 캡션
+  - [캡션 넣기](https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/)
+  > 이미지 캡션 다는 문제는 caption.js를 가져다 사용했다. 워드프레스의 경우는 Shortcode를 사용해서 이미지 캡션을 만들었지만 caption.js은 img 태그의 alt 정보를 읽어와서 캡션으로 만들어준다. Markdown 가독성 면에서도 아주 좋아지니 일석 이조인듯.
+
+  - [Making Markdown more HTML5 with Kramdown](http://kalifi.org/2015/04/html5-markdown-kramdown.html)
+  - [Including and managing images in Jekyll](https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html)
+  - [Jekyll figure](https://github.com/paulrobertlloyd/jekyll-figure)
 - 퍼머링크 스타일
   - \_config.yml 파일에 `permalink: /:year/:month/:day/:title` 추가
 - [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) 문법

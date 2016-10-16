@@ -95,7 +95,7 @@ a {
 
 blockquote {
     color: $grey-color;
-    border-left: 4px solid $grey-color-light;;
+    border-left: 4px solid lighten($brand-color, 30%);
     padding-left: $spacing-unit;
     font-size: 14px;
     letter-spacing: -1px;
@@ -143,9 +143,8 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #f5f5f5;
-          margin-top: 20px;
-        margin-bottom: 20px;
+//    background-color: #f5f5f5;
+    background-color: #FFF;
 }
 
 code {

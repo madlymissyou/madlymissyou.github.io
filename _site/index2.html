@@ -167,11 +167,11 @@
   </li>
 </ul>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="err">$</span> <span class="n">gem</span> <span class="n">install</span> <span class="n">jekyll</span>
-<span class="o">~</span> <span class="err">$</span> <span class="n">jekyll</span> <span class="kp">new</span> <span class="n">my</span><span class="o">-</span><span class="n">awesome</span><span class="o">-</span><span class="n">site</span>
-<span class="o">~</span> <span class="err">$</span> <span class="n">cd</span> <span class="n">my</span><span class="o">-</span><span class="n">awesome</span><span class="o">-</span><span class="n">site</span>
-<span class="o">~</span><span class="sr">/my-awesome-site $ jekyll serve
-# =&gt; 이제 브라우저로 http:/</span><span class="o">/</span><span class="n">localhost</span><span class="p">:</span><span class="mi">4000</span> <span class="err">에</span> <span class="err">접속</span>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>gem install jekyll
+~ <span class="nv">$ </span>jekyll new my-awesome-site
+~ <span class="nv">$ </span><span class="nb">cd </span>my-awesome-site
+~/my-awesome-site <span class="nv">$ </span>jekyll serve
+<span class="c"># =&gt; 이제 브라우저로 http://localhost:4000 에 접속</span>
 </code></pre>
 </div>
 <ul>
@@ -181,22 +181,21 @@
   <li><a href="https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/">로컬저장소와 Github 저장소 싱크하는 스크립트 만들기</a></li>
 </ul>
 
-<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="c1"># 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성</span>
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="c"># 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성</span>
 
-<span class="c1">#!/bin/bash</span>
-<span class="n">git</span> <span class="n">pull</span>
-<span class="n">git</span> <span class="n">add</span> <span class="p">.</span> <span class="nf">-</span><span class="no">A</span>
-<span class="n">echo</span> <span class="o">-</span><span class="n">n</span> <span class="s2">"Input commit message: "</span>
-<span class="n">read</span> <span class="n">input</span>
-<span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"$input"</span>
-<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">master</span>
+<span class="c">#!/bin/bash</span>
+git pull
+git add . -A
+<span class="nb">echo</span> -n <span class="s2">"Input commit message: "</span>
+<span class="nb">read </span>input
+git commit -m <span class="s2">"</span><span class="nv">$input</span><span class="s2">"</span>
+git push origin master
 
-<span class="c1"># 터미널에서 다음 명령어로 m 파일 스크립트 생성</span>
-<span class="n">chmod</span> <span class="o">+</span><span class="n">x</span> <span class="n">m</span>
+<span class="c"># 터미널에서 다음 명령어로 m 파일 스크립트 생성</span>
+chmod +x m
 
-<span class="c1"># 터미널에서 다음과 같이 스크립트 실행</span>
-<span class="p">.</span><span class="nf">/</span><span class="n">m</span>
-
+<span class="c"># 터미널에서 다음과 같이 스크립트 실행</span>
+./m
 </code></pre>
 </div>
 
@@ -240,7 +239,7 @@ RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install 
   </li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>  
+<div class="language-html highlighter-rouge"><pre class="highlight"><code>
 
 </code></pre>
 </div>
@@ -270,7 +269,11 @@ RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install 
       <li><a href="https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/">Use Tags and Categories in your Jekyll based Github Pages without plugins</a></li>
     </ul>
   </li>
-  <li><a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">Liquid</a> 문법</li>
+  <li><a href="https://github.com/Shopify/liquid/wiki/Liquid-for-Designers">Liquid</a> 문법
+    <ul>
+      <li><a href="https://help.shopify.com/themes/liquid/basics">문법</a></li>
+    </ul>
+  </li>
   <li>Pagination (v3.3 에서는 Jekyll paginate <a href="https://github.com/jekyll/jekyll/issues/4124">지원 중단</a>)</li>
   <li><a href="http://halryang.net/tag-and-archive/">태그 시스템/아카이브 페이지/전체글 목록</a></li>
   <li><a href="https://cse.google.com/cse/all">google 검색창 달기</a></li>
@@ -285,16 +288,16 @@ RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install 
   <li><a href="https://github.com/dreikanter/wp2md">wd2md.py</a>을 Jekyll 스타일에 맞게 수정</li>
 </ul>
 
-<div class="highlighter-rouge"><pre class="highlight"><code># 1. Filename: Y%%m%d &gt; %Y-%m-%d
-# 2. Front Matter:
-f.write(‘—‘)  
-f.write(‘layout: post \n —‘)  
-'post_name', # &gt; 삭제  
-name = data.get('post_name', '').strip() # &gt; 다음과 같이 수정  
-name = data.get('post_id', '').strip()  
-# title은 []로 시작하면 안 된다.
-# title에 ‘,' 가 있으면 안된다. (), &amp;, , 는 된다.   
-python wp2md.py wordpress.xml # 실행
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code><span class="c"># 1. Filename: Y%%m%d &gt; %Y-%m-%d</span>
+<span class="c"># 2. Front Matter:</span>
+f.write<span class="o">(</span>‘—‘<span class="o">)</span>  
+f.write<span class="o">(</span>‘layout: post <span class="se">\n</span> —‘<span class="o">)</span>  
+<span class="s1">'post_name'</span>, <span class="c"># &gt; 삭제  </span>
+name <span class="o">=</span> data.get<span class="o">(</span><span class="s1">'post_name'</span>, <span class="s1">''</span><span class="o">)</span>.strip<span class="o">()</span> <span class="c"># &gt; 다음과 같이 수정  </span>
+name <span class="o">=</span> data.get<span class="o">(</span><span class="s1">'post_id'</span>, <span class="s1">''</span><span class="o">)</span>.strip<span class="o">()</span>  
+<span class="c"># title은 []로 시작하면 안 된다.</span>
+<span class="c"># title에 ‘,' 가 있으면 안된다. (), &amp;, , 는 된다.   </span>
+python wp2md.py wordpress.xml <span class="c"># 실행</span>
 </code></pre>
 </div>
 
@@ -315,6 +318,12 @@ python wp2md.py wordpress.xml # 실행
     </ul>
   </li>
   <li>Atom 에디터에 github theme 설치</li>
+  <li>코드 하이라이팅
+    <ul>
+      <li>Python 기반의 Pygment를 사용할 수도 있지만, Ruby 기반의 Rouge를 사용할 수도 있다.</li>
+      <li><a href="https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers">Rouge 언어 식별자</a></li>
+    </ul>
+  </li>
 </ul>
 
 				
@@ -397,7 +406,7 @@ python wp2md.py wordpress.xml # 실행
 				
 					<span class="post-meta">|</span>
 					<span class="post-meta"> 
-					<a class="category-link" href="https://madlymissyou.github.io/category.html#과학과 예술tech"> 과학과 예술tech </a></span>
+					<a class="category-link" href="https://madlymissyou.github.io/category.html#과학과 예술"> 과학과 예술 </a></span>
 				
 
 

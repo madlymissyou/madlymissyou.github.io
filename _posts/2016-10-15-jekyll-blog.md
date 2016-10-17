@@ -3,6 +3,7 @@ title: Jekyll + Github 블로그 구축
 layout: post
 category: Jekyll
 tags: [plz, web, jekyll]
+sub: 마크다운으로 작성하는 무료 블로그 사이트 만들기
 ---
 
 ### 왜 Jekyll인가?
@@ -35,7 +36,7 @@ tags: [plz, web, jekyll]
   - [Jekyll을 사용하여 GitHub Pages 만들기](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
   - [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 
-```ruby
+```shell
 $ gem install jekyll
 ~ $ jekyll new my-awesome-site
 ~ $ cd my-awesome-site
@@ -47,7 +48,7 @@ $ gem install jekyll
 - Guthub page 저장소 생성
 - [로컬저장소와 Github 저장소 싱크하는 스크립트 만들기](https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/)
 
-```ruby
+```shell
 # 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성
 
 #!/bin/bash
@@ -63,7 +64,6 @@ chmod +x m
 
 # 터미널에서 다음과 같이 스크립트 실행
 ./m
-
 ```
 
 - 웹서버 가동
@@ -93,8 +93,8 @@ chmod +x m
 - [태그 스타일](http://codinfox.github.io/blog/tags/#chrome)
   - 이 [소스코드](https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)에서 tag를 tag[0]로 바꿔야 한다.
 
-```
-  {% comment %}
+```html
+{% comment %}
 =======================
 The purpose of this snippet is to list all the tags you have in your site.
 =======================
@@ -118,6 +118,7 @@ The purpose of this snippet is to list all the tags you have in your site.
 - 태그
   - [Use Tags and Categories in your Jekyll based Github Pages without plugins]( https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)
 - [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) 문법
+  - [문법](https://help.shopify.com/themes/liquid/basics)
 - Pagination (v3.3 에서는 Jekyll paginate [지원 중단](https://github.com/jekyll/jekyll/issues/4124))
 - [태그 시스템/아카이브 페이지/전체글 목록](http://halryang.net/tag-and-archive/)
 - [google 검색창 달기](https://cse.google.com/cse/all)
@@ -128,7 +129,7 @@ The purpose of this snippet is to list all the tags you have in your site.
 - 워드프레스에서 Jekyll로 이전
 - [wd2md.py](https://github.com/dreikanter/wp2md)을 Jekyll 스타일에 맞게 수정
 
-```
+```shell
 # 1. Filename: Y%%m%d > %Y-%m-%d
 # 2. Front Matter:
 f.write(‘—‘)  
@@ -151,3 +152,6 @@ python wp2md.py wordpress.xml # 실행
 - [마크다운 문법](https://github.com/biospin/BigBio/blob/master/reference/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4.md)
   - [GFM (Github Flavored Markdown) 문법](https://nolboo.kim/blog/2014/03/25/github-flavored-markdown/)
 - Atom 에디터에 github theme 설치
+- 코드 하이라이팅
+  - Python 기반의 Pygment를 사용할 수도 있지만, Ruby 기반의 Rouge를 사용할 수도 있다.
+  - [Rouge 언어 식별자](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)

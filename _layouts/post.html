@@ -8,6 +8,11 @@ layout: default
     <div class="post-title-wrapper">
     <a class="post-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 		</div>
+    {% if page.sub %}
+		<div class="post-header-subtitle">
+		  {{ page.sub }}
+		</div>
+    {% endif %}
 		<div class="post-header-meta">
 		<span class="post-meta">{{ page.date | date: "%Y-%m-%d" }} </span> 
 		

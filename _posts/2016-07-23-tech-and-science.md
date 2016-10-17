@@ -1,7 +1,8 @@
 ---
 title: 기술은 세상을 바꾸는데, 과학은 어디에 쓰나?
 layout: post
-category: 과학과 예술
+category: [과학과 예술, tech]
+tags: [srs, tech, science]
 ---
 
 ### 기술은 있고 과학은 없다

@@ -6,7 +6,7 @@ category: Deep Learning
 
 # Deep Learning in general
 * Textbook
-  * Deep Learning Book (Yoshua Bengio) [[html]](http://www.deeplearningbook.org/) 
+  * Deep Learning Book (Yoshua Bengio) [[html]](http://www.deeplearningbook.org/)
 * Review papers
   * `2013` Representation learning: A review and new perspectives (Yushua Bengio) [[pdf]](http://www.cl.uni-heidelberg.de/courses/ws14/deepl/BengioETAL12.pdf)
   * `2014` Deep learning for neuroimaging: a validation study [[pdf]](http://journal.frontiersin.org/article/10.3389/fnins.2014.00229/full)
@@ -22,7 +22,7 @@ category: Deep Learning
   * `2014` Very deep convolutional networks for large-scale image recognition (K. Simonyan and A. Zisserman) [[pdf]](http://arxiv.org/pdf/1409.1556)
   * `2014` Visualizing and understanding convolutional networks (M. Zeiler and R. Fergus) [[pdf]](http://arxiv.org/pdf/1311.2901)
   * `2015` Fast R-CNN (R. Girshick) [[pdf]](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)
-  * `2015` Going deeper with convolutions (C. Szegedy et al. Google) [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf) 
+  * `2015` Going deeper with convolutions (C. Szegedy et al. Google) [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf)
   * `2016` Deep residual learning for image recognition (K. He et al. Microsoft) [[pdf]](http://arxiv.org/pdf/1512.03385)  
 * CNN
   * `2013` Decaf: A deep convolutional activation feature for generic visual recognition (J. Donahue et al.) [[pdf]](http://arxiv.org/pdf/1310.1531)
@@ -48,14 +48,14 @@ category: Deep Learning
   * `2016.09` DeepMind wants its healthcare AI to charge by results - but first it needs your data [[html]](https://techcrunch.com/2016/09/20/deepmind-wants-its-healthcare-ai-to-charge-by-results-but-first-it-needs-your-data/)
   * `2016.09` Microsoft announces new AI-powered health care initiatives targeting cancer [[html]]( http://www.theverge.com/2016/9/20/12986314/microsoft-ai-healthcare-project-hanover-cancer)
   * `2016.09` [Why deep learning is suddenly changing your life](http://fortune.com/ai-artificial-intelligence-deep-machine-learning/)  
-* Link 
+* Link
   * [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)
   * [Links to Deep Learning Subtopics](http://memkite.com/deep-learning-bibliography/)
   * [Book: Fundamental of Deep Learning](https://tensorflowkorea.wordpress.com/2016/04/18/fundamental-of-deep-learning-preview/)    
   * [머신러닝 튜토리얼](http://laonple.blog.me/220463627091)
 * Topic
-  * `2016.09` [인공지능이 작곡한 세계 최초의 음악이 공개되다](http://visla.kr/?p=45671) 
-	
+  * `2016.09` [인공지능이 작곡한 세계 최초의 음악이 공개되다](http://visla.kr/?p=45671)
+
 ## TensorFlow
 * Tutorials
   * [TensorFlow 공식 홈페이지](http://tensorflow.org)
@@ -68,21 +68,21 @@ category: Deep Learning
   * [Book: 텐서플로우 첫걸음](https://tensorflowkorea.wordpress.com/2015/12/04/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C%EC%9A%B0-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-1/comment-page-1/)  
   * [Lecture: 모두를 위한 딥러닝/머신러닝 강의 TensorFlow (김성)](http://hunkim.github.io/ml/)
   * [Lecture: TensorFlow 로 시작하는 기계 학습과 딥 러닝 (CodeOnWeb)](https://codeonweb.com/course/7e8c4944-308e-410e-85aa-644624613741)
-  * [TensorFlow Tutorial (SNU BILAB)](https://github.com/bi-lab/deeplearning_tutorial/blob/master/Deep_RL_tensorflow/TensorFlow_Tutorial.ipynb) 
+  * [TensorFlow Tutorial (SNU BILAB)](https://github.com/bi-lab/deeplearning_tutorial/blob/master/Deep_RL_tensorflow/TensorFlow_Tutorial.ipynb)
   * [Deep learning/TensorFlow (문동선)](http://dsmoon.tistory.com/category/Deep%20Learning/TensorFlow)
   * [TFlearn](http://tflearn.org/)    
 * Open-source TensorFlow Implementation
   * [Syntax Net, Magenta, Image2Txt](https://github.com/tensorflow/models)
   * [https://github.com/TensorFlowKR/awesome_tensorflow_implementations](https://github.com/TensorFlowKR/awesome_tensorflow_implementations)  
-	
+
 ## Deep learning for Neuroinformatics
   * `2015` Deep Neural Networks: a new fraomework for modeling biological vision and brain information processing [[pdf]](http://www.annualreviews.org/doi/pdf/10.1146/annurev-vision-082114-035447)
-	
+
 ## Deep learning for Neuron Segmentation
 * Electron Microscopy  
   * `2013` Large-scale automatic reconstruction of neuroanl processes from electron microscopy images [[pdf]](https://arxiv.org/pdf/1303.7186.pdf)
   * `2016` Deep learning trends for focal brain pathology segmentation in MRI [[pdf]](https://arxiv.org/pdf/1607.05258.pdf)
-	
+
 ## Deep learning for Brain Tumor Segmentation
 * CODE
   * ISBI 2012 brain EM image segmentation [[github]](https://github.com/ahmed-fakhry/dive)
@@ -103,8 +103,8 @@ category: Deep Learning
     * Multi-modal brain tumor segmentation using Stacked Denoising Autoencoders
   * `2015` Brain tumor detection and classification using deep learning classifier on MRI images  [[html]](http://www.maxwellsci.com/jp/abstract.php?jid=RJASET&no=547&abs=08)
   * `2015` Detection and segmentation of brain metastases with deep convolutional networks [[pdf]](http://www.diva-portal.se/smash/get/diva2:853460/FULLTEXT01.pdf)
-  * `2015` Deep Feature Learning with discrimination mechanism for brain tumor segmentation and diagnosis [[pdf]](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7415818) 
-  * `2015 Plos One` Automated glioblastoma segmentation based on a multiparametric structured unsupervised classification [[pdf]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125143) 
+  * `2015` Deep Feature Learning with discrimination mechanism for brain tumor segmentation and diagnosis [[pdf]](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7415818)
+  * `2015 Plos One` Automated glioblastoma segmentation based on a multiparametric structured unsupervised classification [[pdf]](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125143)
   * `2015 CVPR` Deep neural networks for anatomical brain segmentation [[pdf]](https://www.semanticscholar.org/paper/Deep-neural-networks-for-anatomical-brain-Br%C3%A9bisson-Montana/1689c752d566a2b3bdee46d0b87d7623c66218d0)
   * `2016` Brain Tumor Segmentation Using Convolutional Neural Networks in MRI Images [[pdf]](http://ieeexplore.ieee.org/document/7426413/?tp=&arnumber=7426413&punumber%3D42)
   * `2016 Stanford Report` A new algorithm for fully automatic brain tumor segmentation with 3D convolutional Neural Networks [[pdf]](http://cs231n.stanford.edu/reports2016/322_Report.pdf)
@@ -112,7 +112,7 @@ category: Deep Learning
   * `2016` Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation [[pdf]](http://arxiv.org/pdf/1603.05959v2.pdf)
 * Pathology
   * `2012` Deep Neural Networks segment neuronal membranes in electron Microscopy images [[pdf]](http://papers.nips.cc/paper/4741-deep-neural-networks-segment-neuronal-membranes-in-electron-microscopy-images)
-  
+
 ## Deep learning for Brain Tumor Grading
 * MRI
   * `2015 IEEE EMBS` Brain tumor grading based on neural networks and convolutional neural netsworks [[pdf]](http://www.ncbi.nlm.nih.gov/pubmed/26736358)

@@ -1,0 +1,55 @@
+---
+layout: default
+---
+
+<div class="archive">
+
+  
+  
+  
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+
+	<div class="archive-postgroup">
+{% for tag in site.tags %}
+
+		<div id="{{ word }}">
+<a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+		</div>
+
+{% endfor %}
+	</div>  
+
+  
+{% comment %}
+=======================
+The purpose of this snippet is to list all your posts posted with a certain tag.
+=======================
+{% endcomment %}
+{% for tag in site.tags %}
+
+			
+	<h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+	<ul>
+	 {% for post in site.posts %}
+		 {% if post.tags contains tag[0] %}
+		 <li>
+		 <h3>
+		 <a href="{{ post.url }}">
+				<span class="archive-postdate">{{ post.date | date: "%Y.%m.%d." }}
+        </span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+		 </a>
+		 {% for tag in post.tags %}
+			 <a class="tag" href="tag.html/#{{ tag | slugify }}">{{ tag[0] }}</a>
+		 {% endfor %}
+		 </h3>
+		 </li>
+		 {% endif %}
+	 {% endfor %}
+	</ul>
+{% endfor %}
+  

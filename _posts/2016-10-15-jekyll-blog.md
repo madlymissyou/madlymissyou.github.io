@@ -2,6 +2,7 @@
 title: Jekyll + Github 블로그 구축
 layout: post
 category: Jekyll
+tags: [plz, web, jekyll]
 ---
 
 ### 왜 Jekyll인가?
@@ -89,6 +90,19 @@ chmod +x m
 - 카테고리 #name tag 바로가기
 - [유튜브 임베딩](http://halryang.net/embed-youtube-responsively/)
 - [태그](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)
+- [태그 스타일](http://codinfox.github.io/blog/tags/#chrome)
+  - 이 [소스코드](https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)에서 tag를 tag[0]로 바꿔야 한다.
+
+```
+  {% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+{% for tag in tags %}
+	<a href="#{{ tag[0] | slugify }}"> {{ tag[0] }} </a>
+{% endfor %}
+```
 
 ![alt text](https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/lq9o-O47VD16vXGpeM3xxG5SBdA.png "Title text")
 
@@ -101,6 +115,8 @@ chmod +x m
   - [Jekyll figure](https://github.com/paulrobertlloyd/jekyll-figure)
 - 퍼머링크 스타일
   - \_config.yml 파일에 `permalink: /:year/:month/:day/:title` 추가
+- 태그
+  - [Use Tags and Categories in your Jekyll based Github Pages without plugins]( https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)
 - [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) 문법
 - Pagination (v3.3 에서는 Jekyll paginate [지원 중단](https://github.com/jekyll/jekyll/issues/4124))
 - [태그 시스템/아카이브 페이지/전체글 목록](http://halryang.net/tag-and-archive/)

@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 19:01:12 +0900</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 19:01:12 +0900</lastBuildDate>
+    <pubDate>Mon, 17 Oct 2016 11:25:26 +0900</pubDate>
+    <lastBuildDate>Mon, 17 Oct 2016 11:25:26 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -116,7 +116,17 @@ RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install 
   &lt;li&gt;카테고리 #name tag 바로가기&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://halryang.net/embed-youtube-responsively/&quot;&gt;유튜브 임베딩&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/&quot;&gt;태그&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://codinfox.github.io/blog/tags/#chrome&quot;&gt;태그 스타일&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;이 &lt;a href=&quot;https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/&quot;&gt;소스코드&lt;/a&gt;에서 tag를 tag[0]로 바꿔야 한다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/lq9o-O47VD16vXGpeM3xxG5SBdA.png&quot; alt=&quot;alt text&quot; title=&quot;Title text&quot; /&gt;&lt;/p&gt;
 
@@ -136,6 +146,11 @@ RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install 
   &lt;li&gt;퍼머링크 스타일
     &lt;ul&gt;
       &lt;li&gt;_config.yml 파일에 &lt;code class=&quot;highlighter-rouge&quot;&gt;permalink: /:year/:month/:day/:title&lt;/code&gt; 추가&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;태그
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/&quot;&gt;Use Tags and Categories in your Jekyll based Github Pages without plugins&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid&lt;/a&gt; 문법&lt;/li&gt;
@@ -188,6 +203,12 @@ python wp2md.py wordpress.xml # 실행
         <pubDate>Sat, 15 Oct 2016 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/2016/10/15/jekyll-blog</link>
         <guid isPermaLink="true">http://localhost:4000/2016/10/15/jekyll-blog</guid>
+        
+        <category>plz</category>
+        
+        <category>web</category>
+        
+        <category>jekyll</category>
         
         
         <category>Jekyll</category>
@@ -462,8 +483,16 @@ python wp2md.py wordpress.xml # 실행
         <link>http://localhost:4000/2016/07/23/tech-and-science</link>
         <guid isPermaLink="true">http://localhost:4000/2016/07/23/tech-and-science</guid>
         
+        <category>srs</category>
+        
+        <category>tech</category>
+        
+        <category>science</category>
+        
         
         <category>과학과 예술</category>
+        
+        <category>tech</category>
         
       </item>
     

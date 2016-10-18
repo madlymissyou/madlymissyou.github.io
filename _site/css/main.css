@@ -295,6 +295,15 @@ content {
   margin-top: 0px;
   font-size: 14px; }
 
+.timeline .timeline-post-img-box {
+  position: absolute;
+  right: 60px;
+  top: 20px; }
+
+.timeline .timeline-post-img {
+  width: 100px;
+  height: 100px; }
+
 /********************************/
 /* Archive.html & Category.html */
 /********************************/

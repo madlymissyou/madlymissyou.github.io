@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Oct 2016 15:42:14 +0900</pubDate>
-    <lastBuildDate>Mon, 17 Oct 2016 15:42:14 +0900</lastBuildDate>
+    <pubDate>Tue, 18 Oct 2016 19:53:01 +0900</pubDate>
+    <lastBuildDate>Tue, 18 Oct 2016 19:53:01 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -47,24 +47,24 @@
       &lt;li&gt;&lt;a href=&quot;http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html&quot;&gt;Jekyll을 사용하여 GitHub Pages 만들기&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/&quot;&gt;Build A Blog With Jekyll And GitHub Pages&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;gem install jekyll
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;gem install jekyll
 ~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll new my-awesome-site
 ~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;my-awesome-site
 ~/my-awesome-site &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll serve
 &lt;span class=&quot;c&quot;&gt;# =&amp;gt; 이제 브라우저로 http://localhost:4000 에 접속&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&quot;&gt;Jekyll로 Github Pages 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0&quot;&gt;Jekyll로 Github Pages 사용하기&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;로컬 웹서버 가동&lt;/li&gt;
-  &lt;li&gt;Guthub page 저장소 생성&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/&quot;&gt;로컬저장소와 Github 저장소 싱크하는 스크립트 만들기&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;Github page 저장소 생성&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/&quot;&gt;로컬저장소와 Github 저장소 싱크하는 스크립트 만들기&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성&lt;/span&gt;
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
 git pull
@@ -80,31 +80,30 @@ chmod +x m
 &lt;span class=&quot;c&quot;&gt;# 터미널에서 다음과 같이 스크립트 실행&lt;/span&gt;
 ./m
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
   &lt;li&gt;웹서버 가동&lt;/li&gt;
   &lt;li&gt;도메인 연결&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/smallmuou/Jekyll-Pithy&quot;&gt;Pithy theme&lt;/a&gt; fork &amp;amp; customizing&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://narie.tistory.com/107&quot;&gt;나눔고딕 웹폰트 적용&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;readmore 구현&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://icoconvert.com/&quot;&gt;파비콘(favicon)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://icoconvert.com/&quot;&gt;파비콘(favicon)&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/x-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/favicon.ico&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;image/x-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/favicon.ico&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
   &lt;li&gt;마크다운 엔진
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/&quot;&gt;놀부님의 블로그&lt;/a&gt;
-```
-RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/&quot;&gt;놀부님의 블로그&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 
-    &lt;p&gt;GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.
-```&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.&lt;/p&gt;
+
+      &lt;p&gt;GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.&lt;/p&gt;
+    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/&quot;&gt;마크다운으로 이미지 정렬&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.nextree.co.kr/p8622/&quot;&gt;반응형 디자인&lt;/a&gt;
@@ -119,24 +118,22 @@ RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install 
     &lt;ul&gt;
       &lt;li&gt;이 &lt;a href=&quot;https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/&quot;&gt;소스코드&lt;/a&gt;에서 tag를 tag[0]로 바꿔야 한다.&lt;/li&gt;
     &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  
+  
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/lq9o-O47VD16vXGpeM3xxG5SBdA.png&quot; alt=&quot;alt text&quot; title=&quot;Title text&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
   &lt;li&gt;이미지 캡션
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/&quot;&gt;캡션 넣기&lt;/a&gt;
-        &lt;blockquote&gt;
-          &lt;p&gt;이미지 캡션 다는 문제는 caption.js를 가져다 사용했다. 워드프레스의 경우는 Shortcode를 사용해서 이미지 캡션을 만들었지만 caption.js은 img 태그의 alt 정보를 읽어와서 캡션으로 만들어준다. Markdown 가독성 면에서도 아주 좋아지니 일석 이조인듯.&lt;/p&gt;
-        &lt;/blockquote&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/&quot;&gt;캡션 넣기&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;이미지 캡션 다는 문제는 caption.js를 가져다 사용했다. 워드프레스의 경우는 Shortcode를 사용해서 이미지 캡션을 만들었지만 caption.js은 img 태그의 alt 정보를 읽어와서 캡션으로 만들어준다. Markdown 가독성 면에서도 아주 좋아지니 일석 이조인듯.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://kalifi.org/2015/04/html5-markdown-kramdown.html&quot;&gt;Making Markdown more HTML5 with Kramdown&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html&quot;&gt;Including and managing images in Jekyll&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/paulrobertlloyd/jekyll-figure&quot;&gt;Jekyll figure&lt;/a&gt;&lt;/li&gt;
@@ -144,7 +141,7 @@ RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install 
   &lt;/li&gt;
   &lt;li&gt;퍼머링크 스타일
     &lt;ul&gt;
-      &lt;li&gt;_config.yml 파일에 &lt;code class=&quot;highlighter-rouge&quot;&gt;permalink: /:year/:month/:day/:title&lt;/code&gt; 추가&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 파일에 &lt;code class=&quot;highlighter-rouge&quot;&gt;permalink: /:year/:month/:day/:title&lt;/code&gt; 추가&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;태그
@@ -168,10 +165,10 @@ RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install 
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;워드프레스에서 Jekyll로 이전&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/dreikanter/wp2md&quot;&gt;wd2md.py&lt;/a&gt;을 Jekyll 스타일에 맞게 수정&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/dreikanter/wp2md&quot;&gt;wd2md.py&lt;/a&gt;을 Jekyll 스타일에 맞게 수정&lt;/p&gt;
 
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 1. Filename: Y%%m%d &amp;gt; %Y-%m-%d&lt;/span&gt;
+    &lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# 1. Filename: Y%%m%d &amp;gt; %Y-%m-%d&lt;/span&gt;
 &lt;span class=&quot;c&quot;&gt;# 2. Front Matter:&lt;/span&gt;
 f.write&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;‘—‘&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
 f.write&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;‘layout: post &lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt; —‘&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;  
@@ -182,7 +179,9 @@ name &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; data.get&lt;span class=&quot
 &lt;span class=&quot;c&quot;&gt;# title에 ‘,' 가 있으면 안된다. (), &amp;amp;, , 는 된다.   &lt;/span&gt;
 python wp2md.py wordpress.xml &lt;span class=&quot;c&quot;&gt;# 실행&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;포스팅 하기&lt;/h3&gt;
 &lt;ul&gt;

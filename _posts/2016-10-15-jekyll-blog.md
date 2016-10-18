@@ -22,9 +22,6 @@ sub: 마크다운으로 작성하는 무료 블로그 사이트 만들기
   - [한량넷 Jekyll 글모음](http://halryang.net/search/?tags=jekyll)
 - [정적 웹사이트 생성기의 역습 - 동적 스크립트를 넘어 다시 정적 컨텐츠로](http://blog.nacyot.com/articles/2014-01-15-static-site-generator)
 
-
-
-
 ### 디자인 영감을 받은 사이트
 - [스포카](https://spoqa.github.io/index.html)의 제목 폰트
 - [워니님 블로그](https://heelog.github.io/development/)의 timeline css style
@@ -36,35 +33,35 @@ sub: 마크다운으로 작성하는 무료 블로그 사이트 만들기
   - [Jekyll을 사용하여 GitHub Pages 만들기](http://blog.saltfactory.net/jekyll/upgrade-github-pages-dependency-versions.html)
   - [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
 
-```shell
-$ gem install jekyll
-~ $ jekyll new my-awesome-site
-~ $ cd my-awesome-site
-~/my-awesome-site $ jekyll serve
-# => 이제 브라우저로 http://localhost:4000 에 접속
-```
+  ```shell
+  $ gem install jekyll
+  ~ $ jekyll new my-awesome-site
+  ~ $ cd my-awesome-site
+  ~/my-awesome-site $ jekyll serve
+  # => 이제 브라우저로 http://localhost:4000 에 접속
+  ```
   - [Jekyll로 Github Pages 사용하기](https://github.com/badkeyman/documents/wiki/Jekyll%EB%A1%9C-Github-Pages-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 - 로컬 웹서버 가동
-- Guthub page 저장소 생성
+- Github page 저장소 생성
 - [로컬저장소와 Github 저장소 싱크하는 스크립트 만들기](https://nolboo.kim/blog/2013/12/17/markdown-wiki-bitbucket-gollum/)
 
-```shell
-# 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성
+  ```shell
+  # 타이핑하기 쉽게 m 이라는 파일을 만들고 다음과 같이 작성
 
-#!/bin/bash
-git pull
-git add . -A
-echo -n "Input commit message: "
-read input
-git commit -m "$input"
-git push origin master
+  #!/bin/bash
+  git pull
+  git add . -A
+  echo -n "Input commit message: "
+  read input
+  git commit -m "$input"
+  git push origin master
 
-# 터미널에서 다음 명령어로 m 파일 스크립트 생성
-chmod +x m
+  # 터미널에서 다음 명령어로 m 파일 스크립트 생성
+  chmod +x m
 
-# 터미널에서 다음과 같이 스크립트 실행
-./m
-```
+  # 터미널에서 다음과 같이 스크립트 실행
+  ./m
+  ```
 
 - 웹서버 가동
 - 도메인 연결
@@ -73,17 +70,17 @@ chmod +x m
 - readmore 구현
 - [파비콘(favicon)](http://icoconvert.com/)
 
-```html
-<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl}}/images/favicon.ico"/>
-```
+  ```html
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl}}/images/favicon.ico"/>
+  ```
 
 - 마크다운 엔진
   - [놀부님의 블로그](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
-  ```
-  RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.
 
-  GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.
-  ```
+  > RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.
+  >
+  > GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.
+
 - [마크다운으로 이미지 정렬](http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/)
 - [반응형 디자인](http://www.nextree.co.kr/p8622/)
   - [참고](http://naradesign.net/wp/2012/05/30/1823/)
@@ -93,28 +90,27 @@ chmod +x m
 - [태그 스타일](http://codinfox.github.io/blog/tags/#chrome)
   - 이 [소스코드](https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)에서 tag를 tag[0]로 바꿔야 한다.
 
-```html
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<a href="#{{ tag[0] | slugify }}"> {{ tag[0] }} </a>
-{% endfor %}
-```
 
-![alt text](https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/aBL/image/lq9o-O47VD16vXGpeM3xxG5SBdA.png "Title text")
-
+  ```
+  {% comment %}
+  =======================
+  The purpose of this snippet is to list all the tags you have in your site.
+  =======================
+  {% endcomment %}
+  {% for tag in tags %}
+  	<a href="#{{ tag[0] | slugify }}"> {{ tag[0] }} </a>
+  {% endfor %}
+  ```  
 - 이미지 캡션
   - [캡션 넣기](https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/)
+
   > 이미지 캡션 다는 문제는 caption.js를 가져다 사용했다. 워드프레스의 경우는 Shortcode를 사용해서 이미지 캡션을 만들었지만 caption.js은 img 태그의 alt 정보를 읽어와서 캡션으로 만들어준다. Markdown 가독성 면에서도 아주 좋아지니 일석 이조인듯.
 
   - [Making Markdown more HTML5 with Kramdown](http://kalifi.org/2015/04/html5-markdown-kramdown.html)
   - [Including and managing images in Jekyll](https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html)
   - [Jekyll figure](https://github.com/paulrobertlloyd/jekyll-figure)
 - 퍼머링크 스타일
-  - \_config.yml 파일에 `permalink: /:year/:month/:day/:title` 추가
+  - `_config.yml` 파일에 `permalink: /:year/:month/:day/:title` 추가
 - 태그
   - [Use Tags and Categories in your Jekyll based Github Pages without plugins]( https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)
 - [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) 문법
@@ -129,18 +125,18 @@ The purpose of this snippet is to list all the tags you have in your site.
 - 워드프레스에서 Jekyll로 이전
 - [wd2md.py](https://github.com/dreikanter/wp2md)을 Jekyll 스타일에 맞게 수정
 
-```shell
-# 1. Filename: Y%%m%d > %Y-%m-%d
-# 2. Front Matter:
-f.write(‘—‘)  
-f.write(‘layout: post \n —‘)  
-'post_name', # > 삭제  
-name = data.get('post_name', '').strip() # > 다음과 같이 수정  
-name = data.get('post_id', '').strip()  
-# title은 []로 시작하면 안 된다.
-# title에 ‘,' 가 있으면 안된다. (), &, , 는 된다.   
-python wp2md.py wordpress.xml # 실행
-```
+  ```shell
+  # 1. Filename: Y%%m%d > %Y-%m-%d
+  # 2. Front Matter:
+  f.write(‘—‘)  
+  f.write(‘layout: post \n —‘)  
+  'post_name', # > 삭제  
+  name = data.get('post_name', '').strip() # > 다음과 같이 수정  
+  name = data.get('post_id', '').strip()  
+  # title은 []로 시작하면 안 된다.
+  # title에 ‘,' 가 있으면 안된다. (), &, , 는 된다.   
+  python wp2md.py wordpress.xml # 실행
+  ```
 
 ### 포스팅 하기
 - [rake 를 알게 된 곳](http://boxersb.github.io/etc/2013/04/03/jekyll-introduction/)

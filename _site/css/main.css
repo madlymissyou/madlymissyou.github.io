@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 5px; }
+  margin-bottom: 20px; }
 
 ul, ol {
   margin-left: 10px;
@@ -41,7 +41,7 @@ h1, h2 {
   font-weight: 600; }
 
 h3, h4, h5, h6 {
-  margin-top: 20px;
+  margin-top: 30px;
   font-weight: 600; }
 
 .emoji {
@@ -431,7 +431,7 @@ content {
 
 .post box {
   display: block;
-  border: 1px solid #4bb4c1;
+  border: 1px solid #bde3e8;
   padding: 15px;
   margin-bottom: 20px; }
 

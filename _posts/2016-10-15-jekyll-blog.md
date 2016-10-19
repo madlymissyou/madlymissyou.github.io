@@ -111,8 +111,22 @@ sub: 마크다운으로 작성하는 무료 블로그 사이트 만들기
 - [구글 검색에 노출하기](http://cinos81.bitbucket.org/blog/_site/jekyll/2016/01/23/addRobotTxt.html)
 - [댓글](https://github.com/appkr/blog/blob/master/_posts/2016-02-13-%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%9D%B4%EC%A0%84-5-disqus-facebook.md)
   - [댓글 잠금](http://halryang.net/Disable-comments/)
+- [이모지 플러그인 설치](http://ohyecloudy.com/pnotes/archives/jekyll-emoji-plugin/)
+
+  ```shell
+  sudo gem install jemoji
+  ```
+
+  ```css
+  .emoji {
+  display: inline !important;
+  margin: 0px 0px 5px 0px !important;
+  border-radius: 0px !important;
+  }
+  ```
 - 워드프레스에서 Jekyll로 이전
 - [wd2md.py](https://github.com/dreikanter/wp2md)을 Jekyll 스타일에 맞게 수정
+
 
   ```shell
   # 1. Filename: Y%%m%d > %Y-%m-%d

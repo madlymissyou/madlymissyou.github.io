@@ -24,3 +24,6 @@ kramdown:
 
 excerpt_separator: <!--readmore-->
 permalink: /:year/:month/:day/:title
+
+gems:
+  - jemoji

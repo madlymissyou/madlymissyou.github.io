@@ -25,7 +25,7 @@ category: 철학
 
 ## 플라톤에서 비트겐슈타인까지
 
-<fig>{% include image name="img.jpg" caption="플라톤에서 비트겐슈타인까지 - 조중걸 (출처: mooooomi님의 인스타그램 instagram.com/mooooonmi/)"%}</fig>
+<fig>{% include image name="img.jpg" alt="출처: instagram.com/mooooonmi"%}</fig>
 
 
 철학은 형이상학을 중요하게 다룬다. 형이상학은 우리가 보는 세계를 어떻게 총체적으로 설명할 수 있는지에 대한 탐구를 목적으로 한다. 고대와 중세에는 이 세계를 가능하게 한 설계도를 누가 어떻게 만들었는지 탐구했다. 플라톤은 이데아, 중세 신학자들은 신이 그 설계도를 만들었다고 했다. 그러나 설계도의 작성자에 대해 의심을 품기 시작한 오컴에 의해 '우리가 무엇을 아는가?'라는 인식론적 질문이 철학의 주요 논제로 등장한다.

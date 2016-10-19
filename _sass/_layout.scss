@@ -61,6 +61,11 @@ p {
 	
 }
 
+.emoji {
+  display: inline !important;
+  margin: 0px 0px 5px 0px !important;
+  border-radius: 0px !important;
+}
 
 img {
     max-width: 100%;
@@ -397,12 +402,12 @@ content {
     margin-top: 0px;
     font-size: 22px;
     font-weight: 100;
-    color: darken($brand-color, 15%);
-//    color: $grey-color-dark;
+//    color: darken($brand-color, 15%);
+    color: $font-color;
 }
 
 .timeline .timeline-post-content a:hover .timeline-post-title {
-  color: $brand-color;
+//  color: $brand-color;
 }
 
 .timeline .timeline-post-title a {

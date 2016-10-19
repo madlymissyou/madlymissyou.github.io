@@ -144,22 +144,24 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #f5f5f5;
 }
 
 code {
     padding: 1px 5px;
+    background-color: #f5f5f5;
 }
 
 pre {
 
     padding: 8px 12px;
     overflow-x: scroll;
+    white-space: pre-wrap;
 
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        background-color: white;
     }
 }
 

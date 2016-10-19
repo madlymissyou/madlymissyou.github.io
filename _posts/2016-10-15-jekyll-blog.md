@@ -77,9 +77,9 @@ sub: 마크다운으로 작성하는 무료 블로그 사이트 만들기
 - 마크다운 엔진
   - [놀부님의 블로그](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
 
-  > RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.
-  >
-  > GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.
+    > RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.
+    >
+    > GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.
 
 - [마크다운으로 이미지 정렬](http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/)
 - [반응형 디자인](http://www.nextree.co.kr/p8622/)
@@ -89,26 +89,15 @@ sub: 마크다운으로 작성하는 무료 블로그 사이트 만들기
 - [태그](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)
 - [태그 스타일](http://codinfox.github.io/blog/tags/#chrome)
   - 이 [소스코드](https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)에서 tag를 tag[0]로 바꿔야 한다.
-
-
-  ```
-  {% comment %}
-  =======================
-  The purpose of this snippet is to list all the tags you have in your site.
-  =======================
-  {% endcomment %}
-  {% for tag in tags %}
-  	<a href="#{{ tag[0] | slugify }}"> {{ tag[0] }} </a>
-  {% endfor %}
-  ```  
 - 이미지 캡션
   - [캡션 넣기](https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/)
 
-  > 이미지 캡션 다는 문제는 caption.js를 가져다 사용했다. 워드프레스의 경우는 Shortcode를 사용해서 이미지 캡션을 만들었지만 caption.js은 img 태그의 alt 정보를 읽어와서 캡션으로 만들어준다. Markdown 가독성 면에서도 아주 좋아지니 일석 이조인듯.
+    > 이미지 캡션 다는 문제는 caption.js를 가져다 사용했다. 워드프레스의 경우는 Shortcode를 사용해서 이미지 캡션을 만들었지만 caption.js은 img 태그의 alt 정보를 읽어와서 캡션으로 만들어준다. Markdown 가독성 면에서도 아주 좋아지니 일석 이조인듯.
 
   - [Making Markdown more HTML5 with Kramdown](http://kalifi.org/2015/04/html5-markdown-kramdown.html)
   - [Including and managing images in Jekyll](https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html)
   - [Jekyll figure](https://github.com/paulrobertlloyd/jekyll-figure)
+    - `\{\% include image name="linkedin-before.png" caption="Sharing my blog on LinkedIn" \%\}`
 - 퍼머링크 스타일
   - `_config.yml` 파일에 `permalink: /:year/:month/:day/:title` 추가
 - 태그

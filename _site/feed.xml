@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Oct 2016 10:03:58 +0900</pubDate>
-    <lastBuildDate>Wed, 19 Oct 2016 10:03:58 +0900</lastBuildDate>
+    <pubDate>Wed, 19 Oct 2016 21:08:12 +0900</pubDate>
+    <lastBuildDate>Wed, 19 Oct 2016 21:08:12 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -96,14 +96,16 @@ chmod +x m
   &lt;/li&gt;
   &lt;li&gt;마크다운 엔진
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/&quot;&gt;놀부님의 블로그&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/&quot;&gt;놀부님의 블로그&lt;/a&gt;&lt;/p&gt;
+
+        &lt;blockquote&gt;
+          &lt;p&gt;RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.&lt;/p&gt;
+
+          &lt;p&gt;GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
-
-    &lt;blockquote&gt;
-      &lt;p&gt;RDiscount는 C로된 마크다운 프로세싱 엔진이다. [sudo] gem install rdiscount로 설치한다. kramdown과 redcarpet 등도 동일한 방법으로 설치할 수 있다. 기본 마크다운을 사용한다면 차후에 좀 더 필요성을 느낄 때 설치하여도 된다.&lt;/p&gt;
-
-      &lt;p&gt;GitHub에서는 2016년 5월 1일부터 kramdown 하나만 지원한다. 자세한 것은 A look behind our decision to standardize on a single Markdown engine for GitHub Pages를 참조한다.&lt;/p&gt;
-    &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://blog.kalkin7.com/2014/03/04/how-to-align-images-on-writing-with-markdown/&quot;&gt;마크다운으로 이미지 정렬&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.nextree.co.kr/p8622/&quot;&gt;반응형 디자인&lt;/a&gt;
@@ -118,25 +120,23 @@ chmod +x m
     &lt;ul&gt;
       &lt;li&gt;이 &lt;a href=&quot;https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/&quot;&gt;소스코드&lt;/a&gt;에서 tag를 tag[0]로 바꿔야 한다.&lt;/li&gt;
     &lt;/ul&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  
-  
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;이미지 캡션
     &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/&quot;&gt;캡션 넣기&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://www.alphafactory.co.kr/post/2013/12/08/move-to-jekyll-from-wordpress/&quot;&gt;캡션 넣기&lt;/a&gt;&lt;/p&gt;
 
-    &lt;blockquote&gt;
-      &lt;p&gt;이미지 캡션 다는 문제는 caption.js를 가져다 사용했다. 워드프레스의 경우는 Shortcode를 사용해서 이미지 캡션을 만들었지만 caption.js은 img 태그의 alt 정보를 읽어와서 캡션으로 만들어준다. Markdown 가독성 면에서도 아주 좋아지니 일석 이조인듯.&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;ul&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;이미지 캡션 다는 문제는 caption.js를 가져다 사용했다. 워드프레스의 경우는 Shortcode를 사용해서 이미지 캡션을 만들었지만 caption.js은 img 태그의 alt 정보를 읽어와서 캡션으로 만들어준다. Markdown 가독성 면에서도 아주 좋아지니 일석 이조인듯.&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://kalifi.org/2015/04/html5-markdown-kramdown.html&quot;&gt;Making Markdown more HTML5 with Kramdown&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html&quot;&gt;Including and managing images in Jekyll&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/paulrobertlloyd/jekyll-figure&quot;&gt;Jekyll figure&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/paulrobertlloyd/jekyll-figure&quot;&gt;Jekyll figure&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\{\% include image name=&quot;linkedin-before.png&quot; caption=&quot;Sharing my blog on LinkedIn&quot; \%\}&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;퍼머링크 스타일
@@ -674,11 +674,20 @@ python wp2md.py wordpress.xml &lt;span class=&quot;c&quot;&gt;# 실행&lt;/span&
 
 &lt;p&gt;7절의 바로 앞을 보자. 비트겐슈타인의 의도는 명확하게 드러나며 7절의 문장은 심미적인 지위마저 확보하게 된다.&lt;/p&gt;
 
-&lt;p&gt;6.54 나의 명제들은 다음과 같은 점에 의해서 하나의 주해 작업이다. 즉 나를 이해하는 사람은, 만일 그가 나의 명제들을 통해-나의 명제들을 딛고서- 나의 명제들을 넘어 올라간다면, 그는 결국 나의 명제들을 무의미한 것으로 인식한다. (그는 말하자면 사다리를 딛고 올라간 후에는 그 사다리를 던져 버려야 한다.) 그는 이 명제들을 극복해야 한다. 그러면 그는 세계를 올바로 본다.&lt;/p&gt;
-
 &lt;blockquote&gt;
+  &lt;p&gt;6.54 나의 명제들은 다음과 같은 점에 의해서 하나의 주해 작업이다. 즉 나를 이해하는 사람은, 만일 그가 나의 명제들을 통해-나의 명제들을 딛고서- 나의 명제들을 넘어 올라간다면, 그는 결국 나의 명제들을 무의미한 것으로 인식한다. (그는 말하자면 사다리를 딛고 올라간 후에는 그 사다리를 던져 버려야 한다.) 그는 이 명제들을 극복해야 한다. 그러면 그는 세계를 올바로 본다.&lt;/p&gt;
+
   &lt;p&gt;7. 말할 수 없는 것에 관해서는 침묵해야 한다.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;플라톤에서 비트겐슈타인까지&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;figure&amp;gt;
+    &amp;lt;img src=&quot;/assets/posts/2015-10-19/img.jpg&quot;  alt=&quot;플라톤에서 비트겐슈타인까지&quot;  /&amp;gt;
+    &amp;lt;figcaption&amp;gt;플라톤에서 비트겐슈타인까지&amp;lt;/figcaption&amp;gt;
+&amp;lt;/figure&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;철학은 형이상학을 중요하게 다룬다. 형이상학은 우리가 보는 세계를 어떻게 총체적으로 설명할 수 있는지에 대한 탐구를 목적으로 한다. 고대와 중세에는 이 세계를 가능하게 한 설계도를 누가 어떻게 만들었는지 탐구했다. 플라톤은 이데아, 중세 신학자들은 신이 그 설계도를 만들었다고 했다. 그러나 설계도의 작성자에 대해 의심을 품기 시작한 오컴에 의해 ‘우리가 무엇을 아는가?’라는 인식론적 질문이 철학의 주요 논제로 등장한다.&lt;/p&gt;
 
@@ -699,8 +708,8 @@ python wp2md.py wordpress.xml &lt;span class=&quot;c&quot;&gt;# 실행&lt;/span&
 &lt;p&gt;그렇다고 비트겐슈타인이 ‘말해질 수 없는 것’에 대한 가치를 낮추어 보았던 것은 아니다. 오히려 ‘말해질 수 없는 것’이 중요하다고 강조했다. 형이상학, 윤리학, 신학의 명제들이 말해질 수 없는 이유는 그것들이 무의미하거나 거짓이어서가 아니라 단지 행위로 ‘보여야 할 것’이기 때문이다.&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Oct 2015 00:00:00 +0900</pubDate>
-        <link>http://localhost:4000/2015/10/19/post</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/10/19/post</guid>
+        <link>http://localhost:4000/2015/10/19/wittgenstein</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/10/19/wittgenstein</guid>
         
         
         <category>철학</category>

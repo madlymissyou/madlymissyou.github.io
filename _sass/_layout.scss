@@ -377,8 +377,8 @@ content {
     margin-top: 0px;
     font-size: 22px;
     font-weight: 100;
-//    color: darken($brand-color, 15%);
-    color: $text-color;
+    color: darken($brand-color, 15%);
+//    color: $grey-color-dark;
 }
 
 .timeline .timeline-post-content a:hover .timeline-post-title {

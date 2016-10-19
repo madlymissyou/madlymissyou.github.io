@@ -2,7 +2,7 @@
 title: Deep Learning for Neuroimage
 layout: post
 category: Deep Learning
-sub: 뉴로이미징을 위한 딥러닝 기술에 관한 논문과 자료 모음
+meta: 뉴로이미징을 위한 딥러닝 기술에 관한 논문과 자료 모음
 ---
 
 # Deep Learning in general

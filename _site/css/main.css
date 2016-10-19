@@ -85,7 +85,6 @@ blockquote {
   border-left: 4px solid #bde3e8;
   padding-left: 30px;
   font-size: 14px;
-  letter-spacing: -1px;
   line-height: 1.8; }
   blockquote > :last-child {
     margin-bottom: 0; }
@@ -387,7 +386,8 @@ content {
   positon: relative; }
 
 .post-title-wrapper {
-  padding-top: 30px; }
+  padding-top: 30px;
+  padding-bottom: 10px; }
 
 .post-title {
   font-size: 30px;

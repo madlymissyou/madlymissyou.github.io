@@ -28,10 +28,10 @@ layout: default
                   {{ post.title }}
                 </div>
                 <div class="timeline-post-content-truncate">
-                {% if post.sub %}
-                  {{ post.sub }}
+                {% if post.meta %}
+                  {{ post.meta }}
                 {% else %}
-                  {{ post.content | strip_html | strip_newlines | truncate: 100 }}
+                  {{ post.content | strip_html | strip_newlines | truncate: 230 }}
                 {% endif %}
                 </div>
               </a>

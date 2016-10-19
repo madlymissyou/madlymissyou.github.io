@@ -121,7 +121,7 @@ blockquote {
     border-left: 4px solid lighten($brand-color, 30%);
     padding-left: $spacing-unit;
     font-size: 14px;
-    letter-spacing: -1px;
+//    letter-spacing: -1px;
     line-height: 1.8;
 //    font-style: italic;
 
@@ -552,6 +552,7 @@ content {
 
 .post-title-wrapper {
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 .post-title {
 

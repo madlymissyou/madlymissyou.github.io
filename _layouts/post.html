@@ -8,9 +8,9 @@ layout: default
     <div class="post-title-wrapper">
     <a class="post-title" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 		</div>
-    {% if page.sub %}
+    {% if page.meta %}
 		<div class="post-header-subtitle">
-		  {{ page.sub }}
+		  {{ page.meta }}
 		</div>
     {% endif %}
 		<div class="post-header-meta">

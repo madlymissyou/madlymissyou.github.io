@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Oct 2016 21:08:12 +0900</pubDate>
-    <lastBuildDate>Wed, 19 Oct 2016 21:08:12 +0900</lastBuildDate>
+    <pubDate>Wed, 19 Oct 2016 21:29:46 +0900</pubDate>
+    <lastBuildDate>Wed, 19 Oct 2016 21:29:46 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -682,12 +682,13 @@ python wp2md.py wordpress.xml &lt;span class=&quot;c&quot;&gt;# 실행&lt;/span&
 
 &lt;h2 id=&quot;section&quot;&gt;플라톤에서 비트겐슈타인까지&lt;/h2&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;figure&amp;gt;
-    &amp;lt;img src=&quot;/assets/posts/2015-10-19/img.jpg&quot;  alt=&quot;플라톤에서 비트겐슈타인까지&quot;  /&amp;gt;
-    &amp;lt;figcaption&amp;gt;플라톤에서 비트겐슈타인까지&amp;lt;/figcaption&amp;gt;
-&amp;lt;/figure&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;fig&gt;
+
+    &lt;figure&gt;
+        &lt;img src=&quot;/assets/posts/2015-10-19/img.jpg&quot; alt=&quot;플라톤에서 비트겐슈타인까지 - 조중걸 (출처: mooooomi님의 인스타그램 instagram.com/mooooonmi/)&quot; /&gt;
+        &lt;figcaption&gt;플라톤에서 비트겐슈타인까지 - 조중걸 (출처: mooooomi님의 인스타그램 instagram.com/mooooonmi/)&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/fig&gt;
 
 &lt;p&gt;철학은 형이상학을 중요하게 다룬다. 형이상학은 우리가 보는 세계를 어떻게 총체적으로 설명할 수 있는지에 대한 탐구를 목적으로 한다. 고대와 중세에는 이 세계를 가능하게 한 설계도를 누가 어떻게 만들었는지 탐구했다. 플라톤은 이데아, 중세 신학자들은 신이 그 설계도를 만들었다고 했다. 그러나 설계도의 작성자에 대해 의심을 품기 시작한 오컴에 의해 ‘우리가 무엇을 아는가?’라는 인식론적 질문이 철학의 주요 논제로 등장한다.&lt;/p&gt;
 

@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Oct 2016 22:48:04 +0900</pubDate>
-    <lastBuildDate>Wed, 19 Oct 2016 22:48:04 +0900</lastBuildDate>
+    <pubDate>Thu, 20 Oct 2016 00:14:28 +0900</pubDate>
+    <lastBuildDate>Thu, 20 Oct 2016 00:14:28 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -131,12 +131,12 @@ chmod +x m
         &lt;/blockquote&gt;
       &lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;http://kalifi.org/2015/04/html5-markdown-kramdown.html&quot;&gt;Making Markdown more HTML5 with Kramdown&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html&quot;&gt;Including and managing images in Jekyll&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/paulrobertlloyd/jekyll-figure&quot;&gt;Jekyll figure&lt;/a&gt;
+      &lt;li&gt;&lt;a href=&quot;https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html&quot;&gt;Including and managing images in Jekyll&lt;/a&gt;
         &lt;ul&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\{\% include image name=&quot;linkedin-before.png&quot; caption=&quot;Sharing my blog on LinkedIn&quot; \%\}&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;fig&amp;gt;\{\% include image name=&quot;img.jpg&quot; caption=&quot;출처: instagram.com/mooooonmi&quot;\%\}&amp;lt;/fig&amp;gt;&lt;/code&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/paulrobertlloyd/jekyll-figure&quot;&gt;Jekyll figure&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;퍼머링크 스타일
@@ -692,19 +692,23 @@ python wp2md.py wordpress.xml &lt;span class=&quot;c&quot;&gt;# 실행&lt;/span&
 &lt;blockquote&gt;
   &lt;p&gt;6.54 나의 명제들은 다음과 같은 점에 의해서 하나의 주해 작업이다. 즉 나를 이해하는 사람은, 만일 그가 나의 명제들을 통해-나의 명제들을 딛고서- 나의 명제들을 넘어 올라간다면, 그는 결국 나의 명제들을 무의미한 것으로 인식한다. (그는 말하자면 사다리를 딛고 올라간 후에는 그 사다리를 던져 버려야 한다.) 그는 이 명제들을 극복해야 한다. 그러면 그는 세계를 올바로 본다.&lt;/p&gt;
 
-  &lt;p&gt;7. 말할 수 없는 것에 관해서는 침묵해야 한다.&lt;/p&gt;
+  &lt;p&gt;7 말할 수 없는 것에 관해서는 침묵해야 한다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;플라톤에서 비트겐슈타인까지&lt;/h2&gt;
 
-&lt;fig&gt;
+&lt;p&gt;&lt;img src=&quot;/img/2015-10-19/img.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption&gt;
+출처: instagram.com/mooooonmi
+&lt;/figcaption&gt;
 
-    &lt;img src=&quot;/assets/posts/2015-10-19/img.jpg&quot; /&gt;
-&lt;/fig&gt;
+&lt;box&gt;
+철학은 형이상학을 중요하게 다룬다. 형이상학은 우리가 보는 세계를 어떻게 총체적으로 설명할 수 있는지에 대한 탐구를 목적으로 한다. 고대와 중세에는 이 세계를 가능하게 한 설계도를 누가 어떻게 만들었는지 탐구했다. 플라톤은 이데아, 중세 신학자들은 신이 그 설계도를 만들었다고 했다. 그러나 설계도의 작성자에 대해 의심을 품기 시작한 오컴에 의해 '우리가 무엇을 아는가?'라는 인식론적 질문이 철학의 주요 논제로 등장한다.
+&lt;/box&gt;
 
 &lt;p&gt;철학은 형이상학을 중요하게 다룬다. 형이상학은 우리가 보는 세계를 어떻게 총체적으로 설명할 수 있는지에 대한 탐구를 목적으로 한다. 고대와 중세에는 이 세계를 가능하게 한 설계도를 누가 어떻게 만들었는지 탐구했다. 플라톤은 이데아, 중세 신학자들은 신이 그 설계도를 만들었다고 했다. 그러나 설계도의 작성자에 대해 의심을 품기 시작한 오컴에 의해 ‘우리가 무엇을 아는가?’라는 인식론적 질문이 철학의 주요 논제로 등장한다.&lt;/p&gt;
 
-&lt;p&gt;조중걸의 &lt;code class=&quot;highlighter-rouge&quot;&gt;플라톤에서 비트겐슈타인까지&lt;/code&gt;는 인식론 관점에서 풀이한 서양철학사이다. 플라톤 이래 사유된 인식론의 경향을 되짚어 비트겐슈타인에까지 이른다. 서양철학사는 플라톤에 달린 주석이라는 말이 있던가. 이 책은 비트겐슈타인에 달린 주석이라 할 것이다. 비트겐슈타인을 중요하게 다루는 이유는 그의 철학이 오늘날까지 유효한 인식론의 틀이기 때문이다.&lt;/p&gt;
+&lt;p&gt;조중걸의 &lt;em&gt;플라톤에서 비트겐슈타인까지&lt;/em&gt;는 인식론 관점에서 풀이한 서양철학사이다. 플라톤 이래 사유된 인식론의 경향을 되짚어 비트겐슈타인에까지 이른다. 서양철학사는 플라톤에 달린 주석이라는 말이 있던가. 이 책은 비트겐슈타인에 달린 주석이라 할 것이다. 비트겐슈타인을 중요하게 다루는 이유는 그의 철학이 오늘날까지 유효한 인식론의 틀이기 때문이다.&lt;/p&gt;
 
 &lt;p&gt;이 책의 가장 큰 특징은 서양철학사를 패턴으로 읽어낸다는 것이다. 세계에 대한 총체적인 설명이 가능했던 시대가 있었고 가능하지 않았던 시대가 있었다. 우리 인식에 대한 자신감이 충만했던 시대와 인식의 한계로 괴로워 한 시대가 반복된다. 시대에 따라 독단에 의해 행복하든지 경험과 사실에 의해 허무주의에 빠지는 상황이 반복되는 패턴이 나타난다. 이러한 패턴으로 서양철학사의 흐름을 이해할 수 있게 된 것은 커다란 성취다.&lt;/p&gt;
 

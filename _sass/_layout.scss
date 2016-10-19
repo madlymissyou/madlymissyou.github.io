@@ -605,6 +605,18 @@ content {
   margin:0 auto;
 }
 
+.post box {
+  display: block;
+  border: 1px solid $brand-color;
+  padding: 15px;
+  margin-bottom: 20px;
+  
+}
+
+.post em {
+  font-style: normal;
+  color: rgb(252,102,33);
+}
 .post .post-footer {
 		position: relative;
     font-size: $small-font-size;

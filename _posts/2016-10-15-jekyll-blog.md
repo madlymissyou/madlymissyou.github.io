@@ -96,8 +96,9 @@ sub: 마크다운으로 작성하는 무료 블로그 사이트 만들기
 
   - [Making Markdown more HTML5 with Kramdown](http://kalifi.org/2015/04/html5-markdown-kramdown.html)
   - [Including and managing images in Jekyll](https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html)
+    - `<fig>\{\% include image name="img.jpg" caption="출처: instagram.com/mooooonmi"\%\}</fig>`
   - [Jekyll figure](https://github.com/paulrobertlloyd/jekyll-figure)
-    - `\{\% include image name="linkedin-before.png" caption="Sharing my blog on LinkedIn" \%\}`
+
 - 퍼머링크 스타일
   - `_config.yml` 파일에 `permalink: /:year/:month/:day/:title` 추가
 - 태그

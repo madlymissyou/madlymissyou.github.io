@@ -1,5 +1,5 @@
 ---
-title: 자연은 예술을 모방한다
+title: 과학과 예술의 대화 (통찰의 시대)
 layout: post
 category: 과학과 예술
 ---

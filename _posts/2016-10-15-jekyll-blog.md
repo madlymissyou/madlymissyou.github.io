@@ -107,6 +107,8 @@ meta: 마크다운으로 작성하는 무료 블로그 사이트 만들기
   - [문법](https://help.shopify.com/themes/liquid/basics)
   - [스트링 필터](https://help.shopify.com/themes/liquid/filters/string-filters)
 - Pagination (v3.3 에서는 Jekyll paginate [지원 중단](https://github.com/jekyll/jekyll/issues/4124))
+- Previous/Next link
+  - [참고](http://stackoverflow.com/questions/28331879/jekyll-next-and-previous-links-with-different-categories)
 - [태그 시스템/아카이브 페이지/전체글 목록](http://halryang.net/tag-and-archive/)
 - [google 검색창 달기](https://cse.google.com/cse/all)
 - [google analytics](http://loustler.io/2016/09/26/github_pages_blog_google_analytics/)

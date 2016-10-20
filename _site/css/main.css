@@ -38,11 +38,11 @@ li > ol {
 
 h1, h2 {
   margin-top: 40px;
-  font-weight: 600; }
+  font-weight: 400; }
 
 h3, h4, h5, h6 {
   margin-top: 30px;
-  font-weight: 600; }
+  font-weight: 400; }
 
 .emoji {
   display: inline !important;
@@ -392,7 +392,21 @@ content {
 .post-title {
   font-size: 30px;
   font-weight: 100;
-  line-height: 1.2em; }
+  ling-height: 1.2em;
+  color: #4d5256; }
+  .post-title:visited {
+    color: #4d5256; }
+  .post-title:hover {
+    color: #4d5256;
+    text-decoration: none; }
+
+.post-meta {
+  color: #AAA;
+  font-size: 16px;
+  font-weight: 100;
+  margin-left: 0px;
+  margin-bottom: 30px;
+  margin-right: 10px; }
 
 .post-header-subtitle {
   padding-top: 7px;
@@ -476,27 +490,6 @@ content {
   .post-abstract a:hover, .post-content a:hover {
     color: #31848e;
     text-decoration: none; }
-
-.post-title-wrapper {
-  margin-top: 20px; }
-
-.post-title-link {
-  font-size: 30px;
-  font-weight: 200;
-  color: #4d5256; }
-  .post-title-link:visited {
-    color: #4d5256; }
-  .post-title-link:hover {
-    color: #4d5256;
-    text-decoration: none; }
-
-.post-meta {
-  color: #AAA;
-  font-size: 16px;
-  font-weight: 100;
-  margin-left: 0px;
-  margin-bottom: 30px;
-  margin-right: 10px; }
 
 .post-edit {
   color: #EEE;

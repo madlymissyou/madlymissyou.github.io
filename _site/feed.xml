@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Oct 2016 20:52:02 +0900</pubDate>
-    <lastBuildDate>Thu, 20 Oct 2016 20:52:02 +0900</lastBuildDate>
+    <pubDate>Thu, 20 Oct 2016 22:25:18 +0900</pubDate>
+    <lastBuildDate>Thu, 20 Oct 2016 22:25:18 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -156,6 +156,11 @@ chmod +x m
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Pagination (v3.3 에서는 Jekyll paginate &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/4124&quot;&gt;지원 중단&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Previous/Next link
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/28331879/jekyll-next-and-previous-links-with-different-categories&quot;&gt;참고&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://halryang.net/tag-and-archive/&quot;&gt;태그 시스템/아카이브 페이지/전체글 목록&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://cse.google.com/cse/all&quot;&gt;google 검색창 달기&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://loustler.io/2016/09/26/github_pages_blog_google_analytics/&quot;&gt;google analytics&lt;/a&gt;&lt;/li&gt;
@@ -554,7 +559,7 @@ DVD만 넣는다면 한 칸에 30장 들어간다.&lt;/p&gt;
         <guid isPermaLink="true">http://localhost:4000/2016/07/24/bookshelf</guid>
         
         
-        <category>책</category>
+        <category>My Life</category>
         
       </item>
     
@@ -937,6 +942,40 @@ DVD만 넣는다면 한 칸에 30장 들어간다.&lt;/p&gt;
         
         
         <category>철학</category>
+        
+      </item>
+    
+      <item>
+        <title>조스캥 데 프레 &amp; 팔레스트리나</title>
+        <description>&lt;p&gt;서양음악사에서 15~16세기 르네상스 음악가 중 두 명을 기억하라면 조스캥 데 프레와 팔레스트리나.&lt;/p&gt;
+
+&lt;p&gt;조스캥 데 프레의 대표곡 중 하나인 ‘혓바닥이여 노래하라’를 들어본다. 조스캥 데 프레가 왜 위대한 음악가인지 알 수 있으려면 그 당시 다른 음악가들의 음악을 들어봐야 할텐데.&lt;/p&gt;
+
+&lt;p&gt;16세기 르네상스 시대에 활동한 ‘음악의 왕자’, 폴리포니의 완벽을 성취하고 대위법의 표본이 된 음악가, 대응종교개혁으로부터 다성음악을 구한 구세주 팔레스트리나의 ‘교황 마르첼루스 미사곡’을 듣는다.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Jul 2010 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2010/07/30/josquin-desprez</link>
+        <guid isPermaLink="true">http://localhost:4000/2010/07/30/josquin-desprez</guid>
+        
+        
+        <category>음악</category>
+        
+      </item>
+    
+      <item>
+        <title>하바네라의 테마</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;하바네라의 테마&lt;/h1&gt;
+
+&lt;p&gt;찰리 파커와 디지 길레스피의 음반 [Bird and Diz]를 듣다가 8번 트랙 &amp;lt;Relaxin’ with lee (complete take)&amp;gt;에서 비제 카르멘 1막 하바네라의 테마 발견! 이런 것이 재즈 듣는 재미 중 하나.&lt;/p&gt;
+
+&lt;p&gt;카르멘의 하바네라 테마는 예전에 재즈 트럼본 주자 Curtis Fuller의 명반 [blues ette]에서 발견하고 한동안 즐거웠던 바로 그 테마다. 카르멘 1막의 ‘하바네라’는 카르멘이 호세를 유혹하기 위해 부르는 ‘사랑은 자유로운 새’라는 제목의 아리아다. [Bird and Diz]와 [blues ette]에서 따서 쓴 부분은 ‘사랑은 반항하는 새랍니다..’라는 가사에 해당하는 첫 소절.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Jul 2010 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2010/07/26/carmen-habanera</link>
+        <guid isPermaLink="true">http://localhost:4000/2010/07/26/carmen-habanera</guid>
+        
+        
+        <category>음악</category>
         
       </item>
     

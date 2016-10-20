@@ -1,7 +1,7 @@
 ---
 title: 독서가들의 로망 거실 서재 만들기
 layout: post
-category: 책
+category: My Life
 ---
 
 

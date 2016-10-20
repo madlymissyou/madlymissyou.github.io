@@ -5,8 +5,8 @@
     <description>이정원의 블로그</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 20 Oct 2016 10:24:54 +0900</pubDate>
-    <lastBuildDate>Thu, 20 Oct 2016 10:24:54 +0900</lastBuildDate>
+    <pubDate>Thu, 20 Oct 2016 11:52:17 +0900</pubDate>
+    <lastBuildDate>Thu, 20 Oct 2016 11:52:17 +0900</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -152,6 +152,7 @@ chmod +x m
   &lt;li&gt;&lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid&lt;/a&gt; 문법
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://help.shopify.com/themes/liquid/basics&quot;&gt;문법&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://help.shopify.com/themes/liquid/filters/string-filters&quot;&gt;스트링 필터&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Pagination (v3.3 에서는 Jekyll paginate &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/4124&quot;&gt;지원 중단&lt;/a&gt;)&lt;/li&gt;

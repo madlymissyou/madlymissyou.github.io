@@ -105,6 +105,7 @@ meta: 마크다운으로 작성하는 무료 블로그 사이트 만들기
   - [Use Tags and Categories in your Jekyll based Github Pages without plugins]( https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)
 - [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) 문법
   - [문법](https://help.shopify.com/themes/liquid/basics)
+  - [스트링 필터](https://help.shopify.com/themes/liquid/filters/string-filters)
 - Pagination (v3.3 에서는 Jekyll paginate [지원 중단](https://github.com/jekyll/jekyll/issues/4124))
 - [태그 시스템/아카이브 페이지/전체글 목록](http://halryang.net/tag-and-archive/)
 - [google 검색창 달기](https://cse.google.com/cse/all)

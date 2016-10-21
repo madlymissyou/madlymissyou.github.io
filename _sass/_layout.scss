@@ -193,7 +193,7 @@ pre {
 header {
 //  background-color: #515865;
   background-color: $header-bk-color;
-  padding-top: 15px;
+  padding-top: 25px;
   padding-bottom: 0px; 
   font-family: "Montserrat",sans-serif;
   border-bottom: 1px solid $header-line-color;
@@ -645,6 +645,19 @@ content {
 		color: #666;
 }
 
+
+.post .link-box {
+//  border: 2px solid $brand-color;
+  background: white;
+  display: inline-block;
+  border-radius: 5px;
+//  margin: 7px 15px 15px 7px;
+  padding: 5px 15px 5px 15px;
+}
+
+.post .previous-link, .post .next-link {
+  margin-bottom: -15px;
+}
 .article-header {
 	background-color: #FFF;
 }

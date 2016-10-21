@@ -191,10 +191,12 @@ pre {
 
 
 header {
-  background-color: #515865;
+//  background-color: #515865;
+  background-color: $header-bk-color;
   padding-top: 15px;
-  padding-bottom: 10px; 
+  padding-bottom: 0px; 
   font-family: "Montserrat",sans-serif;
+  border-bottom: 1px solid $header-line-color;
 }
 content {
   background-color: #FFF;
@@ -260,11 +262,11 @@ content {
 }
 
 .title li a {
-    color: #FFF;
+  color: $header-text-color;
 }
 
 .title li a:link {
-    color: #FFF;
+  color: $header-text-color;
 }
 
 .title li a:visited {
@@ -275,7 +277,7 @@ content {
 
 .title li a:hover {
     opacity: 1;
-    color: #FFF;
+    color: $header-text-color;
 }
 
 .blogtitle {
@@ -283,19 +285,19 @@ content {
     font-size: 30px;
 		font-weight: 100;
 //    line-height: 1em;
-    color: #EEE;
+    color: $header-text-color;
 }
 
 .blogtitle a {
-	color: #FFF;
-	&:link {
-		color: #FFF;
+  color: $header-text-color;
+  &:link {
+    color: $header-text-color;
 	}
 	&:visited {
-		color: #FFF;
+		color: $header-text-color;
 	}
 	&:hover {
-		color: #FFF;
+		color: $header-text-color;
 	}
 }
 

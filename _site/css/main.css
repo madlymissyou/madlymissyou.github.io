@@ -129,10 +129,11 @@ pre {
     background-color: white; }
 
 header {
-  background-color: #515865;
+  background-color: #FFF;
   padding-top: 15px;
-  padding-bottom: 10px;
-  font-family: "Montserrat",sans-serif; }
+  padding-bottom: 0px;
+  font-family: "Montserrat",sans-serif;
+  border-bottom: 1px solid #E8E8E8; }
 
 content {
   background-color: #FFF;
@@ -179,10 +180,10 @@ content {
   text-decoration: none; }
 
 .title li a {
-  color: #FFF; }
+  color: black; }
 
 .title li a:link {
-  color: #FFF; }
+  color: black; }
 
 .title li a:visited {
   opacity: 1;
@@ -191,22 +192,22 @@ content {
 
 .title li a:hover {
   opacity: 1;
-  color: #FFF; }
+  color: black; }
 
 .blogtitle {
   margin-top: -10px;
   font-size: 30px;
   font-weight: 100;
-  color: #EEE; }
+  color: black; }
 
 .blogtitle a {
-  color: #FFF; }
+  color: black; }
   .blogtitle a:link {
-    color: #FFF; }
+    color: black; }
   .blogtitle a:visited {
-    color: #FFF; }
+    color: black; }
   .blogtitle a:hover {
-    color: #FFF; }
+    color: black; }
 
 .social-links {
   margin-top: -10px;

@@ -467,10 +467,7 @@ content {
 
 @media screen and (max-width: 480px) {
   .post .link-box {
-    padding: 5px 10px 5px 10px; }
-
-  .post .previous-link, .post .next-link {
-    color: white; } }
+    padding: 5px 7px 5px 7px; } }
 @media screen and (min-width: 481px) {
   .post .link-box {
     padding: 5px 15px 5px 15px; } }

@@ -464,7 +464,8 @@ content {
   background: white;
   display: inline-block;
   border-radius: 5px;
-  padding: 5px 15px 5px 15px; }
+  padding: 5px 15px 5px 15px;
+  width: 30px; }
 
 .post .previous-link, .post .next-link {
   margin-bottom: -15px; }

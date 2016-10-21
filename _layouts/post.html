@@ -51,15 +51,23 @@ layout: default
     이정원
     <br/>
     
+
+      <a rel="next" href="{{ page.next.url }}"><div class="link-box next-link">
     {% if page.next %} 
-      <a rel="next" href="{{ page.next.url }}"><div class="link-box next-link"> Newer</div></a>
+      Newer
     {% endif %}
+      </div></a>
+    
    
     <a href="/archive.html"><div class="link-box"> ARCHIVE</div></a>
 
-    {% if page.previous %} 
-      <a rel="prev" href="{{ page.previous.url }}"><div class="link-box previous-link">Older</div></a>
-    {% endif %}
+    
+      <a rel="prev" href="{{ page.previous.url }}"><div class="link-box previous-link">
+      {% if page.previous %} 
+      Older
+      {% endif %}
+      </div></a>
+    
   
       <br/>
 

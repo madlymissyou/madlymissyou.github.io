@@ -11,6 +11,7 @@ status: publish
 post_type: post
 layout: post
 category: 음악
+meta: 서양음악사에서 15~16세기 르네상스 음악가 중 두 명을 기억하라면
 ---
 
 서양음악사에서 15~16세기 르네상스 음악가 중 두 명을 기억하라면 조스캥 데 프레와 팔레스트리나.

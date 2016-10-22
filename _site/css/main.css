@@ -129,7 +129,7 @@ pre {
     background-color: white; }
 
 header {
-  background-color: #FFF;
+  background-color: #515865;
   padding-top: 25px;
   padding-bottom: 0px;
   font-family: "Montserrat",sans-serif;
@@ -180,10 +180,10 @@ content {
   text-decoration: none; }
 
 .title li a {
-  color: black; }
+  color: white; }
 
 .title li a:link {
-  color: black; }
+  color: white; }
 
 .title li a:visited {
   opacity: 1;
@@ -192,22 +192,22 @@ content {
 
 .title li a:hover {
   opacity: 1;
-  color: black; }
+  color: white; }
 
 .blogtitle {
   margin-top: -10px;
   font-size: 30px;
   font-weight: 100;
-  color: black; }
+  color: white; }
 
 .blogtitle a {
-  color: black; }
+  color: white; }
   .blogtitle a:link {
-    color: black; }
+    color: white; }
   .blogtitle a:visited {
-    color: black; }
+    color: white; }
   .blogtitle a:hover {
-    color: black; }
+    color: white; }
 
 .social-links {
   margin-top: -10px;
@@ -286,6 +286,7 @@ content {
 
 .timeline .timeline-post-title {
   margin-top: 0px;
+  margin-bottom: 5px;
   font-size: 22px;
   font-weight: 100;
   color: #4d5256; }
@@ -299,8 +300,8 @@ content {
 
 .timeline .timeline-post-content-truncate {
   color: #878887;
-  font-size: 16px;
-  line-heigth: 1.5; }
+  font-size: 18px;
+  line-heigth: 1.3; }
 
 .timeline .timeline-post-date-info {
   height: 100%;
@@ -468,8 +469,9 @@ content {
   flex-basis: 40%;
   flex-grow: 1;
   flex-shrink: 1;
-  line-height: 4.0em;
-  position: relative; }
+  line-height: 2.7em;
+  position: relative;
+  font-size: 24px; }
 
 .post .link-box-left .link-box {
   position: absolute;
@@ -484,8 +486,9 @@ content {
   flex-basis: 40%;
   flex-grow: 1;
   flex-shrink: 1;
-  line-height: 4.0em;
-  position: relative; }
+  line-height: 2.7em;
+  position: relative;
+  font-size: 24px; }
 
 .post .link-box-right .link-box {
   position: absolute;

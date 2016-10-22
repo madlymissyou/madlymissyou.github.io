@@ -2,6 +2,7 @@
 title: 독서가들의 로망 거실 서재 만들기
 layout: post
 category: My Life
+meta: 바닥부터 천장까지 빼곡하게 책을 꽂을 수 있는 거실 책장 설계하기 
 ---
 
 

@@ -3,7 +3,7 @@ title: Jekyll + Github 블로그 구축
 layout: post
 category: Jekyll
 tags: [plz, web, jekyll]
-meta: 마크다운으로 작성하는 무료 블로그 사이트 만들기
+meta: 마크다운으로 작성하는 블로그
 ---
 
 ### 왜 Jekyll인가?

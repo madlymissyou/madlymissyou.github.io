@@ -73,16 +73,16 @@ figcaption {
     padding-left: 10%;
     padding-right: 10%; } }
 a {
-  color: #fc7a35;
+  color: #4bb4c1;
   text-decoration: none; }
   a:visited {
-    color: #fc691c; }
+    color: #3ea7b4; }
   a:hover {
-    color: #e15003; }
+    color: #31848e; }
 
 blockquote {
   color: #828282;
-  border-left: 4px solid #feddcc;
+  border-left: 4px solid #bde3e8;
   padding-left: 30px;
   font-size: 14px;
   line-height: 1.8; }
@@ -129,7 +129,7 @@ pre {
     background-color: white; }
 
 header {
-  background-color: #FFF;
+  background-color: #515865;
   padding-top: 25px;
   padding-bottom: 0px;
   font-family: "Montserrat",sans-serif;
@@ -180,10 +180,10 @@ content {
   text-decoration: none; }
 
 .title li a {
-  color: black; }
+  color: white; }
 
 .title li a:link {
-  color: black; }
+  color: white; }
 
 .title li a:visited {
   opacity: 1;
@@ -192,22 +192,22 @@ content {
 
 .title li a:hover {
   opacity: 1;
-  color: black; }
+  color: white; }
 
 .blogtitle {
   margin-top: -10px;
   font-size: 30px;
   font-weight: 100;
-  color: black; }
+  color: white; }
 
 .blogtitle a {
-  color: black; }
+  color: white; }
   .blogtitle a:link {
-    color: black; }
+    color: white; }
   .blogtitle a:visited {
-    color: black; }
+    color: white; }
   .blogtitle a:hover {
-    color: black; }
+    color: white; }
 
 .social-links {
   margin-top: -10px;
@@ -267,7 +267,7 @@ content {
   border-radius: 10px;
   width: 10px;
   height: 10px;
-  background: #fc7a35; }
+  background: #4bb4c1; }
 
 .timeline .timeline-post-list-ul {
   padding-top: 10px;
@@ -336,7 +336,7 @@ content {
 .archive .archive-postgroup {
   font-size: 20px;
   font-weight: 400;
-  color: #fc7a35; }
+  color: #4bb4c1; }
 
 .archive .archive-postlist {
   margin-left: 10px;
@@ -447,13 +447,13 @@ content {
 
 .post box {
   display: block;
-  border: 1px solid #feddcc;
+  border: 1px solid #bde3e8;
   padding: 15px;
   margin-bottom: 20px; }
 
 .post em {
   font-style: normal;
-  color: #4bb4c1; }
+  color: #fc7a35; }
 
 .post .post-footer {
   position: relative;
@@ -530,11 +530,11 @@ content {
   margin-top: 20px; }
 
 .post-abstract a, .post-content a {
-  color: #fc7a35; }
+  color: #4bb4c1; }
   .post-abstract a:visited, .post-content a:visited {
-    color: #fc7a35; }
+    color: #4bb4c1; }
   .post-abstract a:hover, .post-content a:hover {
-    color: #e15003;
+    color: #31848e;
     text-decoration: none; }
 
 .post-edit {

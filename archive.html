@@ -25,7 +25,7 @@ layout: default
 			<div class="archive-postlist">
 				<ul>
 					<li>
-						<span class="archive-postdate">{{ post.date | date: "%Y.%m.%d." }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+						<span class="archive-postdate">{{ post.date | date: "%Y.%m.%d." }}</span> <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a> <span> | {{ post.category }}</span>
 					</li>
 				</ul>
 			</div>

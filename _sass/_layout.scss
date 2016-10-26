@@ -164,6 +164,7 @@ blockquote {
 
 pre,
 code {
+    font-family: $base-font-family;
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
@@ -636,6 +637,7 @@ content {
 }
 
 .post em {
+  
   font-style: normal;
   color: $brand-color-sub;
 }

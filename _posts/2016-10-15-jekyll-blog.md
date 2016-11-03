@@ -28,6 +28,7 @@ meta: 마크다운으로 작성하는 블로그 사이트 만들기
 - [잡담 페이지](http://halryang.net/micro/)
 - [아이콘을 구한 대박 사이트 Flaticon](http://www.flaticon.com/search?word=github)
 - [Sitemap 참고하러 갔다가 발견한 블로그](http://joelglovier.com/)
+- [al-cion](https://al-cion.github.io/)
 
 ### Done list & 기술적인 도움을 받은 사이트
 - Jekyll 설치

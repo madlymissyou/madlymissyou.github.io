@@ -54,6 +54,7 @@ meta: 뉴로이미징을 위한 딥러닝 기술에 관한 논문과 자료 모�
   * [Links to Deep Learning Subtopics](http://memkite.com/deep-learning-bibliography/)
   * [Book: Fundamental of Deep Learning](https://tensorflowkorea.wordpress.com/2016/04/18/fundamental-of-deep-learning-preview/)    
   * [머신러닝 튜토리얼](http://laonple.blog.me/220463627091)
+  * [딥러닝 튜토리얼 자몽랩 김남주]( http://www.slideshare.net/ssuser77ee21/convolutional-neural-network-in-practice)
 * Topic
   * `2016.09` [인공지능이 작곡한 세계 최초의 음악이 공개되다](http://visla.kr/?p=45671)
 

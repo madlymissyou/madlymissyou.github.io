@@ -48,8 +48,8 @@ meta: 뉴로이미징을 위한 딥러닝 기술에 관한 논문과 자료 모�
   * `2016.09` The role of AI in Healthcare [[html]](https://www.linkedin.com/pulse/role-ai-healthcare-in-depth-guide-thomas-riisgaard-hansen)
   * `2016.09` DeepMind wants its healthcare AI to charge by results - but first it needs your data [[html]](https://techcrunch.com/2016/09/20/deepmind-wants-its-healthcare-ai-to-charge-by-results-but-first-it-needs-your-data/)
   * `2016.09` Microsoft announces new AI-powered health care initiatives targeting cancer [[html]]( http://www.theverge.com/2016/9/20/12986314/microsoft-ai-healthcare-project-hanover-cancer)
-  * `2016.09` Why deep learning is suddenly changing your life[html](http://fortune.com/ai-artificial-intelligence-deep-machine-learning/)  
-  * `2016.10` We’ll Soon Trust AI More Than Doctors to Diagnose Disease[html](http://singularityhub.com/2016/10/13/well-soon-trust-ai-more-than-doctors-to-diagnose-disease/)
+  * `2016.09` Why deep learning is suddenly changing your life [[html]](http://fortune.com/ai-artificial-intelligence-deep-machine-learning/)  
+  * `2016.10` We’ll Soon Trust AI More Than Doctors to Diagnose Disease [[html]](http://singularityhub.com/2016/10/13/well-soon-trust-ai-more-than-doctors-to-diagnose-disease)
 * Link
   * [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)
   * [Links to Deep Learning Subtopics](http://memkite.com/deep-learning-bibliography/)

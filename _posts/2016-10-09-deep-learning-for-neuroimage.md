@@ -11,7 +11,6 @@ meta: 뉴로이미징을 위한 딥러닝 기술에 관한 논문과 자료 모�
 * Review papers
   * `2013` Representation learning: A review and new perspectives (Yushua Bengio) [[pdf]](http://www.cl.uni-heidelberg.de/courses/ws14/deepl/BengioETAL12.pdf)
   * `2014` Deep learning for neuroimaging: a validation study [[pdf]](http://journal.frontiersin.org/article/10.3389/fnins.2014.00229/full)
-<!--readmore-->
   * `2015 Nature` Deep learning (Yann LeCun, Yoshua Bengio, Geoffrey Hinton) [[pdf]](http://www.nature.com/nature/journal/v521/n7553/full/nature14539.html)
   * `2015` Deep learning in neural networks: An overview (J. Schmidhuber) [[pdf]](http://www2.econ.iastate.edu/tesfatsi/DeepLearningInNeuralNetworksOverview.JSchmidhuber2015.pdf)  
   * `2016` Understanding deep convolutional networks [[pdf]](http://rsta.royalsocietypublishing.org/content/374/2065/20150203)
@@ -40,6 +39,8 @@ meta: 뉴로이미징을 위한 딥러닝 기술에 관한 논문과 자료 모�
   * Convolutional neural networks for visual recognition [[html]](http://cs231n.github.io/understanding-cnn/)
   * `2015` Deep Dream: visualizing every layer of GoogLeNet [[html]](http://www.pyimagesearch.com/2015/08/03/deep-dream-visualizing-every-layer-of-googlenet/)
   * `2016` Visualization of deep convolutional neural networks [[pdf]](http://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=1150&context=eng_etds)   
+
+
 * Articles
   * `2016.03` Deep learning in medical imaging: the not-so-near future [[html]](http://www.diagnosticimaging.com/pacs-and-informatics/deep-learning-medical-imaging-not-so-near-future)
   * `2016.04` Deep learning used to assist overburdened diagnosticians [[html]](https://www.sciencedaily.com/releases/2016/04/160404134050.htm)
@@ -50,6 +51,8 @@ meta: 뉴로이미징을 위한 딥러닝 기술에 관한 논문과 자료 모�
   * `2016.09` Microsoft announces new AI-powered health care initiatives targeting cancer [[html]]( http://www.theverge.com/2016/9/20/12986314/microsoft-ai-healthcare-project-hanover-cancer)
   * `2016.09` Why deep learning is suddenly changing your life [[html]](http://fortune.com/ai-artificial-intelligence-deep-machine-learning/)  
   * `2016.10` We’ll Soon Trust AI More Than Doctors to Diagnose Disease [[html]](http://singularityhub.com/2016/10/13/well-soon-trust-ai-more-than-doctors-to-diagnose-disease)
+
+
 * Link
   * [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)
   * [Links to Deep Learning Subtopics](http://memkite.com/deep-learning-bibliography/)
@@ -127,10 +130,3 @@ meta: 뉴로이미징을 위한 딥러닝 기술에 관한 논문과 자료 모�
 * Prostate/chest pathology images
   * `2016 Nature Sci.Rep.` Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis [[pdf]](http://www.nature.com/articles/srep26286)
   * `2015` Deep learning with non-medical training used for chest pathology identification [[pdf]](https://www.cs.tau.ac.il/~wolf/papers/SPIE15chest.pdf)
-
-### 딥러닝
-알파고
-
-#### 이모지
-[Emoji Cheat Sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/)
-:sparkles: :star: :star2: :two_hearts: :gift_heart:  :boom:
